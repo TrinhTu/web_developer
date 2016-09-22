@@ -55,9 +55,13 @@ sau đó bấm finish để kết thúc phần cài đặt.
 ![hinh_anh](http://itvinh.com/wp-content/uploads/2015/05/panelxampp.png)
 Nếu máy bạn có cài đặt tường lửa từ Windows hay từ một phần mềm Antivirus nào khác thì hãy tắt nó đi vì có thể nó sẽ chặn cổng 80 hoặc các ứng dụng webserver. Nếu sử dụng skype thì đổi cổng mạng bất kì cho nó, vì skype chiếm cổng 80, mà đây là cổng mặc định của webserver, hoặc có thể bạn sẽ vào config->apache(httpd.conf) sẽ hiện ra 1 bảng rồi kéo xuống chỗ listen 80 để đổi thành cổng bất kì khác
 ![anh](http://i.imgur.com/4dY5oJq.png)
+
 Đã hoàn thành xong phần cài đặt localhost trên máy tính.
+
+
 **4. Tạo 1 trang "index.php"**
 Vào ổ đĩa C vào **xampp**->**htdocs** tạo 1 thư mục với tên bất kì
+
 ![anh](http://imageshack.com/a/img922/7930/FyjxTA.png)
 trong thư mục TuTrinh tạo 1 file trống bất kì ''ahihi"
 sau đó mở notepad lên ghi lại đoạn 
@@ -72,7 +76,7 @@ rồi lưu lại trong C->xampp->htdocs->tutrinh->ahihi
 sau đó truy cập lại vào địa chỉ localhost:8888/TuTrinh thì nó sẽ hiển thị như sau:
 ![anh](http://imageshack.com/a/img921/1627/YxtCpk.png)
  
-
+------------
  **III. Kết luận**
 ---------
 
@@ -82,6 +86,7 @@ Tại sao bạn lại nên dùng XAMPP?
  - Hỗ trợ đa hệ điều hành
  - Dễ sử dụng nhất
  - Ít gặp lỗi
+------------
  **IV. Tài liệu tham khảo**
 ---------
 (http://thachpham.com/thu-thuat/cai-dat-localhost-xampp.html)
