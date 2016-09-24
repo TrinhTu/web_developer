@@ -107,16 +107,6 @@ Cũng có thể làm cho nó ngắn gọn hơn:
 
 `'đoạn cần bo'`    sẽ được kết quả như sau    `đoạn cần bo`
 
- - Để gạch đầu dòng cho đoạn văn cần làm như sau:
-
-``` - gạch đầu dòng
-<ul>
-<li>thụt vô đầu dòng</li>
-<li>thụt vô đầu dòng</li>
-</ul>
-
-```
- 
  - Để tạo bảng thực hiện như sau
 
 `| ten | dia chi | sd |   |   |
