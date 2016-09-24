@@ -1,58 +1,153 @@
-# **Viết tài liệu với Markdown**
+## Viết tài liệu với Markdown
 
-> Báo cáo công việc ngày 21/9/2016
+>Tài liệu: Viết tài liệu với Markdown
 
-> Người thực hiện: **Lê Tú Trinh**
->
-##Mục lục
->- Tìm hiểu về markdown [1.github](https://github.com/hocchudong/git-github-for-sysadmin)
+>Thực hiện: Lê Tú Trinh
 
-> - Các cú pháp thường gặp và một số ví dụ [2.Markdown _guide](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)
-
-## **Nội dung**
-
- - Markdown là gì: là tài liệu dùng để đánh dấu tài liệu của bạn với định dạng sử dụng dấu câu và kí tự đặc biệc.
-***
-
- -  Thẻ tiêu đề: sử dụng kí tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 tới 6 kí tự # liên tiếp giảm dần từ 0->6
-***
-*ví dụ*: 
->#noidung1  
->##noidung2 
->###noidung3
+>Cập nhập lần cuối: 24/09/2016
 
 
-----------
+###Mục lục
+
+ [1. Tìm hiểu về Markdown](#Markdown)
+
+[2. Markdown dùng làm gì](#congdung)
+
+[3. Các cú pháp thường gặp](#cuphap)
+
+[4. Công cụ viết Markdown](#congcu)
 
 
- >Chèn ảnh ta sử dụng cú pháp như sau:
+##Nội dung
 
-![tên](link hình ảnh)
 
-ví dụ: 
+<a name="Markdown"></a>
+### 1. Tìm hiểu về Markdown
 
-![doremon](http://file.vforum.vn/hinh/2014/4/doremon-19.jpg)
-cần bo đoạn: `đoạn cần bo`  
+ 1. Markdown là gì: 
+ 
+	 
 
->mã viết: 
- ```
-printf("day la doremon");
+	>Markdown là ngôn ngữ đánh dấu siêu văn bản được tạo ra bởi John Gruber sử dụng cú pháp khá đơn giản và dễ hiểu để đánh dấu văn bản và văn bản được viết bằng Markdown có thể chuyển đổi sang HTML và ngược lại.
+
+ 2. Tại sao cần dùng Markdown:
+ 
+	 
+
+> Cũng giống như Markdown, HTML cũng dùng để đánh dấu siêu văn bản nhưng cú pháp của nó thì khá phức tạp và khó nhớ, Markdown giúp ta giải quyết được vấn đề này, cú pháp của Markdown thì ngắn gọn dễ hiểu hơn nhưng nội dung thì vẫn không có gì thay đổi.
+
+
+*ví dụ*: đoạn văn bản trog html gồm 1 tiêu đề và 3 đoạn văn thì cú pháp sẽ là:
+
+`<h1>Tiêu Đề</h1>
+<p>Đoạn văn thứ nhất</p>
+<p>Đoạn văn thứ 2</p>
+<p>Đoạn văn thứ 3</p>`
+
+
+**Còn với Markdown thì cú pháp sẽ đơn giản hơn nhiều:**
+
+`## Tiêu Đề
+Đoạn văn thứ 1
+Đoạn văn thứ 2
+Đoạn văn thứ 3`
+
+<a name="congdung"></a>
+### 2. Markdown dùng để làm gì: 
+
+>John Gruber đã tạo ra ngôn ngữ Markdown với mục tiêu tạo ra một định dạng văn bản thô "dễ viết, dễ đọc, dễ dàng chuyển thành XHTML (hoặc HTML). Nói tóm lại Markdown là ngôn ngữ dùng để viết tài liệu và đánh dấu siêu văn bản.
+
+<a name="cuphap"></a>
+### 3. Các cú pháp thường gặp:
+
+	
+
+ - Thẻ tiêu đề: Markdown sử dụng kí tự # để bắt đầu cho các thẻ tiêu để, có thể dùng từ 1 đến 6 kí tự # liên tiếp mức độ giảm dần từ 1 đến 6
+
+**ví dụ**:	
+
+###tiêu đề 1
+
+####tiêu đề 2
+
+#####tiêu đề 3
+
+ - Chèn link và chèn ảnh: chèn link và chèn ảnh trong Markdown khá đơn giản, không phức tạp như trong HTML. Cú pháp chèn hình ảnh như sau:
+
+		![tên ảnh](htpp://.......)
+
+**ví dụ**:	 		đây là con mèo
+
+
+![doremon](http://khohinhnen.com/wp-content/uploads/2015/01/hinh-anh-doremon-17.jpg)
+
+**Cú pháp để chèn link như sau: ** 
+
+		[tên](http://.......)
+
+
+*ví dụ* : có thể copy và past trực tiếp link vào :
+
+(https://github.com/)
+
+Cũng có thể làm cho nó ngắn gọn hơn:
+
+[github](https://github.com/)
+
+ - Để in đậm 1 câu hay 1 đoạn ngắn có cú pháp như sau:
+
+`**từ cần in đậm**`  sẽ được kết quả như sau **từ cần in đậm**
+
+ - Để in nghiêng thì như sau:
+
+`*từ cần in nghiêng*`  sẽ thu được kết quả *từ cần in nghiêng*
+
+
+ - Để bo 1 đoạn văn cú pháp như sau:
+
+`'đoạn cần bo'`    sẽ được kết quả như sau    `đoạn cần bo`
+
+ - Để gạch đầu dòng cho đoạn văn cần làm như sau:
+
+``` - gạch đầu dòng
+<ul>
+<li>thụt vô đầu dòng</li>
+<li>thụt vô đầu dòng</li>
+</ul>
 ```
+ - Để tạo bảng thực hiện như sau
 
+`| ten | dia chi | sd |   |   |
+|-----|---------|----|---|---|
+| 1   |         |    |   |   |
+| 2   |         |    |   |   |
+| 3   |         |    |   |   |`
 
-ngoài ra ta có thể tóm gọn lại trong bảng sau:    
-[tom_tat](http://prntscr.com/ckc0zl)
+| ten 	| dia chi 	| sd 	|   	|   	|
+|-----	|---------	|----	|---	|---	|
+| 1   	|         	|    	|   	|   	|
+| 2   	|         	|    	|   	|   	|
+| 3   	|         	|    	|   	|   	|
 
->** Có thể dùng notepad, notepad++,vi... để viết markdown.**
+<a name="congcu"></a>
+###4. Công cụ viết Markdown:
 
-------
-**lỗi xảy ra**
-**tham khảo**: có thể tham khảo thêm 1 số tài liệu ở đây:
+Có thể dùng `notepad` `notepad++` `vi` ` ngoài ra còn có rất nhiều phần mềm khác hỗ trợ viết Markdown như [stackedit](https://stackedit.io/editor) hay [markdownlivepreview](http://markdownlivepreview.com/) ....
 
+###Các lỗi xảy ra
 
-[tai_lieu1](https://stackedit.io/editor)
+###Kết luận:
 
-[tai_lieu2](https://jbt.github.io/markdown-editor/#bVNBbtswELzzFVs4gO3GltpremqTpgkQA0WTnoICoUVSpC1yBXJlJyn69y4pw84hgAnJ5HBmd2Y1gdkPRzfDenndyR1GreawknGrcB/gu3KEUYhvMrkGhqTN0IHRkoaooXOJLoSAj3BJsTu/hxouveInISS500BWg3GdPkGsM3QCHv4xvLGISR8vynQqASPcPKzuMsdVlC3IoEBF7EEWbnCBb1kdy+0OpQJHGXydDxsMpAMlkHyeqfk0lLp+/7qDhPCCAzQyQLIZkQmTEOJ26iEgtIgKJME+OnKhZQLfM2mdcZ2OQPqZFpmlxYJhCfSabMYycUy6M5UQd4jbBZeb/fpQ/DKI+bGWcXy8CvGV28pdTFMh4cqV/gAX55/Z4aenp43cydRE15M4m5khNOQwzOZ/BcDZbKrcbjqvLPluNr0F6VmMt6rp/Iv4x4vvC/FgXQL+PWKAMfA/M0vUp4u6bh3ZYV016OvNmmp/8H6pS/zz3GKnCbisbcA9OAO3U45p/Slus6NUSt7n8rld8ZPTSTmNVazgCnFdMsvyj7krGFlHdRb3UTGmiPcRN7qhVGfcQb2eL8BE9LC3rrEiZ+dC6l2U2YIsw4anRdEozll+ewGXo/Kc/QjjTIhBjfS5xMlkAvc0GJNHWmUOL7e6EI0D/Xi0wNG7Nr05f/s+52jjaXZ7GRMPQ2G85JZWLsY3necufdmqgqZ6vJwblHtdWkkvXP/z0rrWdryIax1NKYzH7WqTjpwJDe15lr0MTjapwtiWvfqIrnU4SI30cDzJc8ufBw7UD1QmENYdNttU5DZpqbTpJOl3HVEybLGVrj7hRpX21fV9pkYDSpI82s1zY3ixIn+MSfwH)
+ - Ưu điểm: nó cho phép bạn soạn thảo và trình bày bài viết nhanh hơn phương pháp soạn thảo truyền thống.Thông thường khi trình bày văn bản truyền thống thì bạn sẽ làm qua hai bước: Gõ chữ trước và trình bày bài viết sau. Thế nhưng khi sử dụng Markdown, bạn sẽ có thói quen viết tới đâu, trình bày tới đó nhanh cấp tốc mà không cần sử dụng đến chuột. Ngoài ra, bạn hoàn toàn có thể vừa kết hợp HTML vừa viết bằng Markdown trong bài viết nếu bạn có nhu cầu sử dụng màu chữ.Như vậy, nếu bạn chuyên viết bài mà không cần sử dụng quá nhiều công cụ phức tạp thì tập viết bằng Markdown sẽ rất có lợi cho bạn
 
+ -Nhược điểm: Nhược điểm của Markdown sẽ có nếu bạn sử dụng nhiều hình ảnh trong bài viết và cần chỉnh sửa ảnh liên tục. Bởi vì khi bạn chèn ảnh vào bài, nó sẽ tự chuyển sang lệnh Markdown mà nếu sau này bạn cần bổ sung các caption, alt cho ảnh thì cũng hơi rườm rà cho những ai không rành HTML mà bạn phải chèn lại từ đầu.
+
+###tham khảo: có thể tham khảo thêm 1 số tài liệu ở đây:
+
+[tai_lieu1](https://github.com/hocchudong/git-github-for-sysadmin)
+
+[tai_lieu2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)
+
+Ngoài ra còn có thể đọc thêm tài liệu ở 1 số trang như [hoclaptrinh](http://www.hoclaptrinh.org/bai-viet/Markdown-La-Gi) [markdown](https://vi.wikipedia.org/wiki/Markdown)....
 
 ##hết.
