@@ -114,7 +114,9 @@ Cũng có thể làm cho nó ngắn gọn hơn:
 <li>thụt vô đầu dòng</li>
 <li>thụt vô đầu dòng</li>
 </ul>
+
 ```
+ 
  - Để tạo bảng thực hiện như sau
 
 `| ten | dia chi | sd |   |   |
@@ -132,15 +134,16 @@ Cũng có thể làm cho nó ngắn gọn hơn:
 <a name="congcu"></a>
 ###4. Công cụ viết Markdown:
 
-Có thể dùng `notepad` `notepad++` `vi` ` ngoài ra còn có rất nhiều phần mềm khác hỗ trợ viết Markdown như [stackedit](https://stackedit.io/editor) hay [markdownlivepreview](http://markdownlivepreview.com/) ....
+Có thể dùng `notepad` `notepad++` `vi` ` ngoài ra còn có rất nhiều phần mềm khác hỗ trợ viết Markdown như [stackedit](https://stackedit.io/editor) hay [markdownlivepreview](http://markdownlivepreview.com/)  ....
 
 ###Các lỗi xảy ra
 
 ###Kết luận:
 
- - Ưu điểm: nó cho phép bạn soạn thảo và trình bày bài viết nhanh hơn phương pháp soạn thảo truyền thống.Thông thường khi trình bày văn bản truyền thống thì bạn sẽ làm qua hai bước: Gõ chữ trước và trình bày bài viết sau. Thế nhưng khi sử dụng Markdown, bạn sẽ có thói quen viết tới đâu, trình bày tới đó nhanh cấp tốc mà không cần sử dụng đến chuột. Ngoài ra, bạn hoàn toàn có thể vừa kết hợp HTML vừa viết bằng Markdown trong bài viết nếu bạn có nhu cầu sử dụng màu chữ.Như vậy, nếu bạn chuyên viết bài mà không cần sử dụng quá nhiều công cụ phức tạp thì tập viết bằng Markdown sẽ rất có lợi cho bạn
+ - Ưu điểm: nó cho phép bạn soạn thảo và trình bày nhanh hơn phương pháp truyền thống ngoài ra còn có thể kết hợp sử dụng HTML với Markdown trong bài viết nếu có nhu cầu sử dụng màu chữ, khi viết tài liệu bằng markdown thì khồn cần sử dụng quá nhiều công cụ phức tạp
 
- -Nhược điểm: Nhược điểm của Markdown sẽ có nếu bạn sử dụng nhiều hình ảnh trong bài viết và cần chỉnh sửa ảnh liên tục. Bởi vì khi bạn chèn ảnh vào bài, nó sẽ tự chuyển sang lệnh Markdown mà nếu sau này bạn cần bổ sung các caption, alt cho ảnh thì cũng hơi rườm rà cho những ai không rành HTML mà bạn phải chèn lại từ đầu.
+ -Nhược điểm: mới xài nên chưa tìm ra
+
 
 ###tham khảo: có thể tham khảo thêm 1 số tài liệu ở đây:
 
@@ -148,6 +151,6 @@ Có thể dùng `notepad` `notepad++` `vi` ` ngoài ra còn có rất nhiều ph
 
 [tai_lieu2](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)
 
-Ngoài ra còn có thể đọc thêm tài liệu ở 1 số trang như [hoclaptrinh](http://www.hoclaptrinh.org/bai-viet/Markdown-La-Gi) [markdown](https://vi.wikipedia.org/wiki/Markdown)....
+Ngoài ra còn có thể đọc thêm tài liệu ở 1 số trang như [hoc_lap_trinh](http://www.hoclaptrinh.org/bai-viet/Markdown-La-Gi) [markdown](https://vi.wikipedia.org/wiki/Markdown)....
 
 ##hết.
