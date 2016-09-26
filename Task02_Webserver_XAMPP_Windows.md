@@ -46,8 +46,9 @@ Trước khi tải về bạn cần làm 1 số thao tác sau:
 
  
  - Còn nếu như bật tường lửa và các phần mềm antivirus thì nên tắt đi vì nó có thể chặn các phần mềm webserver và cổng 80, cách tắt tường lửa nếu chưa biết có thể xem [tat_tuong_lua](http://quantrimang.com/cach-tat-bat-windows-firewall-trong-windows-7-68908)
-
-####Thực hành cài đặt XAMPP trên máy tính Windows
+ 
+<a name="thuchanh"></a>
+###Thực hành cài đặt XAMPP trên Windows
 
  1.  Bấm vào [đây](https://www.apachefriends.org/download.html) để download XAMPP về máy, mình sẽ tải phiên bản có PHP là 5.6.24
  
@@ -117,7 +118,7 @@ Rồi lưu lại trong  với tên là **index.php** trong C->xampp->htdocs->tut
 <a name="truycap"></a>
 ###5. Truy cập được từ trình duyệt (http://127.0.0.1/)
 
-Vì mình đổi cổng cho Apache nên việc truy cập vào trình duyệt này cũng có 1 chút thay đổi, nên thay vì truy cập vào địa chỉ 127.0.0.1 thì mình sẽ truy cập vào địa chỉ là 127.0.0.1:8888/TuTrinh sẽ được kết quả:
+Vì mình đổi cổng cho Apache nên việc truy cập vào trình duyệt này cũng có 1 chút thay đổi, nên thay vì truy cập vào địa chỉ 127.0.0.1 thì mình sẽ truy cập vào địa chỉ là http://127.0.0.1:8888/TuTrinh/ sẽ được kết quả:
 
 ![anh](http://imageshack.com/a/img922/6799/u7C37g.png)
 
