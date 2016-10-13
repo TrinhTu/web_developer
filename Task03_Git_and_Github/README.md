@@ -28,7 +28,7 @@
  <ul>
  <li>[3.1 Cài đặt Git](#caidat)</li>
  <li>[3.2 Tạo và thêm khóa SSH](#ssh)</li>
- <li>[Cách Caching mật khẩu trong Git](#caching)</li>
+ <li>[3.3 Cách Caching mật khẩu trong Git](#caching)</li>
  </ul>
 
 <a name="hoatdong"></a>
@@ -111,6 +111,7 @@ Clone: tải về máy hay tải lên server
  Nếu như repository đó nằm ở máy khác thì ta gõ câu lệnh như sau:
 
 >git clone tenusername@diachimaychu:/đường_dẫn/repository
+
 <a name="fetch"></a>
 #####2.7 Fetch:
 
@@ -135,7 +136,7 @@ Star một kho lưu trữ cho phép bạn theo dõi các dự án mà bạn th�
 ###3. Các bước cài đặt Git, tạo và thêm khóa SSH, Caching mật khẩu của bạn trong git:
 
 <a name="caidat"></a>
-####**3.1Các bước cài đặt Git:**
+####**3.1 Các bước cài đặt Git:**
 
 - Tải về: [tại đây]( https://windows.github.com/)
 
