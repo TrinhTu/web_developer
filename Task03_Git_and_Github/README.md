@@ -4,7 +4,7 @@
 > 
 > Thực hiện: Lê Tú Trinh
 > 
-> Cập nhập lần cuối: 30/09/2016
+> Cập nhập lần cuối: 13/10/2016
 
 ### Mục lục
 
@@ -149,6 +149,7 @@ Star một kho lưu trữ cho phép bạn theo dõi các dự án mà bạn th�
 
 <a name="ssh"></a>
 ####**3.2 Tạo và thêm khóa SSH**
+<ul>
 <li>Tạo 1 SSH key mới:</li>
 
 ![anh](http://i.imgur.com/yNKtIvt.png)
@@ -159,7 +160,7 @@ Star một kho lưu trữ cho phép bạn theo dõi các dự án mà bạn th�
 
 ![anh](http://imageshack.com/a/img922/5405/loFt4M.png)
 
-<li>Vào file id_rsa.pub để sao chép nội dung file sau đó upload lên [đây](https://github.com/settings/keys) và lưu lại.
+<li>Vào file id_rsa.pub để sao chép nội dung file sau đó upload lên [đây](https://github.com/settings/keys) và lưu lại.</li>
 
 ![anh](http://imageshack.com/a/img921/4867/82M8oi.png)
 
