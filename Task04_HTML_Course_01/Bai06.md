@@ -1,4 +1,4 @@
-###Bài 3: Tạo danh sách (List)
+###Bài 6: Tạo danh sách (List)
 
 > Tài liệu: Tạo danh sách (List)
 > 
