@@ -1,1 +1,0 @@
-hoc html voi trinh
