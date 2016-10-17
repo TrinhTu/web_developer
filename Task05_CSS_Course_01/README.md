@@ -1,4 +1,4 @@
-###Bài 3: CSS là gì và vai trò của nó trên Website
+###Bài 1: CSS là gì và vai trò của nó trên Website
 
 > Tài liệu: CSS là gì và vai trò của nó trên Website
 > 
