@@ -27,9 +27,9 @@ Trước khi viết CSS để CSS có thể thực thi trên Website hoặc  tà
  
  Trong thẻ `<head>` thêm cặp thẻ `<style>` trong thẻ `<style>` này có có 1 tham số tên là `type` và có giá trị là **text/css**
 
-![anh](anh1.png)
+![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh1.png)
 
-![anh](anh2.png)
+![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh2.png)
 
 <a name="02"></a>
 ####2. Cách nhúng CSS với External Styles:
@@ -50,11 +50,11 @@ Và cuối cùng chèn CSS vào trong HTML sử dụng thẻ `<link>` thẻ này
 
 `rel` là khai báo loại tập tin nhúng, `href` là đường dẫn đến tập tin .css cần nhúng vào. Ta có ví dụ:
 
-![anh](anh3.png)
+![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh3.png)
 
 Và sau khi đã nhúng CSS vào trong tài liệu HTML ta có result như sau: 
 
-![anh](anh4.png)
+![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh4.png)
 
 Nếu như tạo tập tin **css** mà lưu không cùng thư mục thì nên nhớ thêm đường dẫn thư mục vào `href`
 
@@ -66,6 +66,5 @@ Nếu có 3 tập tin CSS mà không muốn thêm cả 3 vào website mà chỉ 
 Ví dụ có thể nhúng tập tin `hoc.css` vào trong tập tin `style.css` bằng cách chèn đoạn này vào tập tin `style.css`
 
 `@import "hoc.css";`
-
 
 
