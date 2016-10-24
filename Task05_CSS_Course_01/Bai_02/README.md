@@ -27,9 +27,9 @@ Trước khi viết CSS để CSS có thể thực thi trên Website hoặc  tà
  
  Trong thẻ `<head>` thêm cặp thẻ `<style>` trong thẻ `<style>` này có có 1 tham số tên là `type` và có giá trị là **text/css**
 
-![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh1.png.png)
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/image/anh1.png.png)
 
-![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh2.png.png)
+![2](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/image/anh2.png.png)
 
 <a name="02"></a>
 ####2. Cách nhúng CSS với External Styles:
@@ -50,12 +50,10 @@ Và cuối cùng chèn CSS vào trong HTML sử dụng thẻ `<link>` thẻ này
 
 `rel` là khai báo loại tập tin nhúng, `href` là đường dẫn đến tập tin .css cần nhúng vào. Ta có ví dụ:
 
-![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh3.png.png)
-
+![3](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/image/anh3.png.png)
 Và sau khi đã nhúng CSS vào trong tài liệu HTML ta có result như sau: 
 
-![anh](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/images/anh4.png.png)
-
+![4](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/image/anh4.png.png)
 Nếu như tạo tập tin **css** mà lưu không cùng thư mục thì nên nhớ thêm đường dẫn thư mục vào `href`
 
 <a name="03"></a>
