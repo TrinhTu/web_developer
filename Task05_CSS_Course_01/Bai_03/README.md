@@ -1,4 +1,4 @@
-###Bài 1: TÌM HIỂU VỀ VÙNG CHỌN CƠ BẢN (SELECTOR)
+###Bài 3: TÌM HIỂU VỀ VÙNG CHỌN CƠ BẢN (SELECTOR)
 
 > Tài liệu: Tìm hiểu về vùng chọn cơ bản (selector)
 > 

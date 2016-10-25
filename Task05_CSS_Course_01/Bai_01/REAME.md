@@ -4,7 +4,7 @@
 > 
 > Thực hiện: **Lê Tú Trinh**
 > 
-> Cập nhật lần cuối: **17/10/2016**
+> Cập nhật lần cuối: **24/10/2016**
 
 ####Mục lục
 
