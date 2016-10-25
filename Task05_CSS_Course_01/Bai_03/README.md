@@ -44,12 +44,11 @@ Vùng chọn có thể là tên thẻ HTML hoặc thuộc tính của HTML.
 
 Đây là kiểu đơn giản nhất, là chọn toàn bộ các phần tử trong HTML dựa vào tên thẻ có trong tài liệu rồi áp dụng CSS. Ví dụ muốn thay đổi style cho toàn bộ thẻ h1 trong website thì có đoạn CSS sau với vùng chọn h1. Đầu tiên ta tạo 1 tập tin HTML như sau và chèn CSS theo kiểu External styles, sau đó tạo thêm 1 tập tin **style.css** và thêm vào đó các thuộc tính muốn thêm vào:
 
-![6](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_6.png)
+[1](
 
-![8](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_8.png)
+[2](
 
-![7](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_7.png)
-
+[3](
 
 Đối với kiểu vùng chọn này thì không thể áp dụng cho từng khu vực độc lập mà tất cả các vùng trong tài liệu HTML trong website được sử dụng CSS đều được áp dụng.
 
@@ -60,11 +59,11 @@ Vùng chọn dựa vào ID ( tên định danh) nghĩa là có thể chọn 1 ph
 
 Id được thiết lập dựa vào thuộc tính **id** trong thẻ HTML và thẻ nào cũng đề có thể sử dụng thuộc tính id, khi viết tên id vào CSS phải có dấu thăng đặt trước (#tên_id) để tên id phân biệt với các vùng chọn khác.
 
-![9](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_9.png)
+[4](
 
-![10](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_10.png)
+[5](
 
-![11](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_11.png)
+[6](
 
 <a name="4"></a> 
 - Vùng chọn dựa vào Class:
@@ -73,11 +72,11 @@ Id được thiết lập dựa vào thuộc tính **id** trong thẻ HTML và t
 
 Class được khai báo trong phần tử HTML bởi thuộc tính class như sau `<h1 class="tên_class">` khai báo vùng chọn trong CSS thì tên class phải được đặt sau dấu chấm `(.tên_class)` 
 
-![12](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_12.png)
+[7](
 
-![13](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_13.png)
+[8](
 
-![14](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_14.png)
+[9](
 
 <a name="5"></a>
 - Vùng chọn theo thứ cấp:
@@ -98,11 +97,11 @@ Sử dụng rất thường xuyên khi tiến hành viết CSS cho website, vớ
 ```
 Để chọn thẻ `<li>` bên trong thẻ `#menu`  mình sẽ viết vùng chọn là `#menu li` thay vì chỉ viết `li` trong CSS,  và khi đó CSS sẽ hiểu rằng mình muốn chọn tất tả các thẻ `<li>` nằm bên trong phân tử mang `#menu`
 
-![15](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_15.png)
+[10](
 
-![16](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_16.png)
+[11](
 
-![17](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_17.png)
+[12](
 
 Cách viết `#menu ul li` như vậy thì CSS sẽ hiểu rằng sẽ chọn phần tử `li` nằm bên trong phần tử `ul` và phần tử `ul` nằm trong `menu`.
 
@@ -128,8 +127,8 @@ Cách viết `#menu ul li` như vậy thì CSS sẽ hiểu rằng sẽ chọn ph
 
 Muốn đặt CSS cho thẻ `<li>` của Menu 1.a Menu1.b sẽ đặt vùng chọn là `#menu ul ul > li`  tức là nó sẽ chọn thẻ `<li>` nằm trong thẻ `<u>` ở bậc thứ 2 và thẻ `<ul>` đó nằm trong id#menu
 
-![18](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_18.png)
+[13](
 
-![19](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_19.png)
+[14](
 
-![20](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_03/image/Screenshot_20.png)
+[15](
