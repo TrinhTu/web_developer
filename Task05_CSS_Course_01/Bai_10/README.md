@@ -1,4 +1,4 @@
-##Bài 9: Các thuộc tính tùy chỉnh kích thước
+##Bài 10: Các thuộc tính tùy chỉnh kích thước
 
 > Tài liệu: Các thuộc tính tùy chỉnh kích thước
 > 
