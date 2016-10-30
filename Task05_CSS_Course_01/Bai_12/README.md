@@ -4,7 +4,7 @@
 > 
 > Thực hiện: Lê Tú Trinh
 > 
-> Cập nhập lần cuối: 29/10/2016
+> Cập nhập lần cuối: 30/10/2016
 
 ###Mục lục:
 
@@ -23,8 +23,9 @@
 
 Như trong các bài học trước mặt dù chưa học tới thuộc tính màu nền nhưng ta đã áp dụng rất nhiều trong tất cả các ví dụ, vậy nên thuộc tính màu nền khá là đơn giản với cú pháp như sau: 
 
-	`background-color: tên màu;`
-
+```
+			background-color: tên màu;
+```
 Thay vì sử dụng tên màu ta cũng có thể thay bằng sử dụng mã màu. Ví dụ:
 
 ![1](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_12/image/1.png)
@@ -35,7 +36,9 @@ Thay vì sử dụng tên màu ta cũng có thể thay bằng sử dụng mã m�
 
 Ảnh nền với `background-image` cũng khá là đơn giản. Cú pháp như sau:
 
-	`background-image: url('anh1'), url('anh2'),...;`
+```
+	background-image: url('anh1'), url('anh2'),...;
+```
 
 Trong đó bên trong giá trị 	`url` là đường dẫn tới ảnh đó, chúng ta có thể thêm nhiều ảnh bằng cách thêm nhiều thuộc tính `url` ngăn cách nhau bởi dấu phẩy. Ví dụ:
 
@@ -54,7 +57,7 @@ Nếu như thiết lập chiều cao và chiều rộng của khung lớn hơn s
 
 - `space` : lặp đều chiều ngang và chiều dọc, ảnh nền sẽ cách nhau bằng khoảng trắng.
 
-- `repeat: mặc định
+- `repeat`: mặc định
 
 ![3](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_12/image/3.png)
 
@@ -65,11 +68,11 @@ Nếu như thiết lập chiều cao và chiều rộng của khung lớn hơn s
 
 - `top` hiển thị trên đầu phần tử
 
--`bottom` hiển thị bên dưới phần tử
+- `bottom` hiển thị bên dưới phần tử
 
 - `left` hiển thị bên trái phần tử
 
--`right` hiển thị bên phải phần tử
+- `right` hiển thị bên phải phần tử
 
 - `center` hiển thị ở giữa phần tử
 
