@@ -34,11 +34,11 @@ Cách đơn giản nhất là viết 1 tập tin CSS như sau và đưa toàn b�
 
 Thay vì tự reset như vậy theo cách không được tối ưu cho lắm thì chúng ta có các bộ reset CSS thông dụng như sau:
 
-[normalize.css]
+[normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css)
 
 Đây là bộ reset thông dụng nhất phù hợp với HTML5 và CSS3, nó sẽ điều chỉnh các phần tử trong website phù hợp với tất cả các trình duyệt thông dụng, xóa bỏ toàn bộ margin padding có sẵn style cho các thẻ `<sub>`, `<sup>` `<code>` 
 
-[Reset CSS 2.0 by Eric Meyer]
+[Reset CSS 2.0 by Eric Meyer](http://meyerweb.com/eric/tools/css/reset/)
 
 Bộ reset này giúp đưa toàn bộ website về ban đầu không có bất cứ định dạng nào, khi sử dụng bộ reset này mình sẽ phải tự viết lại CSS cho toàn bộ các thành phần trong website.
 
