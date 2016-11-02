@@ -20,11 +20,12 @@
 
 - [3.1 HTTP Status Code](#3.1)
 
-<ul>
+	<ul>
 	<li>[3.1.1 Thông tin: 1xx](#3.1.1)</li>
 	<li>[3.1.2 Thành công: 2xx](#3.1.2)</li>
 	<li>[3.1.3 Sự điều hướng lại: 3xx](#3.1.3)</li>
 	<li>[3.1.4 Lỗi Client: 4xx](#3.1.4)</li>
+
 
 - [3.2 HTTP Response Header Fields](#3.2)
 
