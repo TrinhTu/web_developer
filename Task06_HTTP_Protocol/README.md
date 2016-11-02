@@ -25,10 +25,9 @@
 	<li>[3.1.2 Thành công: 2xx](#3.1.2)</li>
 	<li>[3.1.3 Sự điều hướng lại: 3xx](#3.1.3)</li>
 	<li>[3.1.4 Lỗi Client: 4xx](#3.1.4)</li>
-
+	</ul>
 
 - [3.2 HTTP Response Header Fields](#3.2)
-
 
 
 ###Nội dung:
