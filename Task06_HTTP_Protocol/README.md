@@ -20,12 +20,12 @@
 
 - [3.1 HTTP Status Code](#3.1)
 
-	<ul>
-		<li>[3.1.1 Thông tin: 1xx](#3.1.1)</li>
-		<li>[3.1.2 Thành công: 2xx](#3.1.2)</li>
-		<li>[3.1.3 Sự điều hướng lại: 3xx](#3.1.3)</li>
-			<li>[3.1.4 Lỗi Client: 4xx](#3.1.4)</li>
-	</ul>
+<ul>
+	<li>[3.1.1 Thông tin: 1xx](#3.1.1)</li>
+	<li>[3.1.2 Thành công: 2xx](#3.1.2)</li>
+	<li>[3.1.3 Sự điều hướng lại: 3xx](#3.1.3)</li>
+	<li>[3.1.4 Lỗi Client: 4xx](#3.1.4)</li>
+</ul>
 
 - [3.2 HTTP Response Header Fields](#3.2)
 
@@ -164,7 +164,7 @@ Nghĩa là hoạt động đã được nhận, hiểu và chấp nhận thành 
 
 - 206( Partial content): Máy chủ xử lí thành công 1 phần của yêu cầu.
 
-< a name="3.1.3"></a>
+<a name="3.1.3"></a>
 #####3xx-sự điều hướng lại): 
 
 Hoạt động phải được thực hiện để hoàn thành yêu cầu.
