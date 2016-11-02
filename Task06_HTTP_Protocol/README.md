@@ -75,11 +75,11 @@ Có 2 loại kết nối HTTP đó là kết nối bền vững và kết nối 
 
  Chỉ phương thức để được thực hiện trên nguồn được nhận diện bởi Request URL đã cung cấp.Bắt đầu của HTTP Request sẽ là dòng Request-Line bao gồm 3 thông tin đó là:
 
-- Method: là phương thức mà HTTP Request này sử dụng, thường là GET, POST, ngoài ra còn một số phương thức khác như HEAD, PUT, DELETE, OPTION, CONNECT. Trong ví dụ trên là GET
+- Method: là phương thức mà HTTP Request này sử dụng, thường là GET, POST, ngoài ra còn một số phương thức khác như HEAD, PUT, DELETE, OPTION, CONNECT.
 
-- URI: là địa chỉ định danh của tài nguyên. Trong tường hợp này URI là / - tức request cho tài nguyên gốc, nếu request không yêu cầu một tài nguyên cụ thể, URI có thể là dấu *. 
+- URI: là địa chỉ định danh của tài nguyên.
 
-- HTTP version: là phiên bản HTTP đang sử dụng, ở đây là HTTP 1.1.
+- HTTP version: là phiên bản HTTP đang sử dụng.
 
 Tiếp theo là các trường request-header, cho phép client gửi thêm các thông tin bổ sung về thông điệp HTTP request và về chính client. Một số trường thông dụng như:
 
