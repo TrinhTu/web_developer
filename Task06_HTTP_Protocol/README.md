@@ -4,7 +4,7 @@
 >
 >Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 2/11/2016
+>Cập nhập lần cuối: 4/11/2016
 
 ###Mục lục:
 
@@ -36,6 +36,12 @@
 
 
 - [3.2 HTTP Response Header Fields](#3.2)
+
+- [3.3 Gói tin HTTP](#3.3)
+
+[4. Encrypted connection](#4)
+
+[5. HTTP Caching](#5)
 
 
 ###Nội dung:
@@ -252,3 +258,43 @@ response-header = Accept-Ranges           ;
                        | Vary                    ; 
                        | WWW-Authenticate        ;
 ```
+
+<a name="3.3"></a>
+####3.3. Gói tin HTTP:
+
+Mở Wireshark lên ta có thể thấy được 1 số thông tin sau:
+
+![anh](http://i.imgur.com/PnHQr69.png)
+
+Các mã hồi đáp có nghĩa như sau:
+
+- Ta đang sử dụng HTTP phiên bản là 1/1, dns port là http(80), dùng phương thức GET.
+
+- Địa chỉ ip nguồn là: 192.168.1.103
+
+- Địa chỉ ip đích là 182.161.72.71
+
+- 200 OK
+
+
+<a name="4"></a>
+####4. Encrypted connections:
+
+Có 2 cách thường dùng để mã hóa kết nối HTTP là HTTP secure ( là HTTPS + SSL) hoặc kết hợp HTTP và Transport Layer Securerity (TLS)
+
+<a name="5"></a>
+####5. HTTP Caching:
+
+HTTP thường sử dụng cho các hệ thống thông tin phân phối nơi hiệu suất được cải thiện bằng việc sử dụng bộ nhớ đệm. Mục đích của bộ nhớ đệm là loại bỏ sự cần thiết phải gởi yêu cầu trong nhiều trường hợp, và loại bỏ sự cần thiết phải gởi phản hồi 1 cách đầy đủ trong nhiều trường hợp khác để tiết kiệm tài nguyên. Caching sẽ vô ích nếu như không được cải thiện hiệu suất.
+
+###Tài liệu tham khảo:
+
+https://www.stdio.vn/articles/read/202/http-request-va-http-response
+
+http://hatangmang.blogspot.com/2014/06/giao-thuc-http.html
+
+http://expressmagazine.net/development/2160/http-giao-thuc-ma-moi-lap-trinh-vien-nen-biet
+
+https://vi.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+
+
