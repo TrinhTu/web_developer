@@ -203,13 +203,21 @@ Về khác biệt giữa VPS và Dedicated Server là:
 <a name="3.2"></a>
 #####3.2 Phân loại các Domain:
 
-- Sub-domains: là tên miền phụ tức là phần mở rộng của tên miền chính, tùy vào cách sử dụng mà có ý nghĩa, lĩnh vực khác nhau. Sub-domain tạo điều kiện cho việc sử dụng nhiều thành phần trên Website với địa chỉ URL riêng.
+- Sub-domains: là tên miền phụ tức là phần mở rộng của tên miền chính trỏ đến mục trong cùng của 1 trang web, tùy vào cách sử dụng mà có ý nghĩa, lĩnh vực khác nhau. Sub-domain tạo điều kiện cho việc sử dụng nhiều thành phần trên Website với địa chỉ URL riêng.
 
-- Add on-domain: Là domain đươc add vào host của Domain chính và domain này sẽ hoạt động khác cấu trúc file/folder với Domain chính.
+- Add on-domain: Là domain đươc add vào host của Domain chính và domain này sẽ hoạt động khác cấu trúc file/folder với Domain chính. Cho phép chạy các trang web độc lập trong cùng 1 hosting
 
 
 - Park-domain: (Domain Alias hay Domain Pointer) là domain đươc add vào host của Domain chính và domain này sẽ hoạt động chung cấu trúc file/folder với Domain chính. Chức năng này cho phép nhiều domain chạy trên cùng 1 website duy nhất (web của Domain chính) trên cùng một host.
 
+###Tài liệu tham khảo:
 
+https://vi.wikipedia.org/wiki/Hosting
+
+https://thachpham.com/hosting-domain/cam-nang-thue-host-cho-wordpress.html
+
+http://www.chothuevps.com/chi-tiet-phan-biet-giua-dedicated-server-vps-va-shared-server.html
+
+http://nphunghung.com/phan-biet-sub-domains-addon-domains-parked-domains.html
 
 
