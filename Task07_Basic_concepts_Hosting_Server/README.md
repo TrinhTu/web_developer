@@ -49,11 +49,11 @@
 
 Hosting được chia ra thành các loại cơ bản thường sử dụng như sau:
 
-– Shared hosting: Chia sẻ host
+- Shared hosting: Chia sẻ host
 
-– Dedicated hosting: Máy chủ dùng riêng
+- Dedicated hosting: Máy chủ dùng riêng
 
-– Virtual Private Server: VPS là máy chủ riêng ảo
+- Virtual Private Server: VPS là máy chủ riêng ảo
 
 Ngoài ra còn có 1 số loại khác: 
 
@@ -132,7 +132,7 @@ Nhưng mặc khác nó sẽ bị giới hạn về tài nguyên( như băng thô
 <a name="2.1"></a>
 #####2.1 Khái niệm:
 
-Server( máy chủ): một máy tính được kết nối với một mạng máy tính hoặc internet, có IP tĩnh, có năng lực xử lý cao và trên đó người ta cài đặt các phần mềm để phục vụ cho các máy tính khác truy cập để yêu cầu cung cấp các dịch vụ và tài nguyên.
+> Server( máy chủ): một máy tính được kết nối với một mạng máy tính hoặc internet, có IP tĩnh, có năng lực xử lý cao và trên đó người ta cài đặt các phần mềm để phục vụ cho các máy tính khác truy cập để yêu cầu cung cấp các dịch vụ và tài nguyên.
 
 Máy chủ cũng là 1 máy tính được cung cấp các tính năng vượt trội hơn đảm nhận vai trò cung cấp dữ liệu liên tục cho các máy trạm, nơi lưu trữ các dữ liệu quan trọng, là cầu nối trung gian cho các hoạt động chia sẻ tài nguyên, công cụ hữu ích góp phần ngăn chặn các tác nhân phá hoại từ bên ngoài..
 
@@ -186,7 +186,7 @@ Về khác biệt giữa VPS và Dedicated Server là:
 <a name="3.1"></a>
 #####3.1 Khái niệm:
 
-Domain( tên miền) là chuỗi các kí tự trong bảng chữ cái được sắp xếp giống như tên riêng có hoặc không có nghĩa. Tên miền được sử dụng để định danh địa chỉ internet (IP) của 1 máy chủ gồm các dãy kí tự cách nhau bằng dấu chấm.
+> Domain( tên miền) là chuỗi các kí tự trong bảng chữ cái được sắp xếp giống như tên riêng có hoặc không có nghĩa. Tên miền được sử dụng để định danh địa chỉ internet (IP) của 1 máy chủ gồm các dãy kí tự cách nhau bằng dấu chấm.
 
 - Tên miền là duy nhất cấp phát cho chủ thể nào đăng kí trước
 
@@ -198,7 +198,7 @@ Domain( tên miền) là chuỗi các kí tự trong bảng chữ cái được 
 
 - Không bắt đầu hoặc kết thúc tên miền bằng dấu (-).
 
-- Tên miền của bạn không cần bắt đầu bằng http:// hoặc www hay http://www.
+- Tên miền của bạn không cần bắt đầu bằng http:// hoặc www hay `http://www`.
 
 <a name="3.2"></a>
 #####3.2 Phân loại các Domain:
