@@ -2,7 +2,6 @@
 
 > Tài liệu: Thiết kế giao diện đơn giản
 >
-> 
 Thực hiện: Lê Tú Trinh
 >
 > Cập nhập lần cuối: 1/11/2016
@@ -15,15 +14,15 @@ Thực hiện: Lê Tú Trinh
 
 - [3. Tạo khu vực trong website](#3)
 
-- [4. Viết nội dung cho từng phần](#4)
+  <ul>
 
-<ul>
+    <li>[4. Viết nội dung cho từng phần](#4)</li>
 
-  <li> [4.1 Phần `menu`](#4.1)</li>
-
-  <li> [4.2 Phần `content`](#4.2)</li>
-
+    <li>[4.1 Phần `menu`](#4.1)</li>
+    
     <ul>
+
+    <li>[4.2 Phần `content`](#4.2)</li>
 
         <li> [4.2.1 Phần `header`](#4.3.3)</li>
 
@@ -31,12 +30,12 @@ Thực hiện: Lê Tú Trinh
 
         <li> [4.2.3 Phần `call-to-action`](#4.2.3)</li>
 
-    </ul>
+     </ul>
 
-  <li> [4.3 Phần `footer`](#4.3)</li>
-  
-  </ul>
-  
+    <li> [4.3 Phần `footer`](#4.3)</li>
+
+<ul>
+
 
 - [5. Viết CSS cho giao diện](#5)
 
@@ -71,7 +70,6 @@ Copy tài nguyên về sau đó tạo 1 thư mục chứa các file `img` `norma
 ####2. Thêm các thẻ khai báo thông tin:
 
 Thêm các thẻ khai báo thông tin trong cặp thẻ `<head>` như sau:
-
 
 ```
   <head>
@@ -164,7 +162,6 @@ Phần này chứa 3 phần nhỏ đó là: #header, .row, .call-to-action
 <a name="4.2.1"></a>
 - 4.2.1 Phần `header`
 
-
 ```
 <div id="header">
     <div id="logo"><img src="img/tplogo2014.png"/></div>
@@ -176,7 +173,6 @@ Phần này chứa 3 phần nhỏ đó là: #header, .row, .call-to-action
 
 <a name="4.2.2"></a>
 - 4.2.2 Phần `row`
-
 
 ```
  <div class="row">
@@ -197,7 +193,6 @@ Phần này chứa 3 phần nhỏ đó là: #header, .row, .call-to-action
   </div>
 </div><!--.row--> 
 ```
-
 
 <a name="4.2.3"></a>
 - 4.2.3 Phần `.call-to-ation`:
@@ -376,6 +371,7 @@ Thêm CSS cho các phần nằm bên trong `.row`:
 Giờ thì xem kết quả:
 
 ![5](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_21/image/5.png)
+
 
 ###Tài liệu tham khảo:
 
