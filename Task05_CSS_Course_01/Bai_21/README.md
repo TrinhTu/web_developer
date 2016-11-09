@@ -36,12 +36,16 @@ Thực hiện: Lê Tú Trinh
   <li> [4.3 Phần `footer`](#4.3)</li>
   
   </ul>
+  
 
 - [5. Viết CSS cho giao diện](#5)
 
+
 - [6. Chia khung cho Website](#6)
 
+
 - [7. Viết CSS cho `#menu`](#7)
+
 
 - [8. Viết CSS chung cho `content`](#8)
 
