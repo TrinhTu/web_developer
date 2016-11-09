@@ -14,28 +14,27 @@ Thực hiện: Lê Tú Trinh
 
 - [3. Tạo khu vực trong website](#3)
 
-  <ul>
 
-    <li>[4. Viết nội dung cho từng phần](#4)</li>
+- [4. Viết nội dung cho từng phần](#4)
 
-    <li>[4.1 Phần `menu`](#4.1)</li>
+
+    -[4.1 Phần `menu`](#4.1)
+
+
+    -[4.2 Phần `content`](#4.2)
+
+
+    -[4.2.1 Phần `header`](#4.3.3)
+
+
+    -[4.2.2 Phần `row`](#4.2.2)
+
+
+    -[4.2.3 Phần `call-to-action`](#4.2.3)
+
+
+    -[4.3 Phần `footer`](#4.3)
     
-    <ul>
-
-    <li>[4.2 Phần `content`](#4.2)</li>
-
-        <li> [4.2.1 Phần `header`](#4.3.3)</li>
-
-        <li> [4.2.2 Phần `row`](#4.2.2)</li>
-
-        <li> [4.2.3 Phần `call-to-action`](#4.2.3)</li>
-
-     </ul>
-
-    <li> [4.3 Phần `footer`](#4.3)</li>
-
-<ul>
-
 
 - [5. Viết CSS cho giao diện](#5)
 
