@@ -34,6 +34,8 @@ Thực hiện: Lê Tú Trinh
     </ul>
 
   <li> [4.3 Phần `footer`](#4.3)</li>
+  
+  </ul>
 
 - [5. Viết CSS cho giao diện](#5)
 
@@ -42,10 +44,6 @@ Thực hiện: Lê Tú Trinh
 - [7. Viết CSS cho `#menu`](#7)
 
 - [8. Viết CSS chung cho `content`](#8)
-
-
-
-
 
 
 <a name="1"></a>
@@ -69,6 +67,7 @@ Copy tài nguyên về sau đó tạo 1 thư mục chứa các file `img` `norma
 ####2. Thêm các thẻ khai báo thông tin:
 
 Thêm các thẻ khai báo thông tin trong cặp thẻ `<head>` như sau:
+
 
 ```
   <head>
@@ -161,6 +160,7 @@ Phần này chứa 3 phần nhỏ đó là: #header, .row, .call-to-action
 <a name="4.2.1"></a>
 - 4.2.1 Phần `header`
 
+
 ```
 <div id="header">
     <div id="logo"><img src="img/tplogo2014.png"/></div>
@@ -172,6 +172,7 @@ Phần này chứa 3 phần nhỏ đó là: #header, .row, .call-to-action
 
 <a name="4.2.2"></a>
 - 4.2.2 Phần `row`
+
 
 ```
  <div class="row">
@@ -192,6 +193,7 @@ Phần này chứa 3 phần nhỏ đó là: #header, .row, .call-to-action
   </div>
 </div><!--.row--> 
 ```
+
 
 <a name="4.2.3"></a>
 - 4.2.3 Phần `.call-to-ation`:
@@ -371,5 +373,8 @@ Giờ thì xem kết quả:
 
 ![5](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_21/image/5.png)
 
+###Tài liệu tham khảo:
 
+https://thachpham.com/web-development/html-css/thuc-hanh-tao-layout-css-don-gian.html
 
+https://www.youtube.com/watch?v=Og1acXRcse0&index=21&list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4
