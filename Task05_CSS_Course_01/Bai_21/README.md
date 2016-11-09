@@ -8,44 +8,42 @@ Thực hiện: Lê Tú Trinh
 
 ###Mục lục
 
-- [1. Bắt đầu](#1)
+[1. Bắt đầu](#1)
 
-- [2. Thêm các thẻ khai báo thông tin](#2)
+[2. Thêm các thẻ khai báo thông tin](#2)
 
-- [3. Tạo khu vực trong website](#3)
+[3. Tạo khu vực trong website](#3)
 
+[4. Viết nội dung cho từng phần](#4)
 
-- [4. Viết nội dung cho từng phần](#4)
-
-
-    -[4.1 Phần `menu`](#4.1)
+- [4.1 Phần `menu`](#4.1)
 
 
-    -[4.2 Phần `content`](#4.2)
+- [4.2 Phần `content`](#4.2)
 
 
-    -[4.2.1 Phần `header`](#4.3.3)
+- [4.2.1 Phần `header`](#4.3.3)
 
 
-    -[4.2.2 Phần `row`](#4.2.2)
+- [4.2.2 Phần `row`](#4.2.2)
 
 
-    -[4.2.3 Phần `call-to-action`](#4.2.3)
+- [4.2.3 Phần `call-to-action`](#4.2.3)
 
 
-    -[4.3 Phần `footer`](#4.3)
+- [4.3 Phần `footer`](#4.3)
     
 
-- [5. Viết CSS cho giao diện](#5)
+[5. Viết CSS cho giao diện](#5)
 
 
-- [6. Chia khung cho Website](#6)
+[6. Chia khung cho Website](#6)
 
 
-- [7. Viết CSS cho `#menu`](#7)
+[7. Viết CSS cho `#menu`](#7)
 
 
-- [8. Viết CSS chung cho `content`](#8)
+[8. Viết CSS chung cho `content`](#8)
 
 
 <a name="1"></a>
