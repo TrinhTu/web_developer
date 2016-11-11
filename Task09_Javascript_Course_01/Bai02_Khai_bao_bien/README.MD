@@ -1,4 +1,4 @@
-:##BÀi 2: Biến và khai báo biến trong Javascrip
+##BÀi 2: Biến và khai báo biến trong Javascrip
 
 >Tài liệu: Biến và khai báo biến trong Javascrip
 >
@@ -14,7 +14,7 @@
 
 [3. Gán kiểu giá trị cho biến](#3)
 
-[4. In giá trị của biến ra trình duyệt]
+[4. In giá trị của biến ra trình duyệt](#4)
 
 ###Nội dung:
 
