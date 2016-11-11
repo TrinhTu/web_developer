@@ -12,7 +12,7 @@
 
 [2 Các thư viện Javascrip](#2)
 
-[3. Viết chương trình Javascrip đầu tiên]
+[3. Viết chương trình Javascrip đầu tiên](#3)
 
 ###Nội dung:
 
@@ -46,9 +46,9 @@ Tất cả những đoạn mã Javascrip đều phải được đặt trong c�
 	alert("Hello World!");
 </script>
 ```
-Có 3 cách đặt thẻ javasrcip:
+Có 2 cách đặt thẻ javasrcip:
 
-Internal- viết trong file html hiện tại:
+- Internal- viết trong file html hiện tại:
 
 Chúng ta có thể đặt các đoạn mã javascrip ở bất cứ chỗ nào miễn sao nó đc bao bọc bởi cắp thẻ `scrip` là được. Ví dụ ở đây ta có đoạn javascrip được đặt trong thẻ body như sau:
 
@@ -68,9 +68,9 @@ Chúng ta có thể đặt các đoạn mã javascrip ở bất cứ chỗ nào 
 
 Ta sẽ thấy hiển thị như sau:
 
-![1]()
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%201_Javascript%20l%C3%A0%20g%C3%AC/image/1.png)
 
-Inline - viết trực tiếp trong thẻ HTML:
+- Inline - viết trực tiếp trong thẻ HTML:
 
 Tức là sẽ tạo 1 button chứa nội dung trong đó khi click vào sẽ hiển thị ra.
 
@@ -99,4 +99,4 @@ Ví dụ:
 </html>
 ```
 
-![2]()
+![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%201_Javascript%20l%C3%A0%20g%C3%AC/image/2.png)
