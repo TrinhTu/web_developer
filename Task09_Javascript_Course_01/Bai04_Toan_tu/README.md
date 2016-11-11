@@ -101,7 +101,7 @@ Tương đương với x = x -y
 var x = 20; 
 var y = 10;
 x -= y; //tương đương x = x - y
-
+```
 - Tương tự ta áp dụng cho các toán tử (*=), (/=) và (%=)
 
 <a name="3"></a>
