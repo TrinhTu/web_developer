@@ -1,0 +1,30 @@
+// giải phương trình bậc nhất ax + b = 0
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Trinh</title>
+	</head>
+	<body>
+	<script>
+		function giai_pt(a,b)
+		{
+			a = prompt("Nhập giá trị của a");
+			b = prompt("Nhập giá trị của b");
+			if (a==0 && b==0){
+				alert("Phương trình có vô số nghiệm");
+			}
+			else if(a!=0 && b==0){
+				alert("Nghiệm của phương trình là x= 0");
+			}
+			else if(a==0 && b!=0){
+				alert("Phương trình vô nghiệm");
+			}
+			else{
+				alert('Nghiệm của phương trình là x = ' + (-b/a) );
+			}
+		}
+		giai_pt('');
+	</script>
+	</body>
+</html>
