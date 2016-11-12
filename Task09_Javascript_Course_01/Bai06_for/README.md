@@ -1,4 +1,4 @@
-##Bài 5: Vòng lặp for trong javascript
+##Bài 6: Vòng lặp for trong javascript
 
 >Tài liệu: Vòng lặp for trong javascript
 >
