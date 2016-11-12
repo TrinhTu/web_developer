@@ -4,7 +4,7 @@
 >
 >Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối:
+>Cập nhập lần cuối: 12/11/2016
 
 ###Mục lục:
 
@@ -112,6 +112,7 @@ for (var i = 0; i <= 9; i++)
 Kết quả thu được:
 
 ![c](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai06_for/image/c.png)
+
 <a name="4"></a>
 ####4. Bài tập thực hành:
 
@@ -125,6 +126,7 @@ Kết quả thu được:
 	}
 </script>
 ```
+
 2. In ra các số chia hết cho 3 trong khoảng từ 0 - 100:
 
 ```
