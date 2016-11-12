@@ -1,0 +1,23 @@
+//kiểm tra 1 số có phải là số chính phương hay không.
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Trinh</title>
+	</head>
+	<body>
+	<script>
+		function so_chinh_phuong(a)
+		{
+			a = prompt("Nhập số cần kiểm tra: ");
+			if(Math.sqrt(a)%1==0){// Math.sqrt là hàm lấy căn bậc 2
+				alert(a + " là số chính phương");
+			}
+			else{
+				alert(a + " không phải số chính phương");
+			}
+		}
+		so_chinh_phuong('');
+	</script>
+	</body>
+</html>
