@@ -1,6 +1,6 @@
-##Bài 5: Vòng lặp While- do while
+##Bài 7: Vòng lặp While- do while
 
->Tài liệu: Vòn lặp While- do while
+>Tài liệu: Vòng lặp While- do while
 >
 >Người thực hiện: Lê Tú Trinh
 >
