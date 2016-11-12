@@ -40,7 +40,9 @@ Trong đó condition là mệnh đề luôn có 2 giá trị là true/false ho�
 		alert ('a và b bằng nhau');
 	}
 </script>
-``` Kết quả sẽ hiển thị ra là a và b bằng nhau.
+``` 
+
+Kết quả sẽ hiển thị ra là a và b bằng nhau.
 
 ![1](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai05_If_else/image/1.png)
 
@@ -106,6 +108,7 @@ Nghĩa là trong lệnh if sẽ chứa nhiều lệnh if khác. Ví dụ:
 		}
 	}
 </script>
+```
 
 ![4](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai05_If_else/image/4.png)
 
