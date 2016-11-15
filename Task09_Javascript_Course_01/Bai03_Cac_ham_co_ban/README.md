@@ -34,7 +34,7 @@ Hàm có nhiệm vụ thông báo popup (cửa sổ bật lên), nó có 1 tham 
 ```
 Kết quả trả về như sau:
 
-![1](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/1.png)
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/1.png)
 
 
 <a name="2"></a>
@@ -61,15 +61,15 @@ Hàm confirm() cũng sẽ xuất hiện 1 thông báo popup nhưng có thêm 2 s
 ```
 Kết quả như sau:
 
-![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/2.png)
+![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/2.png)
 
 Nếu bạn click vào Ok:
 
-![3](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/3.png)
+![3](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/3.png)
 
 Nếu click vào Cancle:
 
-![4](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/4.png)
+![4](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/4.png)
 
 <a name="3"></a>
 ####3. Hàm prompt:
@@ -87,7 +87,7 @@ Dùng để lấy thông tin từ người dùng, gồm có 2 tham số truyền
 ```
 Kết quả trả về như sau:
 
-![5](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/5.png)
+![5](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/5.png)
 
 Nếu thêm hàm document.write để hiển thị nội dung ra ngoài trình duyệt thì ta có:
 
@@ -103,7 +103,7 @@ Nếu thêm hàm document.write để hiển thị nội dung ra ngoài trình d
 ```
 Kết quả như sau:
 
-![6](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/6.png)
+![6](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/6.png)
 
 Bài tập ví dụ nè:
 
@@ -126,11 +126,11 @@ Bài tập ví dụ nè:
 ```
 Ta có kết quả lần lượt như sau:
 
-![7](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/7.png)
+![7](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/7.png)
 
-![8](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/8.png)
+![8](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/8.png)
 
-![9](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/9.png)
+![9](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/9.png)
 
 Bài tập nhỏ: Lấy thông tin khách hàng
 
@@ -155,4 +155,4 @@ Bài tập nhỏ: Lấy thông tin khách hàng
  </script>
  ```
 
-![10](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%2003%20%20C%C3%A1c%20h%C3%A0m%20c%C6%A1%20b%E1%BA%A3n/image/10.png)
+![10](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/10.png)
