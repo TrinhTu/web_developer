@@ -68,7 +68,7 @@ Chúng ta có thể đặt các đoạn mã javascrip ở bất cứ chỗ nào 
 
 Ta sẽ thấy hiển thị như sau:
 
-![1](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%201_Javascript%20l%C3%A0%20g%C3%AC/image/1.png)
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai01_Javascript/image/1.png)
 
 - Inline - viết trực tiếp trong thẻ HTML:
 
@@ -99,4 +99,4 @@ Ví dụ:
 </html>
 ```
 
-![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/B%C3%A0i%201_Javascript%20l%C3%A0%20g%C3%AC/image/2.png)
+![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai01_Javascript/image/2.png)
