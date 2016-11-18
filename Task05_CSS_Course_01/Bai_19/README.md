@@ -150,6 +150,6 @@ Giờ muốn thiết lập lại cho cái `#menu ul` không bị đẩy lên nh�
 
 Kết quả là các mục con sẽ không bị tràn qua các mục khác và hiển thị sẽ đẹp hơn:
 
-![6](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_19/image/1.png)
+![6](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_19/image/6.png)
 
 
