@@ -47,7 +47,7 @@ var name_array = new Array(1,2,3);
 
 Cú pháp:
 
-```
+```javascript
 var name_array = [];
 // Hoặc
 var name_array = [1,2,3];
