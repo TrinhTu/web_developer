@@ -107,9 +107,6 @@ Và chọn mua 1 hosting miễn phí->Tiến hành thanh toán. Ngay sau đó h�
 
 - Upload mã nguồn vào thư mục con : http://tutrinh01.chuyengiaseoweb.net/
 
-**Username: letutrinh.ktmm@gmail.com**
-
-**Password**: letutrinh
 
 
 
