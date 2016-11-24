@@ -8,16 +8,7 @@
 
 ###Mục lục:
 
-[1. Tìm hiểu về phần mềm VertigoSrv](#1)
-
-[2. Tải và cài đặt VertigoSrv trên máy](#2)
-
-[3. Cấu hình cơ bản](#3)
-
 ###Nội dung:
-
-<a name="1"></a>
-
 
 Cấu trúc khai báo transition như sau:
 
