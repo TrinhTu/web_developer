@@ -49,6 +49,6 @@ transition: [thuộc tính chuyển động] [thời gian chuyển động ] [th
 
  ![b](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_23/image/b.png)
 
- Ngoài ra có thể truy cập tại đây để xem sự chuyển động rõ hơn: http://192.168.1.102:81/sourse/box.html
+ Ngoài ra có thể truy cập tại đây để xem sự chuyển động rõ hơn: http://tutrinh01.chuyengiaseoweb.net/box.html
 
 
