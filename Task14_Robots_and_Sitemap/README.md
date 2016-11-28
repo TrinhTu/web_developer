@@ -58,7 +58,7 @@ Và bây giờ truy cập lại vào địa chỉ letutrinh.com ta có giao di�
 
 ![6](https://github.com/TrinhTu/web_developer/blob/master/Task14_Robots_and_Sitemap/image/6.png)
 
-Thử truy cập vào : letutrinh.com
+Thử truy cập vào : http://letutrinh.com/
 <a name="2"></a>
 ####2. Tìm hiểu về Robots.txt:
 
