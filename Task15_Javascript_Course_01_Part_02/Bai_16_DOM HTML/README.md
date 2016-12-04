@@ -1,4 +1,4 @@
-##Bài 15: DOM HTML TRONG JAVASCRIPT
+##Bài 16: DOM HTML TRONG JAVASCRIPT
 
 >Tài liệu: DOM HTML trong Javascript
 >
