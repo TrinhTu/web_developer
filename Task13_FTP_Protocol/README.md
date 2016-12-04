@@ -111,11 +111,11 @@ Trong phần trước đã thực hiện cài đặt Filezilla, vậy nên bây 
 <a name="6"></a>
 ###Tài liệu tham khảo:
 
-[1] Vũ Thanh Lai, Powered by vBulletin ; © 2012 vBulletin Solutions, Inc.
+[1] Vũ Thanh Lai. Tìm hiểu giao thức FTP
 
 Online: http://sinhvienit.net/forum/tim-hieu-ve-giao-thuc-ftp.28754.html
 
-[2]Wikipedia® 
+[2]Wikipedia. FTP.
 
 Online: https://vi.wikipedia.org/wiki/FTP
 
