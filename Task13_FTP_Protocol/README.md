@@ -111,6 +111,7 @@ Trong phần trước đã thực hiện cài đặt Filezilla, vậy nên bây 
 <a name="6"></a>
 ###Tài liệu tham khảo:
 
+>
 > [1] Vũ Thanh Lai. Tìm hiểu về Giao thức FTP. 
 > 
 > Online: http://sinhvienit.net/forum/tim-hieu-ve-giao-thuc-ftp.28754.html 
@@ -118,3 +119,4 @@ Trong phần trước đã thực hiện cài đặt Filezilla, vậy nên bây 
 > [2] Wikipedia. FTP. 
 > 
 > Online: https://vi.wikipedia.org/wiki/FTP
+>
