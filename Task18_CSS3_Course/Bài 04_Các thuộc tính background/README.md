@@ -16,8 +16,6 @@
 
 [4. Thuộc tính background-clip trong CSS3](#4)
 
-### Nội dung:
-
 <a name="1"></a>
 ### 1. CSS3 Multiple backgrounds:
 
