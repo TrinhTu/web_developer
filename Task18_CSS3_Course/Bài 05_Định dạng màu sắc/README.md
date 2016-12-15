@@ -60,7 +60,7 @@
     </body>
 ```
 
- 			![19](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/19.png)
+![19](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/19.png)
 
 
 <a name="2"></a>
@@ -102,7 +102,7 @@
     </body>
 ```
 
-			![20](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/20.png)
+![20](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/20.png)
 
 
 <a name="3"></a>
@@ -140,7 +140,7 @@
     	</body>
 ```
 
-		![21](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/21.png)
+![21](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/21.png)
 
 <a name="4"></a>
 ### 4. Opacity:
@@ -169,7 +169,7 @@
     </body>
 ```
 
-		![22](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/22.png)
+![22](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/22.png)
 
 
 <a name="5"></a>
@@ -177,7 +177,7 @@
 
 Đây là mã màu thông dụng nhất không chỉ ở CSS mà trong các công cụ thiết kế như Photoshop cũng sử dụng. Cấu trúc của nó như sau: `#xxxxxx`. Trong đó dấu `#` là khai báo loại mã màu HEX và `xxxxxx` là giá trị (chữ cái hoặc số)
 
->		Xem thêm về bảng mã màu [tại đây](http://vforum.vn/diendan/showthread.php?61619-Bang-ma-mau-HEX-RGB-CMYK-day-du-cho-CSS-HTML)
+- Xem thêm về bảng mã màu [tại đây](http://vforum.vn/diendan/showthread.php?61619-Bang-ma-mau-HEX-RGB-CMYK-day-du-cho-CSS-HTML)
 
 <a name="6"></a>
 ### 6. Color Name:
