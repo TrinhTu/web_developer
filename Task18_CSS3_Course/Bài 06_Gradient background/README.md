@@ -30,6 +30,8 @@
 
 - [Lặp-repeating-radial-gradient](#2.5)
 
+[Tài liệu tham khảo](#3)
+
 <a name="1"></a>
 ### 1. Linear Gradients trong CSS3:
 
@@ -94,7 +96,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
     </body>
 ```
 
-![23](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/23.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/23.png"/></p>
 
 <a name="1.1"></a>
 #### Sử dụng Angles:
@@ -148,8 +150,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
     </body>
 ```
 
-![24](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/24.png)
-
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/24.png"/></p>
 <a name="1.2"></a>
 #### Sử dụng nhiều màu:
 
@@ -174,7 +175,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
     </body>
 ```
 
-![25](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/25.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/25.png"/></p>
 
 <a name="1.3"></a>
 #### Sử dụng Transparency:
@@ -195,7 +196,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
         }
 ```
 
-![26](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/26.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/26.png"/></p>
 
 <a name="1.4"></a>
 #### Lặp-repeating-linear-gradient:
@@ -216,7 +217,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
             }
 ```
 
-![27](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/27.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/27.png"/></p>
 
 <a name="2"></a>
 ### 2. Radial Gradients trong CSS3:
@@ -248,7 +249,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
             }   
 ```
 
-![28](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/28.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/28.png"/></p>
 
 <a name="2.2"></a>
 #### Tùy chọn khoảng màu:
@@ -269,7 +270,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
             } 
 ```
 
-![29](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/29.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/29.png"/></p>
 
 <a name="2.3"></a>
 #### Tùy chọn Shape:
@@ -290,7 +291,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
             }   
 ```
 
-![30](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/30.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/30.png"/></p>
 
 <a name="2.4"></a>
 #### Tùy chọn Size:
@@ -342,7 +343,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
         }
 ```
 
-![31](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/31.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/31.png"/></p>
 
 <a name="2.5"></a>
 #### Tùy chọn Position:
@@ -363,7 +364,7 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
             }
 ```
 
-![32](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/32.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/32.png"/></p>
 
 <a name="2.6"></a>
 #### Lặp-repeating-radial-gradient:
@@ -385,4 +386,11 @@ Nếu ta không truyền `direction` thì sẽ mặc định có giá trị `top
             }
 ```
 
-![33](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/33.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/33.png"/></p>
+
+<a name="3"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-gradient-background-480.html
