@@ -12,6 +12,8 @@
 
 [2. Các module trong CSS3](#2)
 
+[Tài liệu tham khảo](#3)
+
 ### Nội dung:
 
 <a name="1"></a>
@@ -43,3 +45,9 @@ CSS3 được tách ra thành nhiều module và vẫn có vài module của CSS
 - User Interface
 
 CSS3 không phải trình duyệt nào cũng hỗ trợ 100% nên phải sử dụng cú pháp Hack CSS hoặc sử dụng javascript để can thiệp vào.
+
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+>Online: http://freetuts.net/css3-la-gi-cac-module-trong-css3-474.html
