@@ -1,4 +1,4 @@
-## Bài 9: HỌC CSS3 - 2D TRANSFORMS
+## Bài 10: HỌC CSS3 - 2D TRANSFORMS
 
 > Tài liệu: 2D Transforms
 >
@@ -17,6 +17,8 @@
 [4. Transform skew()-skewX()-skewY() trong CSS3](#4)
 
 [5. Transform matrix() trong CSS3](#5)
+
+[Tài liệu tham khảo](#6)
 
 <a name="1"></a>
 ### 1. Transform translate() trong CSS3:
@@ -149,4 +151,15 @@ transform: skew(xdeg, ydeg);
 
 - Matrix() là hàm tổng hợp tất cả các thuộc tính ở trên, nó có 6 tham số cho phép xoay, di chuyển, kéo giãn đối tượng HTML.
 
-**Đây là một thuộc tính khá phức tạp vậy nên cần tham khảo và nghiên cứu thêm [tại đây](http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/)**
+Đây là một thuộc tính khá phức tạp vậy nên cần tham khảo và nghiên cứu thêm [tại đây](http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/), và sẽ bổ sung và hoàn thành vào các báo cáo lần sau.
+
+<a name="6"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-2d-transforms-484.html
+>
+> [2] Zoltan "Du Lac" Hawryluk. CSS3 Matrix transform.
+>
+> Online: http://www.useragentman.com/blog/2011/01/07/css3-matrix-transform-for-the-mathematically-challenged/
