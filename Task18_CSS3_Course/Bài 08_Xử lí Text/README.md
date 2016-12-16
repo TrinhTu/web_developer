@@ -14,6 +14,8 @@
 
 [3. Word Break trong CSS3](#3)
 
+[4. Tài liệu tham khảo](#4)
+
 <a name="1"></a>
 ### 1. Text Overflow trong CSS3:
 
@@ -55,7 +57,7 @@
     </body>
 ```
 
-![40](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/40.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/40.png"/></p>
 
 <a name="2"></a>
 ### 2. Word Wrap trong CSS3:
@@ -97,7 +99,7 @@
     </body>
 ```
 
-![41](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/41.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/41.png"/></p>
 
 <a name="3"></a>
 ### 3. Word Break trong CSS3:
@@ -144,5 +146,11 @@
     </body>
 ```
 
-![42](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/42.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/42.png"/></p>
 
+<a name="4"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản
+>
+> Online: http://freetuts.net/hoc-css3-text-shadow-box-shadow-481.html
