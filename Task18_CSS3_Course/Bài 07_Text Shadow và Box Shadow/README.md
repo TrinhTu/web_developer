@@ -22,6 +22,7 @@
 - Thuộc tính CSS3 `text-shadow` bổ sung thêm hiệu ứng shadow vào 1 đoạn text giúp nó hiển thị giống chữ 3D chuyên nghiệp.
 
 **Ví dụ**
+
 ```
    <style type="text/css">
         h1{
@@ -53,7 +54,7 @@
 
 **Ví dụ**
 
-```javascript
+```
     h1{
             color: blue;
             margin: 20px;
@@ -89,7 +90,7 @@
 
 **Ví dụ**
 
-```javascript
+```
         h1{
             color: blue;
             margin: auto;
@@ -148,7 +149,7 @@
 
 **Ví dụ**
 
-```javascript
+```
         #box1{
             box-shadow: 0px 0px 12px 10px blue;
             -moz-box-shadow: 0px 0px 10px 10px blue;
@@ -178,7 +179,7 @@
 
 **Ví dụ**
 
-```javascript
+```
         h2{
             height: 200px;
             width: 300px;
