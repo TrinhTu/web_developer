@@ -46,6 +46,7 @@ CSS3 được tách ra thành nhiều module và vẫn có vài module của CSS
 
 CSS3 không phải trình duyệt nào cũng hỗ trợ 100% nên phải sử dụng cú pháp Hack CSS hoặc sử dụng javascript để can thiệp vào.
 
+<a name="3"></a>
 ### Tài liệu tham khảo:
 
 > [1] Freetuts Blog. CSS3 căn bản.
