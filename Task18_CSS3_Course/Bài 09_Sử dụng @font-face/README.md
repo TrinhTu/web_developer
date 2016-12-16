@@ -12,6 +12,8 @@
 
 [2. Sử dụng @font-face](#2)
 
+[Tài liệu tham khảo](#3)
+
 <a name="1"></a>
 ### 1. Một số định dạng file font:
 
@@ -29,7 +31,7 @@
 
 - Danh sách các trình duyệt hỗ trợ kiểu font:
 
-![43](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/43.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/43.png"/></p>
 
 <a name="2"></a>
 ### 2. Sử dụng @font-face:
@@ -50,3 +52,14 @@ h2{
 ```
 
 Có thể tham khảo thêm [tại đây](http://www.w3schools.com/css/css3_fonts.asp)
+
+<a name="3"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-su-dung-fonf-face-483.html
+>
+> [2] W3school. CSS3 web font.
+>
+> Online: http://www.w3schools.com/css/css3_fonts.asp
