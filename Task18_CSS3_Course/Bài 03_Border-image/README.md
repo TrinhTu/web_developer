@@ -16,6 +16,8 @@
 
 - [REPEAT](#4)
 
+[Tài liệu tham khảo](#2)
+
 ### Nội dung:
 
 <a name="1"></a>
@@ -108,7 +110,7 @@ Ví dụ:
         }
 ```
 
-![9](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/9.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/9.png"/></p>
 
 **Repeat**: lặp lại hình ảnh cho các cạnh. ( lặp từ giữa đi ra 2 phía)
 
@@ -125,7 +127,7 @@ Ví dụ:
         }
 ```
 
-![8](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/8.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/8.png"/></p>
 
 **Round**: lặp lại hình ảnh cho các cạnh nhưng nó sẽ fix theo tỉ lệ phần trăm, co giãn sao cho lặp lại vừa khít.
 
@@ -142,9 +144,16 @@ Ví dụ:
         }
 ```
 
-![10](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/10.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/10.png"/></p>
 
 **Lưu ý**: Giá trị của repeat có thể chia làm 2 phần đó là Vertical (round) và Horizontal (repeat).
 
 `border-image: url(http://hinh-nen.org/images/131021khung-anh-la-mua-thu.jpg) 60 round repeat;`
+
+<a name="2"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-border-image-tao-duong-vien-bang-hinh-477.html
 
