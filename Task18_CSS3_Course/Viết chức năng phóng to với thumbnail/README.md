@@ -14,6 +14,8 @@
 
 - [Viết CSS](#3)
 
+[Tài liệu tham khảo](#4)
+
 <a name="1"></a>
 ### Xây dựng chức năng:
 
@@ -104,3 +106,10 @@
 ```
 
 - Xem kết quả [tại đây](http://tutrinh01.chuyengiaseoweb.net/hi.html)
+
+<a name="4"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/viet-chuc-nang-phong-to-thumbnail-khi-hover-voi-css3-727.html
