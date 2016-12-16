@@ -20,6 +20,8 @@
 
 [6. Color Name](#6) 
 
+[7. Tài liệu tham khảo](#7)
+
 <a name="1"></a>
 ### 1. RGBA Colors:
 
@@ -60,7 +62,7 @@
     </body>
 ```
 
-![19](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/19.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/19.png"/></p>
 
 
 <a name="2"></a>
@@ -102,7 +104,7 @@
     </body>
 ```
 
-![20](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/20.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/20.png"/></p>
 
 
 <a name="3"></a>
@@ -140,7 +142,7 @@
     	</body>
 ```
 
-![21](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/21.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/21.png"/></p>
 
 <a name="4"></a>
 ### 4. Opacity:
@@ -169,7 +171,7 @@
     </body>
 ```
 
-![22](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/22.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/22.png"/></p>
 
 
 <a name="5"></a>
@@ -194,7 +196,12 @@
 
 ...
 
+<a name="7"></a>
+### Tài liệu tham khảo:
 
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-dinh-dang-mau-sac-479.html
 
 
 
