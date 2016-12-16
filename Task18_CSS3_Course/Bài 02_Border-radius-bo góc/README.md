@@ -123,7 +123,7 @@ Trường hợp này:
 
 ![6](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/6.png)
 
-<a name="3></a>
+<a name="3"></a>
 ### Tài liệu tham khảo:
 
 > [1] Freetuts Blog. CSS3 căn bản.
