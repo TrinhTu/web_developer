@@ -153,4 +153,4 @@
 
 > [1] Freetuts Blog. CSS3 căn bản
 >
-> Online: http://freetuts.net/hoc-css3-text-shadow-box-shadow-481.html
+> Online: http://freetuts.net/hoc-css3-xu-ly-text-482.html
