@@ -62,9 +62,9 @@
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/6.png"/></p>
 
-	- `CTRL` + `Z` là xoay lại
+ `CTRL` + `Z`  là xoay lại
 
-	- `CTRL` + `ALT` + `Z` là xoay lại nhiều lần
+ `CTRL` + `ALT` + `Z` là xoay lại nhiều lần
 
 - Để mở Free Transform sử dụng phím tắt `CTRL` + `T`. Nó sẽ hiện lên 1 cái khung như sau:
 
