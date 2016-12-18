@@ -16,6 +16,8 @@
 
 - [2.2 Tạo button được bo 4 cạnh](#2.2)
 
+[Tài liệu tham khảo](#3)
+
 ### Nội dung:
 
 <a name="1"></a>
@@ -120,3 +122,10 @@ Trường hợp này:
 ```
 
 ![6](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/6.png)
+
+<a name="3"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-border-radius-bo-goc-476.html

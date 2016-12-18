@@ -16,6 +16,8 @@
 
 - [Sử dụng nhiều shadow](#2.1)
 
+[Tài liệu tham khảo](#3)
+
 <a name="1"></a>
 ### 1. Text-shadow trong CSS3:
 
@@ -36,7 +38,7 @@
     </body>
 ```
 
-![34](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/34.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/34.png"/></p>
 
 **Cú pháp**
 
@@ -81,7 +83,8 @@
     </body>
 ```
 
-![35](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/35.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/35.png"/></p>
+
 
 <a name="1.1"></a>
 #### Sử dụng nhiều color shadow:
@@ -103,7 +106,8 @@
         }
 ```
 
-![36](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/36.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/36.png"/></p>
+
 
 <a name="2"></a>
 ### 2. Box-shadow trong CSS3:
@@ -123,7 +127,7 @@
         }
 ```
 
-![37](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/37.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/37.png"/></p>
 
 - Cú pháp của box-shadow như sau:
 
@@ -172,7 +176,8 @@
         }
 ```
 
-![38](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/38.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/38.png"/></p>
+
 
 <a name="2.1"></a>
 #### Sử dụng nhiều shadow:
@@ -200,4 +205,11 @@
         }
 ```
 
-![39](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/39.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/39.png"/></p>
+
+<a name="3"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản
+>
+> Online: http://freetuts.net/hoc-css3-text-shadow-box-shadow-481.html

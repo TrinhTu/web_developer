@@ -16,6 +16,8 @@
 
 [4. Thuộc tính background-clip trong CSS3](#4)
 
+[Tài liệu tham khảo](#5)
+
 <a name="1"></a>
 ### 1. CSS3 Multiple backgrounds:
 
@@ -51,7 +53,7 @@ CSS3 cho phép thêm nhiều background cho 1 thẻ HTML bằng cách sử dụn
         }
 ```
 
-![11](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/11.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/11.png"/></p>
 
 - Thay vì code dài dòng ta có thể thay như sau:
 
@@ -83,7 +85,7 @@ Background-size dùng để thay đổi kích thước của background.
         }
 ```
 
-![12](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/12.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/12.png"/></p>
 
 Nếu thiết lập kích thước cố định cho background thì sẽ không chạy tốt trong thiết kế responsive vì responsive co giãn không định chiều cao và chiều rộng, ta sẽ sử dụng 2 giá trị chuẩn sau đây:
 
@@ -105,7 +107,7 @@ Nếu thiết lập kích thước cố định cho background thì sẽ không 
 
 Trong ví dụ này thì hình background nhỏ hơn khung nên nó sẽ giản ra cho vừa với khung.
 
-![13](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/13.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/13.png"/></p>
 
 
 **Ví dụ contain**
@@ -122,7 +124,7 @@ Trong ví dụ này thì hình background nhỏ hơn khung nên nó sẽ giản 
 
 Vì chiều rộng dài còn chiều cao thì ngắn nên nó sẽ fix theo chiều cao.
 
-![17](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/17.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/17.png"/></p>
 
 <a name="3"></a>
 ### 3. Thuộc tính background-origin trong CSS3:
@@ -157,11 +159,11 @@ Thuộc tính `background-origin` dùng để xác định nơi mà hình ảnh 
             }
 ```
 
-![14](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/14.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/14.png"/></p>
 
-![16](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/16.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/16.png"/></p>
 
-![15](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/15.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/15.png"/></p>
 
 
 <a name="4"></a>
@@ -194,3 +196,9 @@ Dùng để xác định nơi mà **background color** sẽ hiển thị. Nó c�
 
 ![18](https://github.com/TrinhTu/web_developer/blob/master/Task18_CSS3_Course/image/18.png)
 
+<a name="5"></a>
+### Tài liệu tham khảo:
+
+> [1] Freetuts Blog. CSS3 căn bản.
+>
+> Online: http://freetuts.net/hoc-css3-cac-thuoc-tinh-backgrounds-478.html
