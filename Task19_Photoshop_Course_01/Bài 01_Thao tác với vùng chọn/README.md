@@ -1,4 +1,4 @@
-## Photoshop
+## Bài 01: Thao tác với vùng chọn
 
 > Tài liệu: Thao tác với vùng chọn
 >
