@@ -34,17 +34,17 @@
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/48.png"/></p>
 
 
-	- Nó sẽ hiện lên 1 hộp thoại và ta sẽ đặt tên cho Pattern mới đó và lưu lại. Sau đó xóa vùng chọn bằng phím `CTRL` + `D`.
+- Nó sẽ hiện lên 1 hộp thoại và ta sẽ đặt tên cho Pattern mới đó và lưu lại. Sau đó xóa vùng chọn bằng phím `CTRL` + `D`.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/49.png"/></p>
 
 
-	- Quay trở lại và kiểm tra Pattern vừa tạo:
+- Quay trở lại và kiểm tra Pattern vừa tạo:
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/50.png"/></p>
 
 
-	- Và ta chỉ việc chọn Pattern và nhấn chuột vào vùng muốn thay đổi. Nhưng nhược điểm của công cụ này là chỉ hoạt động được tốt trên màu đơn sắc hoặc đôi sắc.
+- Và ta chỉ việc chọn Pattern và nhấn chuột vào vùng muốn thay đổi. Nhưng nhược điểm của công cụ này là chỉ hoạt động được tốt trên màu đơn sắc hoặc đôi sắc.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/51.png"/></p>
 
