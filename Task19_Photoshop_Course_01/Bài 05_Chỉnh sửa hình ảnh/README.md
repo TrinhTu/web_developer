@@ -12,14 +12,19 @@
 
 - Khi muốn chèn 1 ảnh trên mạng đưa vào Website của mình, thì việc đầu tiên là chỉnh sửa ảnh sao cho phù hợp. Chúng ta có thể sử dụng các công cụ chỉnh sửa tự động hoặc tự chỉnh sửa.Ta có các công cụ chỉnh sửa ảnh như sau:
 
-	- **Spot Healing Brush Tool:** Đây là bộ công cụ tự động do máy tự điều chỉnh. Nhưng đối với công cụ này thì việc chọn vùng xóa bị khó khăn.
+- **Spot Healing Brush Tool:** Đây là bộ công cụ tự động do máy tự điều chỉnh. Nhưng đối với công cụ này thì việc chọn vùng xóa bị khó khăn.
+
+- **Spot Healing Brush Tool:** Đây là bộ công cụ tự động do máy tự điều chỉnh. Nhưng đối với công cụ này thì việc chọn vùng xóa bị khó khăn.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/45.png"/></p>
 
+- **Healing Brush Tool:** Đây là công cụ giúp ta thoải mái lựa chọn vùng xóa. Chúng ta sẽ nhấn `ATL` và nhấp chuột trái chọn vùng cần xóa.
 
-	- **Healing Brush Tool:** Đây là công cụ giúp ta thoải mái lựa chọn vùng xóa. Chúng ta sẽ nhấn `ATL` và nhấp chuột trái chọn vùng cần xóa.
+- **Patch Tool:** Chọn vùng cần xóa bằng cách rê chuột, sau đó di chuyển vùng chọn đến nơi khác.
 
-	- **Patch Tool:** Chọn vùng cần xóa bằng cách rê chuột, sau đó di chuyển vùng chọn đến nơi khác.
+- **Healing Brush Tool:** Đây là công cụ giúp ta thoải mái lựa chọn vùng xóa. Chúng ta sẽ nhấn `ATL` và nhấp chuột trái chọn vùng cần xóa.
+
+- **Patch Tool:** Chọn vùng cần xóa bằng cách rê chuột, sau đó di chuyển vùng chọn đến nơi khác.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/46.png"/></p>
 
@@ -34,17 +39,17 @@
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/48.png"/></p>
 
 
-	- Nó sẽ hiện lên 1 hộp thoại và ta sẽ đặt tên cho Pattern mới đó và lưu lại. Sau đó xóa vùng chọn bằng phím `CTRL` + `D`.
+- Nó sẽ hiện lên 1 hộp thoại và ta sẽ đặt tên cho Pattern mới đó và lưu lại. Sau đó xóa vùng chọn bằng phím `CTRL` + `D`.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/49.png"/></p>
 
 
-	- Quay trở lại và kiểm tra Pattern vừa tạo:
+- Quay trở lại và kiểm tra Pattern vừa tạo:
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/50.png"/></p>
 
 
-	- Và ta chỉ việc chọn Pattern và nhấn chuột vào vùng muốn thay đổi. Nhưng nhược điểm của công cụ này là chỉ hoạt động được tốt trên màu đơn sắc hoặc đôi sắc.
+- Và ta chỉ việc chọn Pattern và nhấn chuột vào vùng muốn thay đổi. Nhưng nhược điểm của công cụ này là chỉ hoạt động được tốt trên màu đơn sắc hoặc đôi sắc.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/51.png"/></p>
 
