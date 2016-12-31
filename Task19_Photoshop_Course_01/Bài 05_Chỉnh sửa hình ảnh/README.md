@@ -12,14 +12,14 @@
 
 - Khi muốn chèn 1 ảnh trên mạng đưa vào Website của mình, thì việc đầu tiên là chỉnh sửa ảnh sao cho phù hợp. Chúng ta có thể sử dụng các công cụ chỉnh sửa tự động hoặc tự chỉnh sửa.Ta có các công cụ chỉnh sửa ảnh như sau:
 
-		- **Spot Healing Brush Tool:** Đây là bộ công cụ tự động do máy tự điều chỉnh. Nhưng đối với công cụ này thì việc chọn vùng xóa bị khó khăn.
+	- **Spot Healing Brush Tool:** Đây là bộ công cụ tự động do máy tự điều chỉnh. Nhưng đối với công cụ này thì việc chọn vùng xóa bị khó khăn.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/45.png"/></p>
 
 
-		- **Healing Brush Tool:** Đây là công cụ giúp ta thoải mái lựa chọn vùng xóa. Chúng ta sẽ nhấn `ATL` và nhấp chuột trái chọn vùng cần xóa.
+	- **Healing Brush Tool:** Đây là công cụ giúp ta thoải mái lựa chọn vùng xóa. Chúng ta sẽ nhấn `ATL` và nhấp chuột trái chọn vùng cần xóa.
 
-		- **Patch Tool:** Chọn vùng cần xóa bằng cách rê chuột, sau đó di chuyển vùng chọn đến nơi khác.
+	- **Patch Tool:** Chọn vùng cần xóa bằng cách rê chuột, sau đó di chuyển vùng chọn đến nơi khác.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/46.png"/></p>
 
@@ -62,6 +62,33 @@
 - Và nó sẽ hiện lo 1 hộp thoại như sau, để chỉnh sửa màu sắc hình ảnh.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/54.png"/></p>
+
+
+- Thêm 1 công cụ chỉnh sửa màu sắc nữa **Curves**:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/55.png"/></p>
+
+Ở đây sẽ cung cấp cho mình những hiệu ứng chỉnh sửa màu tự động.
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/57.png"/></p>
+
+
+Nhưng ngoài ra ta cũng có thể chỉnh sửa màu sắc theo ý mình
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/58.png"/></p>
+
+
+- Để lấy vùng màu giống nhau:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/59.png"/></p>
+
+
+Chỉ cần click chuột vào vùng màu muốn lấy:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/60.png"/></p>
+
+
+Ngoài ra công cụ này còn được sử dụng dùng để tách hình ảnh.
 
 
 ## Tài liệu tham khảo:
