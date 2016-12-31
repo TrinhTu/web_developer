@@ -61,7 +61,7 @@
 
 - Và nó sẽ hiện lo 1 hộp thoại như sau, để chỉnh sửa màu sắc hình ảnh.
 
-
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/54.png"/></p>
 
 
 ## Tài liệu tham khảo:
