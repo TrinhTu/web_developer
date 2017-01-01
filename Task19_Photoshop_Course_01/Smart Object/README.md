@@ -30,7 +30,7 @@ Và khi ta kích đúp chuột vào thì nó sẽ hiện tạo ra 1 file mới.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/83.png"/></p>
 
-- Khu sử dụng layer hay hình ảnh thì một khi áp dụng **Filter** vào thì ta sẽ không thể chỉnh sửa được, chỉ có thể dùng **History** để lùi lại. 
+- Khi sử dụng layer hay hình ảnh thì một khi áp dụng **Filter** vào thì ta sẽ không thể chỉnh sửa được, chỉ có thể dùng **History** để lùi lại. 
 
 **Ví dụ**
 
