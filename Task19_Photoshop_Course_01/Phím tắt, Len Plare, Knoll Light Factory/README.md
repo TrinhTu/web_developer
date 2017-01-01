@@ -23,7 +23,7 @@
 
 - Để giúp việc thao tác nhanh thì ta nên sử dụng phím tắt, đối với mỗi công cụ thì đều có phím tắt riêng. Khi ta kích chuột và các công cụ thì bên cạnh đó sẽ hiện lên các phím tắt, bằng việc ghi nhớ nhanh các phím tắt sẽ giúp cho việc thực hiện 1 cách nhanh hơn.
 
-Ví dụ:
+- **Ví dụ:**
 
 	- Để chọn công cụ vùng chọn (Rectangular Me=arquee Tool): Phím tắt `M`
 
@@ -55,7 +55,7 @@ Ví dụ:
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/75.png"/></p>
 
-	- Còn đối với Cavas Size thì ta có thể thay đổi thông số và cách hiển thị của ảnh bằng cách điều chỉnh mũi tên. Hình ảnh sẽ không bị thay đổi mà chỉ thay đổi về size
+- Còn đối với Cavas Size thì ta có thể thay đổi thông số và cách hiển thị của ảnh bằng cách điều chỉnh mũi tên. Hình ảnh sẽ không bị thay đổi mà chỉ thay đổi về size
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/76.png"/></p>
 
@@ -64,14 +64,15 @@ Ví dụ:
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/77.png"/></p>
 
-	- Ta sẽ tạo 1 layer mới tập hợp đầy đủ các layer lại bằng cách: `CTRL` + `ALT` + `SHIFT` + `E`
+- Ta sẽ tạo 1 layer mới tập hợp đầy đủ các layer lại bằng cách: `CTRL` + `ALT` + `SHIFT` + `E`
 
-	- Có nhiều cách tạo bóng, sử dụng brush là 1 trong cách tạo bóng cơ bản trong photoshop
+- Có nhiều cách tạo bóng, sử dụng brush là 1 trong cách tạo bóng cơ bản trong photoshop
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/78.png"/></p>
 
 <a name="2"></a>
 ## 2. Len Plare:
+
 - Đây là công cụ Len Plare dùng để thêm đèn vào hình ảnh"
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task19_Photoshop_Course_01/image/79.png"/></p>
