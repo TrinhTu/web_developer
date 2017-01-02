@@ -95,9 +95,9 @@ Chúng ta có thể tùy chỉnh vị trí của điểm sáng:
 <a name="4"></a>
 ## 4. Tài liệu tham khảo:
 
-> [1] Võ Minh Mẫn. Pen Tool
+> [1] Võ Minh Mẫn. Phím tắt, Lens Plare, Knoll Light Factory
 >
-> Online: https://www.youtube.com/watch?v=pSgvmjM4Wic&list=PL85489D797D3154C9&index=8
+> Online: https://www.youtube.com/watch?v=Y9rtkdnpaoE&t=2s&list=PL85489D797D3154C9&index=7
 
 
 
