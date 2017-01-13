@@ -76,7 +76,7 @@ Các đoạn văn bản này được bao bọc bởi thẻ mở và thẻ đón
 
 -  Để tạo ra khoảng trống giữa chủ đề và nội dung ta có thể sử dụng thẻ `<hr/>`. Thẻ này không có thẻ mở và thẻ đóng được sử dụng duy nhất, nó có tác dụng tạo ra 1 đường kẻ ngăn cách nội dung và chủ đề.
 
-### Trình soạn thảo và xem mã nguồn  (Visual editors & their code views)
+#### Trình soạn thảo và xem mã nguồn  (Visual editors & their code views)
 
 - Hệ thống quản lí và biên tập HTML như Dreamweaver thường có 2 cái nhìn khi tạo ra 1 trang web: Là 1 trình soạn thảo và xem mã nguồn
 
@@ -87,7 +87,7 @@ Các đoạn văn bản này được bao bọc bởi thẻ mở và thẻ đón
 - Xem mã nguồn (Code views): khi xem mã nguồn bởi trình soạn thảo, ta có thể tự thêm, chỉnh sửa nội dung, nó thường hoạt động sử dụng 1 cái hộp với các biểu tượng.
 
 <a name="3"></a>
-### 3.Đánh dấu ngữ nghĩa (Semantic Markup):
+### 3. Đánh dấu ngữ nghĩa (Semantic Markup):
 
 Có 1 số yếu tố văn bản không làm ảnh hưởng đến cấu trúc trang web của bạn nhưng khi nó có thêm chức năng thêm thông tin cho các trang - gọi là đánh dấu ngữ nghĩa.
 
@@ -104,17 +104,13 @@ Có 1 số yếu tố văn bản không làm ảnh hưởng đến cấu trúc t
 Ta có đoạn văn bản sau:
 
 ```javascript
-<p><abbr title="Professor">Prof</abbr> Stephen
-Hawking is a theoretical physicist and
-cosmologist.</p>
-<p><acronym title="National Aeronautics and Space
-Administration">NASA</acronym> do some crazy
-space stuff.</p>
+<p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.</p>
+<p><acronym title="National Aeronautics and Space Administration">NASA</acronym> do some crazy space stuff.</p>
 ```
 
 Đoạn văn trên sử dụng 2 thẻ đó là `<abbr>` và `<acronym>` đều có mục đích là viết tắt 1 từ và mô tả ra đầy đủ hình thức viết tắt của từ đó khi được trỏ vào.
 
-<p text-align="center"><img src=""/></p>
+<p text-align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%202_Text/1.png"/></p>
 
 #### Trích dẫn và định nghĩa (Citations & Definitions):
 
