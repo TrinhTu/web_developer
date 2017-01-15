@@ -5,7 +5,7 @@
 >
 > Người thực hiện: Lê Tú Trinh
 >
-> Cập nhập lần cuối: 9/1/2017
+> Cập nhập lần cuối: 09/01/2017
 
 ## Mục lục:
 
