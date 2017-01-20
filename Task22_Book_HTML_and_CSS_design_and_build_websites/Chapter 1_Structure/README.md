@@ -15,6 +15,8 @@
 
 [3. Structural and semantic markup](#3)
 
+[Tài liệu tham khảo](#4)
+
 ***
 
 Khi tạo 1 trang Web, chúng ta thêm các thẻ, đánh dấu nội dung của từng trang. Các thẻ này cung cấp ý nghĩa cho phép trình duyệt hiển thị cho người dùng cấu trúc phù hợp của trang.
@@ -52,3 +54,7 @@ In đậm và in nghiêng:
 
 - Bằng các sử dụng cặp thẻ `<i>` </i>` thì cách hiển thị của nội dung bên trong sẽ được hiển thị nghiêng, thường được sử dụng cho tên, từ khóa riêng...
 
+<a name="4"></a>
+### Tài liệu tham khảo:
+
+> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.
