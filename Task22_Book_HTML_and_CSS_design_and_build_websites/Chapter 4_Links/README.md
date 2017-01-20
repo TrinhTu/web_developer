@@ -16,6 +16,8 @@
 
 [3. Email links](#3)
 
+[Tài liệu tham khảo](#4)
+
 ***
 
 <a name="1"></a>
@@ -141,6 +143,9 @@ Trong các Website lớn đó là ý tưởng tốt để tổ chức mã của 
 
 - Có thể sử dụng thuộc tính `id` để liên kết với các yếu tố nằm trong cùng 1 trang. 
 
+<a name="4"></a>
+### Tài liệu tham khảo:
 
+> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.
 
 
