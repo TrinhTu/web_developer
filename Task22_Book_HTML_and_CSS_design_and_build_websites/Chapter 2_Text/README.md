@@ -16,6 +16,8 @@
 
 [3. Structural and semantic markup](#3)
 
+[Tài liệu tham khảo](#4)
+
 ***
 
 <a name="1"></a>
@@ -128,4 +130,7 @@ Ta có đoạn văn bản sau:
 
 - Thẻ `<s>` chỉ ra 1 vài điều chưa chính xác hoặc không liên quan nhưng không nên xóa, nội dung bên trong thường hiển thị với 1 đường thẳng gạch ngang.
 
+<a name="4"></a>
+### Tài liệu tham khảo:
 
+> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.

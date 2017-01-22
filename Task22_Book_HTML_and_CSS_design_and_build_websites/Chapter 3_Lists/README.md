@@ -18,6 +18,8 @@
 
 [4. Nested Lists](#4)
 
+[Tài liệu tham khảo](#5)
+
 ***
 
 Có nhiều lúc ta cần phải sử dụng danh sách. HTML cung cấp cho ta 3 kiểu danh sách khác nhau
@@ -74,3 +76,7 @@ Có nhiều lúc ta cần phải sử dụng danh sách. HTML cung cấp cho ta 
 
 - Danh sách có chức năng tạo các danh sách lồng vào bên trong nhau
 
+<a name="5"></a>
+### Tài liệu tham khảo:
+
+> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.
