@@ -120,17 +120,15 @@ Một số loại form dùng để thu thập thông tin từ người truy cậ
 
 #### Text Area
 
-- `<textarea>`: Yếu tố `<textarea> sử dụng để tạo đầu vào văn bản có nhiều dòng, không giống như các yếu tố đầu vào khác, nó không phải là phần tử rỗng, nó gồm có thẻ mở và thẻ đóng.
+- `<textarea>`: Yếu tố `<textarea>` sử dụng để tạo đầu vào văn bản có nhiều dòng, không giống như các yếu tố đầu vào khác, nó không phải là phần tử rỗng, nó gồm có thẻ mở và thẻ đóng.
 
 - Nhiều đoạn văn viết giữa thẻ mở `<textarea>` và thẻ đóng `</textarea>` thì sẽ xuất hiện trong hộp khi tải trang.
 
 - Nếu người sử dụng không xóa đoạn văn bản nằm giữa thẻ thì tin nhắn này sẽ được gởi lên máy chủ cùng với bất cứ điều gì khi người dùng đã gõ (1 số trang web sẽ sử dụng javascript để xóa thông tin này khi người dùng click vào vùng văn bản)
 
-- Khi tạo biểu mẫu nên sử dụng CSS để kiểm soát chiều dài và chiều rộng của <`<textarea>`. Tuy nhiên, nếu nhìn vào các mã cũ bạn có thể thấy các thuộc tính hàng và cột sử dụng phần tử này.
+- Khi tạo biểu mẫu nên sử dụng CSS để kiểm soát chiều dài và chiều rộng của `<textarea>`. Tuy nhiên, nếu nhìn vào các mã cũ bạn có thể thấy các thuộc tính hàng và cột sử dụng phần tử này.
 
 #### Radio Button: 
-
-**<input>**
 
 - `type="radio"`: nút radio cho phép người dùng lựa chọn 1 trong số các tùy chọn.
 
