@@ -12,7 +12,7 @@
 
 [1. Cách thu thập thông tin từ khách truy cập](#1)
 
-[2. Sự khác nhau của form điều khiển](#2)
+[2. Sự khác nhau của form control](#2)
 
 [3. Điều khiển dạng HTML5](#3)
 
@@ -27,6 +27,9 @@ Theo truyền thống, các thuật ngữ "hình thức" đã đề cập đến
 - Sự khác nhau của các công cụ thu thập dữ liệu
 
 - Form HTML5 mới
+
+<a name="1"></a>
+### 1. Cách thu thập thông tin từ khách truy cập:
 
 #### Tại sao cần sử dụng Forms?
 
@@ -94,6 +97,9 @@ Một số loại form dùng để thu thập thông tin từ người truy cậ
 
 	+ `id`: Giá trị của thuộc tính sử dụng để xác biểu mẫu rõ ràng từ các yếu tố khác trên trang, thường được sử dụng bởi các script chẳng hạn như kiểm tra xem có thu thập thông tin vào các trường đòi hỏi giá trị.
 
+<a name="2"></a>
+### 2. Sự khác nhau của form control:
+
 #### Text Input:
 
 - `<input>`: Yếu tố `<input>` sử dụng để tạo 1 số điểm khác biệt để kiểm soát biểu mẫu. Giá trị của các kiểu thuộc tính xác định kiểu đầu vào mà bạn sẽ tạo.
@@ -118,13 +124,13 @@ Một số loại form dùng để thu thập thông tin từ người truy cậ
 
 #### Text Area
 
-- `<textarea>`: Yếu tố `<textarea> sử dụng để tạo đầu vào văn bản có nhiều dòng, không giống như các yếu tố đầu vào khác, nó không phải là phần tử rỗng, nó gồm có thẻ mở và thẻ đóng.
+- `<textarea>`: Yếu tố `<textarea>` sử dụng để tạo đầu vào văn bản có nhiều dòng, không giống như các yếu tố đầu vào khác, nó không phải là phần tử rỗng, nó gồm có thẻ mở và thẻ đóng.
 
 - Nhiều đoạn văn viết giữa thẻ mở `<textarea>` và thẻ đóng `</textarea>` thì sẽ xuất hiện trong hộp khi tải trang.
 
 - Nếu người sử dụng không xóa đoạn văn bản nằm giữa thẻ thì tin nhắn này sẽ được gởi lên máy chủ cùng với bất cứ điều gì khi người dùng đã gõ (1 số trang web sẽ sử dụng javascript để xóa thông tin này khi người dùng click vào vùng văn bản)
 
-- Khi tạo biểu mẫu nên sử dụng CSS để kiểm soát chiều dài và chiều rộng của <`<textarea>`. Tuy nhiên, nếu nhìn vào các mã cũ bạn có thể thấy các thuộc tính hàng và cột sử dụng phần tử này.
+- Khi tạo biểu mẫu nên sử dụng CSS để kiểm soát chiều dài và chiều rộng của `<textarea>`. Tuy nhiên, nếu nhìn vào các mã cũ bạn có thể thấy các thuộc tính hàng và cột sử dụng phần tử này.
 
 #### Radio Button: 
 
@@ -186,9 +192,96 @@ Nếu muốn cho phép người dùng tải tập tin (hình ảnh, video, mp3 h
 
 - `value`: Thuộc tính giá trị sử dụng kiểm soát sự xuất hiện của văn bản chính xác, nó rất cần thiết để xác định từ mà bạn muốn xuất hiện chính xác, theo mặc định thì giá trị của nút trên trình duyệt là "gởi và truy vấn", nó không phù hợp cho tất cả các loại biểu mẫu.
 
+#### Image Button:
+
+- `type="image"`: Nếu muốn thêm hình ảnh trong nút có thể sử dụng kiểu thuộc tính giá trị hình ảnh trong các giá trị: `src`, `width`, `height` và các thuộc tính alt.
+
+#### Button & Hidden Controls:
+
+- `<button>`: Phần tử `<button>` cho phép người dùng kiểm soát sự xuất hiện của các nút, và các phần tử bên trong nó. Tức là có thể phối hợp đoạn văn và hình ảnh nằm giữa thẻ mở `<button>` và thẻ đóng `</button>`.
+
+- `type="hidden"`: Trong ví dụ cho thấy việc kiểm soát biểu mẫu nhưng không hiển thị lên trang. Nó cho phép tác giả của trang web thêm giá trị lên biểu mẫu mà người dùng không thể nhìn thấy được. Ví dụ: Tác giả sử dụng trường ẩn để xác định trang người sử dụng cản khi họ gởi biểu mẫu.
+
+#### Labelling Form Controls:
+
+- `<label>`: Phần tử `<label>` được sử dụng bằng 2 cách: 
+
+	+ Hiển thị xung quanh các mô tả văn bản và đầu vào của biểu mẫu 
+
+	+ Tách chúng với form control và sử dụng thuộc tính để chỉ ra form control như là 1 nhãn dán (tương tự như radio button)
+
+- `for`: Giá trị của thuộc tính sao cho phù hợp với thuộc tính `id` trong form control chính là nhãn dán. Kĩ thuật này sử dụng `for` và thuộc tính `id` có thể sử dụng form control. Khi phần tử `<label>` sử dụng `checkbox` hoặc radio button thì người sử dụng có thể chọn form control hoặc nhãn dán. Việc mở rộng khu vực chọn làm cho các biểu mẫu dễ sử dụng hơn, vị trí của nhãn là rất quan trọng nếu người dùng không biết nơi để nhập thông tin hoặc điền thông tin gì thì việc sử dụng biểu mẫu sẽ trở nên khó khăn hơn.
+
+- Sau đây là quy tắc chủ chốt về nơi tốt nhất để đặt nhãn dán:
+
+	+ Ở trên hoặc bên trái:
+
+		+ Nhập văn bản
+
+		+ Khu vực văn bản
+
+		+ Chọn khung
+
+		+ Tải tập tin
+
+	+ Ở bên phải:
+
+		+ Kiểm tra hộp hộp cá nhân
+
+		+ Nút radio cá nhân
+
+#### Grouping Form Elements:
+
+- `<fieldset>`: có thể tạo nhóm liên quan đến việc kiểm soát biểu mẫu trong phần tử `<fieldset>` nó rất hữu ích sử dụng trong thời gian dài. Hầu hết các trình duyệt sẽ hiển thị fieldset với 1 đường xung quanh cạnh để cho thấy rõ mối quan hệ, sự xuất hiện của đường đó có thể được điều chỉnh bằng cách sử dụng CSS.
+
+- `<legend>`: Phần tử `<lengend>` có thể được sử dụng trực tiếp sau thẻ mở `<fieldset>` và nội dung của chú thích giúp chỉ định mục đích của nhóm hình thức điều khiển
+
+<a name="3"></a>
+### 3. Điều khiển dạng HTML5:
+
+#### HTML5: Form Validation:
+
+- Nếu như người sử dụng không điền đầy đủ thông tin thì sẽ nhận được 1 tin nhắn thông báo, hình thức này được gọi là hình thức xác nhận. Lúc trước hình thức xác nhận được thực hiện bằng Javascript nhưng đối với HTML5 thì giới thiệu xác nhận và công việc cho các trình duyệt. Hình thức xác nhận này đảm bảo cho người dùng đăng nhập thông tin trong biểu mẫu, các máy chủ có thể hiểu các biểu mẫu khi được tải lên. Việc xác nhận nội dung trước khi đưa lên máy chủ giúp:
+
+	+ Giảm số lượng công việc mà máy chủ đã làm
+
+	+ Cho phép người sử dụng thấy được vấn đề của các biểu mẫu sẽ nhanh hơn khi được xác nhận là thực hiện trên máy chủ.
+
+#### HTML5: Date Input:
+
+- `<input>`: nhiều biểu mẫu cần thông tin như: ngày, email, địa chỉ, URLs nó thường được sử dụng khi nhập dữ liệu vào. HTML5 cung cấp dạng biểu mẫu mới để xác nhận thông tin thu thập, còn đối với trình duyệt cũ sẽ không phân biệt được dữ liệu đầu vào và xem nó như 1 dòng văn bản bình thường.
+
+- `type="date"`: nếu yêu cầu ngày từ khách truy cập thì sử dụng phần tử`<input>` và cung cấp loại giá trị thuộc tính là ngày. Điều này tạo dữ nhập ngày nhập vào trong trình duyệt mới hỗ trợ HTML5.
+
+#### HTML5: Email & URL Input:
+
+- `<input>`: HTML5 cũng đã cung cấp đầu vào cho khách truy cập nhập địa chỉ email và URL/ Trình duyệt không hỗ trợ các loại đầu vào sẽ điều chỉnh như 1 hộp văn bản.
+
+- `type="email"`: nếu muốn biết được email của người dùng có thể sử dụng email đầu vào, trình duyệt hỗ trợ HTML5 xác nhận kiểm tra thông tin người dùng đã cung cấp thông qua địa chỉ email. 
+
+- `type="url"`: tương tự như email, nhưng kiểm tra xác nhận lại thông tin thông qua URLs.
+
+#### HTML5: Search Input:
+
+Nếu muốn tạo 1 dòng văn bản tìm kiếm, HTML5 cung cấp các kiểu đầu vào đặc biệt. 
+
+- `type="search"`:  để tạo hộp tìm kiếm HTML5 nên có 1 thuộc tính giá trị tìm kiếm. trình duyệt cũ sẽ xử lí nó 1 cách dễ dàng. Các trình duyệt gần đây thêm 1 số tính năng cải thiện để dễ sử dụng
+
+- `placeholder`: Trên bất kì đầu vào văn bản nào cũng sử dụng thuộc tính giữ chỗ giá trị tức là văn bản sẽ hiển thị trong hộp văn bản tới khi người dùng click chuột vào, đối với trình duyệt cũ sẽ bỏ ra thuộc tính này.
+
+### Tóm lại:
+
+- Bất cứ khi nào muốn thu thập thông tin từ khách truy cập cần sử dụng biểu mẫu với phần tử `<form>` bên trong.
+
+- Thông tin trong biểu mẫu được gởi trong cặp tên và giá trị.
+
+- Mỗi kiểm soát biểu mẫu đều có tên, các văn bản hoặc giá trị tùy chọn đều được gởi đến máy chủ.
+
+- HTML5 cung cấp các yếu tố biểu mẫu mới dễ dàng sử dụng hơn cho khách truy cập.
 
 <a name="4"></a>
 ### Tài liệu tham khảo
 
-> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.
+> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons. 
+
 
