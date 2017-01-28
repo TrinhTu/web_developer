@@ -104,7 +104,9 @@ Một số loại form dùng để thu thập thông tin từ người truy cậ
 
 - `<input>`: Yếu tố `<input>` sử dụng để tạo 1 số điểm khác biệt để kiểm soát biểu mẫu. Giá trị của các kiểu thuộc tính xác định kiểu đầu vào mà bạn sẽ tạo.
 
+
 - `type="text"`: Khi khách truy cập nhập thông tin vào biểu mẫu, máy chủ cần kiểm soát từng từng phần dữ liệu đã nhập vào (Ví dụ: Khi đăng nhập vào biểu mẫu máy chủ cần biết những gì được nhập vào như tên người dùng, mật khẩu). Vì vậy mỗi biểu mẫu kiểm soát đòi hỏi phải có tên thuộc tính, giá trị của thuộc tính cho phép kiểm soát biểu mẫu và gởi cùng với các thông tin được nhập vào máy chủ.
+
 
 - `maxlength`: Bạn có thể sử dụng thuộc tính chiều dài tối đa giới hạn số lượng người dùng truy cập vào trường văn bản. Giá trị của nó là số kí tự mà họ có thể nhập. Ví dụ nếu yêu cầu là **Năm** thì thuộc tính chiều dài tối đa của giá trị là `4`.
 
@@ -133,8 +135,6 @@ Một số loại form dùng để thu thập thông tin từ người truy cậ
 - Khi tạo biểu mẫu nên sử dụng CSS để kiểm soát chiều dài và chiều rộng của `<textarea>`. Tuy nhiên, nếu nhìn vào các mã cũ bạn có thể thấy các thuộc tính hàng và cột sử dụng phần tử này.
 
 #### Radio Button: 
-
-**<input>**
 
 - `type="radio"`: nút radio cho phép người dùng lựa chọn 1 trong số các tùy chọn.
 
@@ -282,6 +282,10 @@ Nếu muốn tạo 1 dòng văn bản tìm kiếm, HTML5 cung cấp các kiểu 
 <a name="4"></a>
 ### Tài liệu tham khảo
 
+<<<<<<< HEAD
 > [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons. 
 
 
+=======
+> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.
+>>>>>>> c6de2caf91b78de0992dc510814a2c65dd322b2d
