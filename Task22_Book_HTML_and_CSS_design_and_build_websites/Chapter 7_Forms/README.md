@@ -73,9 +73,9 @@ Một số loại form dùng để thu thập thông tin từ người truy cậ
 
 #### Cấu trúc của Form:
 
-- `<form>`: form control tồn tại bên trong phần tử `<form>~. Phần tử này đi kèm với thuộc tính hành động, thường sẽ có 1 phương thức hành động và  thuộc tính id.
+- `<form>`: form control tồn tại bên trong phần tử `<form>`. Phần tử này đi kèm với thuộc tính hành động, thường sẽ có 1 phương thức hành động và  thuộc tính id.
 
-	+ `action`: mọi phần tử `<form>` yêu cầu thuộc tính hành động, giá trị của nó là URL của trang trên máy chủ sẽ nhận thông tin trong biểu mẫu khi được tải lên.
+	+ `action` : mọi phần tử `<form>` yêu cầu thuộc tính hành động, giá trị của nó là URL của trang trên máy chủ sẽ nhận thông tin trong biểu mẫu khi được tải lên.
 
 	+ `method`: Biểu mẫu có thể được gởi bằng cách sử dụng 1 trong 2 phương thức sau: get hoặc post.
 
@@ -282,10 +282,5 @@ Nếu muốn tạo 1 dòng văn bản tìm kiếm, HTML5 cung cấp các kiểu 
 <a name="4"></a>
 ### Tài liệu tham khảo
 
-<<<<<<< HEAD
 > [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons. 
 
-
-=======
-> [1] Duckett, J. (2011). HTML and CSS: design and build websites. John Wiley & Sons.
->>>>>>> c6de2caf91b78de0992dc510814a2c65dd322b2d
