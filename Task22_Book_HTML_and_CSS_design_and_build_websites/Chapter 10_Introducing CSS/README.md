@@ -37,7 +37,7 @@ Trong phần này chúng ta sẽ tìm hiểu cách làm cho trang web trở nên
 
 CSS cho phép tạo các quy định điều khiển cách mà mỗi hộp cá nhân (và nội dung trong hộp) được trình bày. 
 
-[4]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2010_Introducing%20CSS/1.png"/></p>
 
 - Trong ví dụ này, phần tử block được hiển thị với đường viền màu đỏ và phần tử inline có đường viền màu xanh. Phần tử `<body>` được tạo ra đầu dòng và các phần tử `<h1>, <h2, <p>, <i> và <a>` tạo ra mỗi hộp riêng bên trong. Sử dụng CSS để thêm đường viền xung quanh hộp nhằm xác định chiều dài và chiều rộng hoặc thêm màu nền. Có thể điều khiển văn bản trong hộp như thêm kích thước, font chữ, màu sắc...
 
@@ -53,7 +53,7 @@ CSS cho phép tạo các quy định điều khiển cách mà mỗi hộp cá n
 
 - CSS hoạt động bằng cách kết hợp với phần tử HTML. Các quy tắc dùng để ràng buộc nội dung được hiển thị, chứa 2 phần: vùng chọn và khai báo.
 
-[5]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2010_Introducing%20CSS/2.png"/></p>
 
 - Quy tắc này chỉ ra rằng phần tử `<p>` được áp dụng kiểu chữ Arial.
 
@@ -65,7 +65,7 @@ CSS cho phép tạo các quy định điều khiển cách mà mỗi hộp cá n
 
 - Khai báo CSS được đặt trong dấu ngoặc nhọn và chia thành 2 phần là: thuộc tính và giá trị. Có thể có nhiều tính chất trong 1 khai báo và chúng cách nhau bởi dấu chấm phẩy.
 
-[6]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2010_Introducing%20CSS/3.png"/></p>
 
 - Theo quy tắc chỉ ra tất cả phần tử `<h1>, <h2>, <h3>` hiển thị với kiểu chữ Arial và có màu vàng
 
@@ -107,7 +107,7 @@ Một trang HTML có thể sử dụng nhiều hơn 1 CSS. Để làm được �
 
 #### CSS Selectors:
 
-- [7]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2010_Introducing%20CSS/4.png"/></p>
 
 #### How CSS Rules Cascade:
 
