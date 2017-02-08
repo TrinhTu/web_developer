@@ -112,7 +112,7 @@ Ta có đoạn văn bản sau:
 
 Đoạn văn trên sử dụng 2 thẻ đó là `<abbr>` và `<acronym>` đều có mục đích là viết tắt 1 từ và mô tả ra đầy đủ hình thức viết tắt của từ đó khi được trỏ vào.
 
-<p text-align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%202_Text/1.png"/></p>
+<p text-align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter02_Text/1.png"/></p>
 
 #### Trích dẫn và định nghĩa (Citations & Definitions):
 
