@@ -102,15 +102,15 @@ Yếu tố `<img>` thường đi kèm với 2 thuộc tính kích thước:
 
 	+ `bottom`: Điều chỉnh dòng đầu của văn bản hiển thị bên dưới hình ảnh.
 
-<p align="center"><img scr="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%205_Images/1.png"/></p>
+<p align="center"><img scr="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter05_Images/1.png"/></p>
 
 - Ở ví dụ trên giá trị của dòng đầu của văn bản hiển thị gần đỉnh phía trên của hình ảnh và dòng tiếp theo thì xuất hiện phía dưới hình ảnh.
 
-<p align="center"><img scr="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%205_Images/2.png"/></p>
+<p align="center"><img scr="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter05_Images/2.png"/></p>
 
 - Ở ví dụ trên giá trị của dòng đầu của văn bản hiển thị ở gần giữa hình ảnh theo chiều dọc và dòng tiếp theo thì xuất hiện phía dưới hình ảnh.
 
-<p align="center"><img scr="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%205_Images/3.png"/></p>
+<p align="center"><img scr="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter05_Images/3.png"/></p>
 
 - Ở ví dụ trên giá trị của dòng đầu tiên của văn bản hiển thị ở gần phía dưới của hình ảnh và dòng tiếp theo của văn bản thì hiển thị phía dưới của hình ảnh.
 
