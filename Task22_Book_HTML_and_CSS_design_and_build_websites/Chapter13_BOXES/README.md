@@ -23,7 +23,7 @@
 <a name="1"></a>
 ### 1. Điều chỉnh kích thước của hộp
 
-#### BOX DIMENSIONS (kích thước của hộp):
+#### 1.1 BOX DIMENSIONS (kích thước của hộp):
 
 **width, height**
 
@@ -31,7 +31,7 @@
 
 -  Khi sử dụng tỉ lệ phần trăm kích thước của hộp là tỉ lệ phần trăm của hộp chứa nó. Khi sử dụng `ems` kích thước của hộp dựa trên kích thước của văn bản trong nó. Gần đây thì các nhà thiết kế sử dụng tỉ lệ phần trăm và ems nhiều hơn để đo lường chính xác khi tạo và thiết kế các linh hoạt các thiết bị có kích thước màn hình khác nhau
 
-#### LIMITING WIDTH (giới hạn chiều rộng):
+#### 1.2 LIMITING WIDTH (giới hạn chiều rộng):
 
 **min-width, max-width**
 
@@ -39,13 +39,13 @@
 
 - Đây là các tính chất rất hữu ích để chắc rằng nội dung của trang sẽ hiển thị dễ đọc (đặc biệt đối với màn hình các thiết bị cầm tay nhỏ hơn). Ví dụ có thể sử dụng thuộc tính max-width để đảm bảo rằng các dòng trong văn bản không hiển thị quá rộng trong cửa sổ trình duyệt lớn và thuộc tính min-width củng đảm bảo rằng các dòng trong văn bản không hiển thị quá chen chúc khi thu nhỏ cửa sổ trình duyệt lại.
 
-#### LIMITING HEIGHT (giới hạn chiều cao):
+#### 1.3 LIMITING HEIGHT (giới hạn chiều cao):
 
 **min-height, max-height**
 
 - Trong cùng 1 phương pháp có thể vừa giới hạn chiều rộng và vừa giới hạn chiều cao, để đạt được điều này cần sử dụng thuộc tính min-height và max-height. Nếu như 1 cái hộp không đủ lớn để chứa toàn bộ nội dung thì nội dung sẽ bị tràn ra bên ngoài và trông rất hỗn độn, để giải quyết vấn đề này có thể sử dụng thuộc tính overflow.
 
-#### OVERFLOWING CONTENT (tràn nội dung):
+#### 1.4 OVERFLOWING CONTENT (tràn nội dung):
 
 **overflow**: thuộc tính này thông báo cho trình duyệt biết phải xử lí như thế nào khi nội dung chứa bên trong hộp lớn hơn so với hộp, gồm 1 trong 2 giá trị:
 
@@ -57,7 +57,8 @@ Thuộc tính overflow rất tiện dụng bởi vì 1 vài trình duyệt cho p
 
 <a name="2"></a>
 ### 2. Mô hình Box model cho đường viền, margin và padding:
-#### BORDER, MARGIN & PADDING
+
+#### 2.1 BORDER, MARGIN & PADDING
 
 Mỗi hộp có sẵn 3 thuộc tính có thể được điều chỉnh để kiểm soát sự xuất hiện. 
 
@@ -69,7 +70,7 @@ Mỗi hộp có sẵn 3 thuộc tính có thể được điều chỉnh để k
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter13_BOXES/1.png"/></p>
 
-#### WHILE SPACE & VERTICAL MARGIN:
+#### 2.2 WHILE SPACE & VERTICAL MARGIN:
 
 Thuộc tính padding và margin rất hữu ích trong việc thêm khoảng cách giữa các mục trong 1 trang này:
 
@@ -77,7 +78,7 @@ Thuộc tính padding và margin rất hữu ích trong việc thêm khoảng c�
 
 Nếu như bottom margin của hộp bất kì trùng với top margin của hộp khác thì trình duyệt sẽ không hiển thị cả 2 giá trị, 2 margin có kích thước giống nhau thì nó chỉ hiển thị 1.
 
-#### BORDER WIDTH: 
+#### 2.3 BORDER WIDTH: 
 
 **border-width**
 
@@ -93,7 +94,7 @@ Nếu như bottom margin của hộp bất kì trùng với top margin của h�
 
 Ngoài ra cũng có thể chỉ định độ rộng khác nhau cho 4 cạnh đường viền trong 1 thuộc tính như sau: `border-width: 2px 1px 1px 2px;` giá trị xuất hiện lần lượt là: top, right, bottom, left.
 
-#### BORDER STYLE
+#### 2.4 BORDER STYLE
 
 **border-style**: có thể kiểm soát phong cách của đường viền bằng việc sử dụng border-style. Thuộc tính bao gồm các giá trị:
 
@@ -117,7 +118,7 @@ Bên cạnh đó có thể thay đổi phong cách riêng của từng đường
 
 	+ border-bottom-style
 
-#### BORDER COLOR: 
+#### 2.5 BORDER COLOR: 
 
 **border-color**: có thể xác định màu cho đường viền sử dụng giá trị RGB và mã code hoặc tên màu CSS. Ngoài ra cá nhân còn có thể kiểm soát màu sắc trên các đường viền trong hộp bằng cách sử dụng: 
 
@@ -131,7 +132,7 @@ Bên cạnh đó có thể thay đổi phong cách riêng của từng đường
 
 Cũng có thể sử dụng kí hiệu ngắn gọn kiểm soát màu của 4 đường viền trong 1 thuộc tính: `border-color: darkcyan deeppink darkcyan deeppink;`
 
-#### SHORTHAND 
+#### 2.6 SHORTHAND 
 
 **border**
 
@@ -143,7 +144,7 @@ width: 250px;
 border: 3px dotted #0088dd;}
 ```
 
-#### PADDING 
+#### 2.7 PADDING:
 
 **padding**
 
@@ -161,7 +162,7 @@ border: 3px dotted #0088dd;}
 
 Hoặc sử dụng các ghi tắt ngắn gọn hơn: `padding: 10px 5px 3px 1px;`. Giá trị của thuộc tính padding không áp dụng cho các phần tử con giống như giá trị màu trong thuộc tính font-family vậy nên cần phải xác định padding cho từng yếu tố cần sử dụng nó.
 
-#### MARGIN 
+#### 2.8 MARGIN:
 
 **margin**
 
@@ -180,13 +181,13 @@ Bên cạnh đó còn có thể sử dụng cách viết ngắn gọn bao gồm 
 <a name="3"></a>
 ### 3. Hiển thị và ẩn hộp:
 
-#### CENTERING CONTENT:
+#### 3.1 CENTERING CONTENT:
 
 - Khi muốn hộp được hiển thị giữa trang cần thiết lập left-margin và right-margin tự động, bên cạnh đó cần thiết lập thêm chiều rộng cho hộp nếu không nó sẽ chiếm hết chiều rộng của trang. Một khi đã thiết lập chiều rộng cho hộp, thiết lập margin left right thì tự động trình duyệt sẽ cân bằng khoảng cách mỗi bên của hộp, đặt hộp chính giữa trang. Để thuận tiện cho các trình duyệt làm việc, các phần tử này bên trong hộp có 1 thuộc tính là text-align với giá trị của nó được thiết lập dùng để căn giữa.
 
 - Thuộc tính text-align cho phép thừa hưởng bởi các phần tử con vậy nên cần xác định thuộc tính text-align trên hộp trung tâm nếu không muốn các văn bản bên trong đó cũng được đặt trung tâm.
 
-#### CHANGE INLINE/BLOCK: 
+#### 3.2 CHANGE INLINE/BLOCK: 
 
 **display**: display là thuộc tính cho phép chuyển từ phần tử inline thành block hoặc ngược lại hay được sử dụng để ẩn phần tử trên trang. Giá trị của thuộc tính bao gồm:
 
@@ -198,7 +199,7 @@ Bên cạnh đó còn có thể sử dụng cách viết ngắn gọn bao gồm 
 
 - **none**: ẩn các phần tử trong trang, tức là phần tử đó vẫn tồn tại mặc dù nó không xuất hiện trên trang (người dùng sẽ thấy nội dung trong hộp nếu xem source). Nếu sử dụng thuộc tính này điều quan trọng là hộp inline không cung cấp tạo ra phần tử block-level.
 
-#### HIDING BOXES:
+#### 3.3 HIDING BOXES:
 
 **visibility**: thuộc tính này cho phép ẩn hộp nhưng sẽ để lại 1 khoảng trống tại nơi phần tử bị ẩn. Thuộc tính có 2 giá trị:
 
@@ -208,7 +209,7 @@ Bên cạnh đó còn có thể sử dụng cách viết ngắn gọn bao gồm 
 
 > Không bất cứ ai có thể nhìn thấy nội dung của phần tử được thiết lập để ẩn đi bằng cách xem source.
 
-#### CSS3: BORDER IMAGES:
+#### 3.4 CSS3: BORDER IMAGES:
 
 **border-image**
 
@@ -228,7 +229,7 @@ Bên cạnh đó còn có thể sử dụng cách viết ngắn gọn bao gồm 
 
 Hộp phải có độ rộng của đường viền cho hình ảnh để hiển thị
 
-#### CSS3: BOX SHADOWS:
+#### 3.5 CSS3: BOX SHADOWS:
 
 **box-shadow**: đây là thuộc tính cho phép tạo bóng đổ xung quanh hộp, nó làm việc như thuộc tính text-shadow, sử dụng ít nhât 1 trong 2 giá trị và 1 màu sắc.
 
@@ -240,7 +241,7 @@ Hộp phải có độ rộng của đường viền cho hình ảnh để hiể
 
 - **spread of shadow**: sẽ làm cho bóng mở rộng ra theo tất cả các hướng, và giá trị âm sẽ làm cho nó co lại. Các từ khóa inset có thể được sử dụng phía trước của thuộc tính này tạo thành inner-shadow
 
-#### CSS3: ROUNDED CORNERS: 
+#### 3.6 CSS3: ROUNDED CORNERS: 
 
 **border-radius**
 
@@ -260,7 +261,7 @@ Hộp phải có độ rộng của đường viền cho hình ảnh để hiể
 
 Ngoài ra còn sử dụng cách viết ngắn gọn cho 4 thuộc tính theo thứ tự: top, right, bottom, left: `border-radius: 5px, 10px, 5px, 10px;`
 
-#### CSS3: ELLIPTICAL SHAPES (hình elip)
+#### 3.7 CSS3: ELLIPTICAL SHAPES (hình elip)
 
 **border-radius**
 
