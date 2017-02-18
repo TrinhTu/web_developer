@@ -51,13 +51,13 @@
 
 <p align="center">Đây là đoạn paragraphs xuất hiện theo dọc theo chiều dọc của trang</p>
 
-	+ **Relative Positioning**: Cách này giúp di chuyển phần tử rời khỏi vị trí bình thường của nó, có thể di chuyển lên trên, sang phải, trái và xuống dưới nơi muốn đặt nó. Điều này thì không là ảnh hưởng đến các phần tử xung quanh.
++ **Relative Positioning**: Cách này giúp di chuyển phần tử rời khỏi vị trí bình thường của nó, có thể di chuyển lên trên, sang phải, trái và xuống dưới nơi muốn đặt nó. Điều này thì không là ảnh hưởng đến các phần tử xung quanh.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/4.png"/></p>
 
 <p align="center">Đoạn paragraph này đã bị đẩy xuống bên dưới và về phía bên phải so với vị trí ban đầu của nó</p>
 
-	+ **Absolute Positioning**: Đây là vị trí các phần tử trong quan hệ chứa các phần tử khác, nó khác với vị trí thông thường, không làm ảnh hưởng đến các phần tử xung quanh nó. Vị trí các phần tử tuyệt đối di chuyển như người sử dụng kéo lên kéo xuống trang.
++ **Absolute Positioning**: Đây là vị trí các phần tử trong quan hệ chứa các phần tử khác, nó khác với vị trí thông thường, không làm ảnh hưởng đến các phần tử xung quanh nó. Vị trí các phần tử tuyệt đối di chuyển như người sử dụng kéo lên kéo xuống trang.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/6.png"/></p>
 
@@ -69,7 +69,7 @@
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/7.png"/></p>
 
-	+ **Floating elements**: 1 phần tử floating cho phép đưa phần tử đó ra khỏi vị trí ban đầu của nó, đặt nó về phía bên trái hoặc bên phải của hộp chứa. Khi float 1 phần tử thì phần tử đó sẽ trở thành phần tử block-level với các nội dung khác có thể flow.
+- **Floating elements**: 1 phần tử floating cho phép đưa phần tử đó ra khỏi vị trí ban đầu của nó, đặt nó về phía bên trái hoặc bên phải của hộp chứa. Khi float 1 phần tử thì phần tử đó sẽ trở thành phần tử block-level với các nội dung khác có thể flow.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/8.png"/></p>
 
