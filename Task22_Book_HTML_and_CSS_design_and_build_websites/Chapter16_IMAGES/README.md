@@ -150,7 +150,7 @@ centre top repeat-x;}
 
 - Khi sử dụng 1 hình ảnh duy nhất cho 1 số các phần khác nhau của 1 giao diện đó được gọi là sprite, có thể thêm logo và các giao diện khác cũng như các button trên hình ảnh. Ưu điểm của việc sử dụng sprites là trình duyệt web chỉ cần yêu cầu 1 hình ảnh hơn là nhiều hình ảnh và làm cho các trang web tải nhanh hơn.
 
-[11]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter16_IMAGES/11.png"/></p>
 
 - Trong ví dụ trên có thể thấy 2 liên kết nằm trong button, và mỗi button nằm trong 3 bảng khác nhau và tất cả đại diện cho 1 hình ảnh duy nhất
 
