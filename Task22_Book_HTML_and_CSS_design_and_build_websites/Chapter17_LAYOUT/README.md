@@ -30,7 +30,7 @@
 
 #### 1.2 NEW HTML5 LAYOUT ELEMNETS:
 
-- HTML5 cung cấp 1 phần tử mới cho phép phân chia các phần của 1 trang, tên của phần tử đó chỉ ra các loại nội dung có thể tìm thấy trong đó. Trong ví dụ dưới đây cũng cung cấp cấu trúc chính xác của trang web tuy nhiền nhiều phần tử `<div>~ trong đó đã được thay thế bằng bố trí phần tử HTML5 mới.
+- HTML5 cung cấp 1 phần tử mới cho phép phân chia các phần của 1 trang, tên của phần tử đó chỉ ra các loại nội dung có thể tìm thấy trong đó. Trong ví dụ dưới đây cũng cung cấp cấu trúc chính xác của trang web tuy nhiền nhiều phần tử `<div>` trong đó đã được thay thế bằng bố trí phần tử HTML5 mới.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/2.png"/></p>
 
@@ -41,13 +41,13 @@
 
 #### 2.1 HEADERS & FOOTERS:
 
-**<header> <footer>**: 2 phần tử này được sử dụng cho:
+`<header> <footer>`: 2 phần tử này được sử dụng cho:
 
 - Tiêu đề chính và footer xuất hiện ở đầu cuối mỗi trang
 
 - Header hoặc footer cho cá nhân `<article>` hay `<section>` trong trang.
 
-```
+```javascript
 <header>
 <h1>Yoko's Kitchen</h1>
 <nav>
@@ -71,19 +71,19 @@
 
 #### 2.2 NAVIGATION:
 
-**<nav>**: phần tử `<nav>` được sử dụng để chứa đường dẫn chính tới website. Nếu muốn kết thúc 1 bài viết với các liên kết đến các blog có liên quan thì không được cho là đường dẫn chính và vì vậy nên không được đặt trong phần tử `<nav>`.
+`<nav>`: phần tử `<nav>` được sử dụng để chứa đường dẫn chính tới website. Nếu muốn kết thúc 1 bài viết với các liên kết đến các blog có liên quan thì không được cho là đường dẫn chính và vì vậy nên không được đặt trong phần tử `<nav>`.
 
 #### 2.3 ARTICLES:
 
-**<article>**: Phần tử `<article>` đóng vai trò như 1 hộp chứa bất kì phần nào của trang và nó có thể đứng 1 mình có khả năng cung cấp thông tin. Nó có thể là 1 bài viết cá nhân hay blog, 1 bình luận, diễn đàn hay 1 nội dung độc lập. Nếu 1 trang có chứa 1 vài bài viết thì mỗi bài viết cá nhân sẽ được đặt trong phân tử `<article>`. Phần tử `<article>` có thể được lồng vào bên trong các phần tử khác.
+`<article>`: Phần tử `<article>` đóng vai trò như 1 hộp chứa bất kì phần nào của trang và nó có thể đứng 1 mình có khả năng cung cấp thông tin. Nó có thể là 1 bài viết cá nhân hay blog, 1 bình luận, diễn đàn hay 1 nội dung độc lập. Nếu 1 trang có chứa 1 vài bài viết thì mỗi bài viết cá nhân sẽ được đặt trong phân tử `<article>`. Phần tử `<article>` có thể được lồng vào bên trong các phần tử khác.
 
 #### 2.4 ASIDES:
 
-**<aside>**: Phần tử `<aside>` gồm 2 mục đích tùy vào nó có được đặt vào trong phần tử `<article>` hay không. Khi phần tử `<aside>` được sử dụng bên trong 1 phần tử `<article>`, nó phải chứa thông tin liên quan đến các bài viết nhưng không cần làm rõ hết nghĩa. Khi phần tử `<aside>` được sử dụng bên ngoài phần tử `<article>` nó được coi như chứa nội dung liên quan đến toàn bộ trang. Ví dụ: có thể chứa các phần của trang web, danh sách các bài viết gần đây, hộp tìm kiếm... 
+`<aside>`: Phần tử `<aside>` gồm 2 mục đích tùy vào nó có được đặt vào trong phần tử `<article>` hay không. Khi phần tử `<aside>` được sử dụng bên trong 1 phần tử `<article>`, nó phải chứa thông tin liên quan đến các bài viết nhưng không cần làm rõ hết nghĩa. Khi phần tử `<aside>` được sử dụng bên ngoài phần tử `<article>` nó được coi như chứa nội dung liên quan đến toàn bộ trang. Ví dụ: có thể chứa các phần của trang web, danh sách các bài viết gần đây, hộp tìm kiếm... 
 
 #### 2.5 SECTIONS:
 
-**<section>**: phần tử `<section>` nhóm các nội dung liên quan với nhau và thường thì mỗi phần sẽ có heading riêng. Ví dụ trong 1 trang chủ có thể có 1 số phần tử `<section>` để chứa các phần khác nhau của 1 trang chẳng hạn như tin tức mới nhất, các sản phẩm hàng đầu, bản tin...
+`<section>`: phần tử `<section>` nhóm các nội dung liên quan với nhau và thường thì mỗi phần sẽ có heading riêng. Ví dụ trong 1 trang chủ có thể có 1 số phần tử `<section>` để chứa các phần khác nhau của 1 trang chẳng hạn như tin tức mới nhất, các sản phẩm hàng đầu, bản tin...
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/3.png"/></p>
 
@@ -91,13 +91,13 @@
 
 #### 2.6 HEADING GROUPS:
 
-**<hgroup>**: Mục đích của phần tử `<hgroup>` là tạo nhóm các phần tử lại với nhau, thiết lập 1 hay nhiều phần tử từ `<h1>` đến `<h6>`, chúng được coi như 1 tiêu đề duy nhất. Ví dụ: phần tử `<hgroup>` chứa cả 2 tiêu đề bên trong phần tử `<h2>` và tiêu đề phụ với phần tử `<h3>`. 
+`<hgroup>`: Mục đích của phần tử `<hgroup>` là tạo nhóm các phần tử lại với nhau, thiết lập 1 hay nhiều phần tử từ `<h1>` đến `<h6>`, chúng được coi như 1 tiêu đề duy nhất. Ví dụ: phần tử `<hgroup>` chứa cả 2 tiêu đề bên trong phần tử `<h2>` và tiêu đề phụ với phần tử `<h3>`. 
 
 #### 2.7 FIGURES:
 
-**<figure> <figcaption>**: được sử dụng để chứa bất kì nội dung được tham chiếu từ flow chính của 1 bài viết (không chỉ từ hình ảnh)
+`<figure> <figcaption>`: được sử dụng để chứa bất kì nội dung được tham chiếu từ flow chính của 1 bài viết (không chỉ từ hình ảnh)
 
-```
+```javascript
 <figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
@@ -110,7 +110,7 @@
 
 #### 2.8 SECTIONING ELEMENTS:
 
-**<div>**: Phần tử `<div>` vẫn rất quan trọng trong việc nhóm các phần tử có cùng quan hệ vào 1 nhóm, không nên sử dụng có phần tử mới bởi chúng không được cung cấp các quy định rõ ràng.
+`<div>`: Phần tử `<div>` vẫn rất quan trọng trong việc nhóm các phần tử có cùng quan hệ vào 1 nhóm, không nên sử dụng có phần tử mới bởi chúng không được cung cấp các quy định rõ ràng.
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/4.png"/></p>
 
