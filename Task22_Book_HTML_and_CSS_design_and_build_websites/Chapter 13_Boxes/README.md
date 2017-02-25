@@ -68,13 +68,13 @@ Mỗi hộp có sẵn 3 thuộc tính có thể được điều chỉnh để k
 
 3. **Padding**: padding là khoảng cách giữa đường viền của hộp và bất kì nội dung nào được chứa bên trong hộp, thêm padding giúp trong nội dung trở nên dễ đọc hơn.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter13_BOXES/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2013_Boxes/1.png"/></p>
 
 #### 2.2 WHILE SPACE & VERTICAL MARGIN:
 
 Thuộc tính padding và margin rất hữu ích trong việc thêm khoảng cách giữa các mục trong 1 trang này:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter13_BOXES/2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2013_Boxes/2.png"/></p>
 
 Nếu như bottom margin của hộp bất kì trùng với top margin của hộp khác thì trình duyệt sẽ không hiển thị cả 2 giá trị, 2 margin có kích thước giống nhau thì nó chỉ hiển thị 1.
 
@@ -267,11 +267,11 @@ Ngoài ra còn sử dụng cách viết ngắn gọn cho 4 thuộc tính theo th
 
 - Để tạo ra 1 hình dạng phức tạp hơn có thể xác đinh các khoảng cách khác nhau cho chiều ngang và chiều dọc của góc hình tròn. Ví dụ tạo ra góc bo với chiều rộng lớn hơn chiều cao:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter13_BOXES/3.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2013_Boxes/3.png"/></p>
 
 - Khi mục tiêu là thay đổi 1 góc thì nên sử dụng thuộc tính riêng: `border-top-left-radius: 80px 50px;`. Cũng có thể viết ngắn gọn cho tất cả 4 góc chỉ trong 1 câu lệnh, đầu tiên là xác định 4 giá trị ngang sau đó là 4 giá trị dọc. Có thể tạo ra 1 vòng tròn bằng cách lấy hộp hình vuông tạo border-radius trùng với chiều cao của hình vuông.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter13_BOXES/4.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2013_Boxes/4.png"/></p>
 
 <a name="4"></a>
 ### Tài liệu tham khảo

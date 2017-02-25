@@ -29,7 +29,7 @@
 
 > Block-level boxs luôn bắt đầu trên 1 dòng mới trong khi inline boxs nối tiếp ý giữa văn bản xung quanh. Có thể kiểm soát khoảng trống cho mỗi hộp bằng cách thiết lập độ rộng của border. Để tạo sự khác biệt cho hộp có thể sử dụng borders, margins, padding và màu nền
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/2.png"/></p>
 
 #### 1.2 CONTAINING ELEMENTS:
 
@@ -37,7 +37,7 @@
 
 - Nó thường được sử dụng để nhóm 1 số các phần tử với nhau vào trong phần tử `<div>`. Ví dụ có thể nhóm tất cả các phần tử lại với nhau để tạo thành tiêu đề của trang web, phần tử `<div>` được chứa trong nhóm này được gọi là phần tử chứa. Một hộp có thể được lồng vào bên trong 1 số phân tử blocl-level. Phần tử chứa đó đóng vai trò là phần tử mẹ của phần tử đó.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/3.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/3.png"/></p>
 
 - Các đường màu cam trong sơ đồ này đại diện cho phần tử `<div>`. Tiêu đề là 1 phần tử `<div>`, là một trong các nội dung chính của trang, footer chính là phần...
 
@@ -47,19 +47,19 @@
 
 	+ **normal flow**: Mọi phần tử block-level đều xuất hiện trong 1 dòng mới, điều này làm cho các phần tử có xu hướng xuất hiện về phía dưới, mặc dù có thiết lập chiều rộng cho hộp và khoảng cách giữa 2 phần tử được đặt trong side-by-side thì 2 phần tử đó cũng không thể xuất hiện cạnh nhau được, đây là hành động mặc định của trình duyệt.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/4.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/4.png"/></p>
 
 <p align="center">Đây là đoạn paragraphs xuất hiện theo dọc theo chiều dọc của trang</p>
 
 + **Relative Positioning**: Cách này giúp di chuyển phần tử rời khỏi vị trí bình thường của nó, có thể di chuyển lên trên, sang phải, trái và xuống dưới nơi muốn đặt nó. Điều này thì không là ảnh hưởng đến các phần tử xung quanh.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/4.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/5.png"/></p>
 
 <p align="center">Đoạn paragraph này đã bị đẩy xuống bên dưới và về phía bên phải so với vị trí ban đầu của nó</p>
 
 + **Absolute Positioning**: Đây là vị trí các phần tử trong quan hệ chứa các phần tử khác, nó khác với vị trí thông thường, không làm ảnh hưởng đến các phần tử xung quanh nó. Vị trí các phần tử tuyệt đối di chuyển như người sử dụng kéo lên kéo xuống trang.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/6.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/6.png"/></p>
 
 <p align="center">Vị trí tiêu đề được đặt ở trên về phía bên phải và paragraph thì xuất hiện phía trên cùng màn hình</p>
 
@@ -67,11 +67,11 @@
 
 	+ **Fixed Positioning**: Dưới đây là form liên quan đến vị trí tuyệt đối của các phần tử trong cửa sổ trình duyệt, phần tử với vị trí đã được fixes sẽ không làm ảnh hưởng đến các phần tử xung quanh và nó cũng sẽ không bị di chuyển khi người dùng kéo trang lên xuống.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/7.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/7.png"/></p>
 
 - **Floating elements**: 1 phần tử floating cho phép đưa phần tử đó ra khỏi vị trí ban đầu của nó, đặt nó về phía bên trái hoặc bên phải của hộp chứa. Khi float 1 phần tử thì phần tử đó sẽ trở thành phần tử block-level với các nội dung khác có thể flow.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/8.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/8.png"/></p>
 
 **Khi di chuyển bất kì phần tử nào khỏi vị trí bình thường của nó thì các boxs có thể bị chồng chéo lên nhau, thuộc tính `z-index` cho phép kiểm soát sự xuất hiện của các boxs theo cách tốt nhất.**
 
@@ -142,7 +142,7 @@ margin-top: 100px;}
 
 - Trong ví dụ này ta có tiêu đề được đặt trên cùng về bên trái trong góc của cửa sổ trình duyệt. Khi người dùng kéo trang xuống, các đoạn paragraphs sẽ biến mất phía sau tiêu đề. 
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/9.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/9.png"/></p>
 
 #### 2.5 OVERLAPPING ELEMENTS: 
 
@@ -171,7 +171,7 @@ padding: 5px;
 background-color: #efefef;}
 ```
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter15_LAYOUT/image/10.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2015_Layout/image/10.png"/></p>
 
 - Trong đó đoạn thứ tư lại không hiển thị về bên trái của trang mà lại nằm dưới đoạn thứ 3. Để giải quyết vấn đề này thì thiết lập chiều cao của đoạn văn trùng với độ dài cao nhất, nhưng nó không phù hợp lắm. Vậy cách phổ biến hơn hết là sử dụng thuộc tính `clear` để giải quyết vấn đề này.
 

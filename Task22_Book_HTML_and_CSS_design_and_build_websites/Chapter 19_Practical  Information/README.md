@@ -49,7 +49,7 @@ Sau đây là các khái niệm quan trọng giúp cải thiện khả năng hi�
 
 Trong mỗi trang web thì 7 vị trí trọng tâm nơi từ khóa có thể xuất hiện để cải thiện khả năng tìm kiếm nó.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter19_Practical%20%20Information/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2019_Practical%20%20Information/1.png"/></p>
 
 1. **Page Title**: Tiêu đề của trang xuất hiện phía trên đầu cửa sổ trình duyệt hoặc xuất hiện trên tab của trình duyệt. Nó được xác định trong phần tử `<title>` được đặt bên trong phần tử `<head>`.
 

@@ -175,7 +175,7 @@ Thuộc tính Fieldsets rất hữu ích trong việc xác định các cạch c
 
 - Để xem kiểu CSS và cấu trúc HTML trong trang web vào menu CSS của Web Developer Toolbar và chọn xem thông tin
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter14_Lists%20Tables%20%26%20Forms/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter%2014_Lists%20Tables%20%26%20Forms/1.png"/></p>
 
 1. OUTLINES: khi rê chuột qua thuộc tính sẽ hiển thị lên đường viền màu đỏ xung quanh hiển thị không gian mà phần tử đó chiếm.
 
