@@ -2,7 +2,7 @@
 
 > **Category:** Main
 >
-> **Points:** 10
+> **Points:** 
 >
 > **URL:** http://www.hackthis.co.uk/levels/main
 
