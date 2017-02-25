@@ -121,7 +121,7 @@ Một vài trang web hưởng lợi từ việc được truy cập thường xu
 
 **Ví dụ về site map**:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter18_PROCESS%20%26%20DESIGN/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter18_Process%20Design/1.png"/></p>
 
 #### 2.2 Wireframes:
 
@@ -131,7 +131,7 @@ Một vài trang web hưởng lợi từ việc được truy cập thường xu
 
 - Nó không bao gồm màu sắc, font chữ, hình nền... cho trang web mà chỉ tập trung vào những thông tin cần thiết phải tạo trên mỗi trang. Các wireframes làm cho việc thiết kế trở nên dễ dàng hơn bởi chúng ta có thể phân bố được thông tin nào nên xuất hiện trước.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter18_PROCESS%20%26%20DESIGN/2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter18_Process%20Design/2.png"/></p>
 
 <a name="3"></a>
 ### 3. Design:

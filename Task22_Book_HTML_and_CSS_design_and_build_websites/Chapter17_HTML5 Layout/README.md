@@ -22,7 +22,7 @@
 
 #### 1.1 TRADITIONAL HTML LAYOUTS:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_HTML5%20Layout/1.png"/></p>
 
 - Ở hình trên ta có thể thấy được bố cục thông thường được sử dụng cho website. Ở phần đầu của trang là tiêu đề dùng để chứa logo và đường dẫn sơ cấp. Phía dưới là 1 hay nhiều bài viết đôi khi là những liên kết tới bài viết cá nhân.
 
@@ -32,7 +32,7 @@
 
 - HTML5 cung cấp 1 phần tử mới cho phép phân chia các phần của 1 trang, tên của phần tử đó chỉ ra các loại nội dung có thể tìm thấy trong đó. Trong ví dụ dưới đây cũng cung cấp cấu trúc chính xác của trang web tuy nhiền nhiều phần tử `<div>` trong đó đã được thay thế bằng bố trí phần tử HTML5 mới.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_HTML5%20Layout/2.png"/></p>
 
 - Ở ví dụ trên tiêu đề được đặt trong phần tử mới `<header>`, đường dẫn trong phần tử `<nav>` và bài viết cá nhân trong phần tử `<article>`. Điểm mới ở đây là có thể tạo ra các phần tử sử dụng cho mô tả cấu trúc của trang.
 
@@ -85,7 +85,7 @@
 
 `<section>`: phần tử `<section>` nhóm các nội dung liên quan với nhau và thường thì mỗi phần sẽ có heading riêng. Ví dụ trong 1 trang chủ có thể có 1 số phần tử `<section>` để chứa các phần khác nhau của 1 trang chẳng hạn như tin tức mới nhất, các sản phẩm hàng đầu, bản tin...
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/3.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_HTML5%20Layout/3.png"/></p>
 
 - Bởi vì phần tử `<section>` nhóm các mục có liên quan lại với nhau, nó có thể chứa 1 số phần tử `<article>` riêng biệt có chung 1 chủ đề hoặc 1 mục đích. Bên cạnh đó nếu có 1 trang với bài viết dài thì phần tử `<section>` có thể được sử đụng để chia bài viết ra thành các phần riêng biệt. Phần tử `<section>` không nên được sử dụng như bao bọc cho toàn bộ trang web (trừ khi trang chỉ chứa 1 nội dung riêng biệt). Nếu muốn có 1 phần tử chứa toàn bộ trang thì vẫn nên sử dụng phần tử `<div>`.
 
@@ -112,13 +112,13 @@
 
 `<div>`: Phần tử `<div>` vẫn rất quan trọng trong việc nhóm các phần tử có cùng quan hệ vào 1 nhóm, không nên sử dụng có phần tử mới bởi chúng không được cung cấp các quy định rõ ràng.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/4.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_HTML5%20Layout/4.png"/></p>
 
 #### 2.9LINKING AROUND BLOCK-LEVEL ELEMENTS:
 
 HTML5 cho phép tác giả trang web đặt 1 phần tử xung quanh phần tử block level chứa phần tử con, việc này cho phép chuyển toàn bộ từ block thành link
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_LAYOUT/5.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task22_Book_HTML_and_CSS_design_and_build_websites/Chapter17_HTML5%20Layout/5.png"/></p>
 
 <a name="3"></a>
 ### Tài liệu tham khảo
