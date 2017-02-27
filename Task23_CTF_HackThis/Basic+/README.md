@@ -41,7 +41,7 @@
 
 Tại trình duyệt Chrome ta cài đặt user agent và tạo thêm sercure_user_agent.
 
-### Level 3: //Chưa vượt qua
+### Level 3: // to-do
 
 - **URL:**https://www.hackthis.co.uk/levels/basic+/3
 
@@ -79,13 +79,15 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/5.png"/></p>
 
-- **Solution:**Cũng như owr level 5 ta tải về và xem thông tin hình không có gì vậy nên thử mở hình ảnh bằng 1 công cụ khác chẳng hạn như notepad.
+- **Solution:**
 
-	+ username: **admin**
+	+ Cũng như ở level 5 ta tải về và xem thông tin hình không có gì vậy nên thử mở hình ảnh bằng 1 công cụ khác chẳng hạn như notepad.
 
-	+ password: **safe**
+		+ username: **admin**
 
-### Level 6: //chưa vượt qua
+		+ password: **safe**
+
+### Level 6: // to-do
 
 - **URL:**https://www.hackthis.co.uk/levels/basic+/6
 
@@ -95,7 +97,7 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 - **Solution:**
 
-### Level 7: //chưa vượt qua
+### Level 7: // to-do
 
 - **URL:**https://www.hackthis.co.uk/levels/basic+/7
 
