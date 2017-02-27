@@ -105,3 +105,12 @@
 
 ### Level 10
 
+- View source:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Main/image/9.png"/></p>
+
+- Ta thấy giá trị cần tìm được cất trong link: https://www.hackthis.co.uk/levels/extras/level10pass.txt. Ta có kết quả hiển thị như sau:
+
+`69bfe1e6e44821df7f8a0927bd7e61ef208fdb25deaa4353450bc3fb904abd52:f1abe1b083d12d181ae136cfc75b8d18a8ecb43ac4e9d1a36d6a9c75b6016b61`
+
+- Đây là 1 dãy đã được mã hóa bằng MD5, sử dụng https://md5hashing.net/hash/sha256 để tìm ra kết quả.
