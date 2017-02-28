@@ -84,42 +84,43 @@ Các tác nhân tự động này phải tuân theo các quy định được x�
 
 - Để kiểm tra user agent hiện tại có thể vào trang (What's My User Agent)[http://www.whoishostingthis.com/tools/user-agent/] Và user agent hiện tại của mình như sau: 
 
-[1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/1.png"/></p>
 
 #### 1.4 Cách cài đặt User agent cho chrome
 
 - Tải về: 
 
-[2]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/2.png"/></p>
 
 - Vào opition để tạo mới user agent:
 
-[3]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/3.png"/></p>
 
 - Sau khi tạo xong sẽ thấy xuất hiện user agent vừa tạo:
 
-[4]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/4.png"/></p>
 
 - Kiểm tra sau khi thêm:
 
-[5]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/5.png"/></p>
 
 #### 1.5 Cách tạo user agent cho Firefox:
 
 - Tải về:
 
-[6]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/6.png"/></p>
 
 - Tạo thêm user agent mới:
 
-[7]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/7.png"/></p>
+
 
 - Chọn user agent. khi nào thấy quả cầu màu xanh là được:
 
-[8]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/8.png"/></p>
 
 <a name="2"></a>
-### Cookie:
+### 2. Cookie:
 
 - Khái niệm: Cookie là 1 dạng bản ghi được tạo ra và lưu lại trên trình duyệt khi người dùng truy cập 1 trang web. Nó là 1 bộ nhắc nhỏ mà website lưu trữ trên máy tính của bạn có thể định danh cho bạn, khi truy cập vào 1 trang web thay vì việc thường xuyên hỏi lại các thông tin như nhau thì chương trình trên website đó sẽ lưu thông tin vào cookie khi cần thiết sẽ tự động truy vấn cookie. 
 
