@@ -126,9 +126,7 @@ Các tác nhân tự động này phải tuân theo các quy định được x�
 <a name="1.6"></a>
 #### 1.6 Cách cài đặt User agent cho chrome
 
-- Tải về: 
-
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/2.png"/></p>
+- Tải về: https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg?hl=vi
 
 - Vào opition để tạo mới user agent:
 
@@ -145,9 +143,7 @@ Các tác nhân tự động này phải tuân theo các quy định được x�
 <a name="1.7"></a>
 #### 1.7 Cách tạo user agent cho Firefox:
 
-- Tải về:
-
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/6.png"/></p>
+- Tải về: https://addons.mozilla.org/vi/firefox/addon/user-agent-switcher/
 
 - Tạo thêm user agent mới:
 
