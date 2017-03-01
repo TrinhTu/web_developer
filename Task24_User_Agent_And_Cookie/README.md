@@ -206,7 +206,7 @@ Các tác nhân tự động này phải tuân theo các quy định được x�
 
 	- Ảnh hưởng đến sự riêng tư của người dùng, rò rỉ thông tin cá nhân, tăng nguy cơ mất thông tin đăng nhập nếu người khác sử dụng máy tính của bạn, hoặc máy tính bị đánh cắp và xâm nhập.
 
-	-Vậy nên cần thiết lập chế độ bảo mật cho trình duyệt, xóa cookie định kì trên máy tính, session cookie được tự động xóa khi hoàn thành 1 giao dịch sẽ làm giảm nguy cơ lạm dụng thông tin lưu trữ trong cookie, giữ cho trình duyệt được tự động update các bản vá lỗi, cập nhập phần mềm chống phần mềm giả mạo chỉ truy cập vào các trang web tin cậy...
+	- Vậy nên cần thiết lập chế độ bảo mật cho trình duyệt, xóa cookie định kì trên máy tính, session cookie được tự động xóa khi hoàn thành 1 giao dịch sẽ làm giảm nguy cơ lạm dụng thông tin lưu trữ trong cookie, giữ cho trình duyệt được tự động update các bản vá lỗi, cập nhập phần mềm chống phần mềm giả mạo chỉ truy cập vào các trang web tin cậy...
 
 <a name="2.4"></a>
 #### 2.4 Cài đặt một vài Extension/Addon dùng để xem và thay đổi Cookie:
