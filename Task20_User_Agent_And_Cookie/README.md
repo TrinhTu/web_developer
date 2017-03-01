@@ -121,42 +121,42 @@ Các tác nhân tự động này phải tuân theo các quy định được x�
 
 - Để kiểm tra user agent hiện tại có thể vào trang (What's My User Agent)[http://www.whoishostingthis.com/tools/user-agent/] Và user agent hiện tại như sau: 
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/1.png"/></p>
 
 <a name="1.6"></a>
 #### 1.6 Cách cài đặt User agent cho chrome
 
 - Tải về: 
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/2.png"/></p>
 
 - Vào opition để tạo mới user agent:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/3.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/3.png"/></p>
 
 - Sau khi tạo xong sẽ thấy xuất hiện user agent vừa tạo:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/4.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/4.png"/></p>
 
 - Kiểm tra sau khi thêm:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/5.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/5.png"/></p>
 
 <a name="1.7"></a>
 #### 1.7 Cách tạo user agent cho Firefox:
 
 - Tải về:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/6.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/6.png"/></p>
 
 - Tạo thêm user agent mới:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/7.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/7.png"/></p>
 
 
 - Chọn user agent. khi nào thấy quả cầu màu xanh là được:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/8.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/8.png"/></p>
 
 <a name="2"></a>
 ### 2. Cookie:
@@ -217,64 +217,52 @@ Các tác nhân tự động này phải tuân theo các quy định được x�
 
 - Tính năng của công cụ quản lí cookie EditThisCookie là: xóa bất kì Cookie nào, chỉnh sửa thêm mới các Cookie, tìm kiếm bảo vệ và ngăn chặn các Cookie, giới hạn ngày hết hạn tối đa của bất kì cookie nào.
 
-- Thêm EditthisCookie vào Chrome:
-
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/9.png"/></p>
+- Thêm EditthisCookie vào Chrome: https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=vi
 
 - Sau khi thêm tiện ích này vào Chrome thì hiện lên biểu tượng như sau:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/10.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/10.png"/></p>
 
 - Nhấp vào biểu tượng đó để bắt đầu quản lí chỉnh sửa các Cookie của mình. Hiện tại vẫn chưa có Cookie nào nằm trong danh sách được bảo vệ:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/11.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/11.png"/></p>
 
 - Để xem Cookie cho 1 trang web thì mở trình duyệt website lên và click vào EditThisCookie thì sẽ hiện ra 1 cửa sổ hiển thị tất cả các Cookie đang hoạt động trên website đó:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/12.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/12.png"/></p>
 
 - Có thể lựa chọn xóa tất cả các Cookie, thêm mới xuất tìm thông tin cụ thể. Để chỉnh sửa Cookie thì click vào cookie cần chỉnh sửa và thay đổi thông tin cũng như ngày hết hạn của nó.
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/13.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/13.png"/></p>
 
 - Biểu đồ thể hiện sự thay đổi và hoạt động của các Cookie:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/14.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/14.png"/></p>
 
 - Có thể chọn tuổi thọ tối đa cho mỗi Cookie, chặn và xóa tất cả Cookie:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/15.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/15.png"/></p>
 
 
 #### Cài đặt Cookie Manager+ cho Firefox:
 
-- Tương tự như trên ta cài đặt Cookie Manager+ cho Firefox:
-
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/16.png"/></p>
+- Tương tự như trên ta cài đặt Cookie Manager+ cho Firefox: https://addons.mozilla.org/vi/firefox/addon/cookies-manager-plus/
 
 - Để tạo mới 1 Cookie ta chọn New Cookie:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/17.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/17.png"/></p>
 
 - Để thay đổi Cookie chọn vào Cookie đó và Edit nó:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_User_Agent_And_Cookie/image/18.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task20_User_Agent_And_Cookie/image/18.png"/></p>
 
 <a name="3"></a>
 ### Tài liệu tham khảo:
 
-> [1] Wikipedia. User Agent.
+> [1] User Agent. https://en.wikipedia.org/wiki/User_agent
 >
-> Online: https://en.wikipedia.org/wiki/User_agent
+> [2] What is user agent. https://passionery.blogspot.com/2013/08/what-is-user-agent.html
 >
-> [2] Passionery. What is user agent.
+> [3] Cookie là gì lợi ích và rủi ro của Cookie. https://powernet.vn/knowledgebase/26-Cookie-la-gi-loi-ich-va-rui-ro-cua-cookie.html
 >
-> Online: https://passionery.blogspot.com/2013/08/what-is-user-agent.html
->
-> [3] PowerNet. Cookie là gì lợi ích và rủi ro của Cookie
->
-> Online: https://powernet.vn/knowledgebase/26-Cookie-la-gi-loi-ich-va-rui-ro-cua-cookie.html
->
-> [4] Wikipedia. Cookie
->
-> Onine: https://vi.wikipedia.org/wiki/Cookie_(tin_h%E1%BB%8Dc)
+> [4] Cookie. https://vi.wikipedia.org/wiki/Cookie_(tin_h%E1%BB%8Dc)
