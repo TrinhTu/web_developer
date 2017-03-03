@@ -41,7 +41,7 @@
 
 Tại trình duyệt Chrome ta cài đặt user agent và tạo thêm sercure_user_agent.
 
-### Level 3: // to-do
+### Level 3: 
 
 - **URL:**https://www.hackthis.co.uk/levels/basic+/3
 
@@ -50,6 +50,10 @@ Tại trình duyệt Chrome ta cài đặt user agent và tạo thêm sercure_us
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/3.png"/></p>
 
 - **Solution:**
+
+Dùng tamper để thay đổi giá trị 
+
+[3.1]
 
 ### Level 4:
 
