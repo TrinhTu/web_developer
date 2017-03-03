@@ -53,7 +53,8 @@ Tại trình duyệt Chrome ta cài đặt user agent và tạo thêm sercure_us
 
 Dùng tamper để thay đổi giá trị 
 
-[3.1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/3-1.png"/></p>
+
 
 ### Level 4:
 
