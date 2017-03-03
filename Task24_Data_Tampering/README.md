@@ -59,7 +59,7 @@
 
 - Sau khi cài đặt trong thanh công cụ **Tool** chọn **Tamper Data** sẽ hiện lên các thông số như sau:
 
-[1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/1.png"/></p>
 
 - Các thông số này có ý nghĩa như sau:
 
@@ -83,7 +83,7 @@
 
 - Ví dụ như khi ta đăng nhập vào 1 trang web và start Tamper Data lên ta có được thông tin như sau:
 
-[2]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/2.png"/></p>
 
 - Dựa vào thông tin trên ta biết được Host mà ta đăng nhập, user agent, email và hiển thị cả Password... Sử dụng Tamper Data ta có thể thay đổi các thông tin (HTTP request) ví dụ như ở đây ta có thể thay đổi Password or email để cho không thể login thành công.
 
@@ -93,11 +93,11 @@
 
 - Sau khi cài đặt ta vào trong More Tools --> developer tools để chỉnh sửa 1 vài chỗ như sau:
 
-[3]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/3.png"/></p>
 
 - Ngay sau khi chỉnh sửa thì công cụ sẽ hiện lên các thông tin sau:
 
-[4]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/4.png"/></p>
 
 <a name="4"></a>
 ### Tài liệu tham khảo:
