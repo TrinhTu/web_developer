@@ -46,12 +46,10 @@
 - Phương thức POST: 
 
 	+ Lưu ý chuỗi truy vấn (tên/giá trị) được gởi đi trong thông điệp của HTTP của POST request.
-
-```
-POST /test/demo_form.php HTTP/1.1
+ 
+		`POST /test/demo_form.php HTTP/1.1
 Host: w3schools.com
-name1=value1&name2=value2
-```
+name1=value1&name2=value2`
 
 	+ POST requests không được lưu trữ
 
