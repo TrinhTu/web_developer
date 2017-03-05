@@ -35,3 +35,18 @@
 	+ Sử dụng công cụ đó gởi nội dung bằng phương thức POST:
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Imtermediate/image/2-1.png"/></p>
+
+### Level 3:
+
+- **URL**: https://www.hackthis.co.uk/levels/intermediate/3
+
+- **Desciption**:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Imtermediate/image/3.png"/></p>
+
+- **Solution:**
+
+	- Dùng Tampter Data ta thấy nội dung `restricted_login=false` thử thay đổi thành giá trị `true` ta được kết quả đúng.
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Imtermediate/image/3-1.png"/></p>
+
