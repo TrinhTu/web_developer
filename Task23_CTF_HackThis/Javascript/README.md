@@ -14,13 +14,13 @@
 
 - **Desciption**:
 
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Javascript/image/1.png"/></p>
 
 - **Solution:**
 
 	+ View source:
 
-	[a]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Javascript/image/1-1.png"/></p>
 
 Ở đây sau khi chỉnh sửa lại thì đoạn code sẽ như sau:
 
@@ -51,7 +51,7 @@
 
 - **Desciption**:
 
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Javascript/image/2.png"/></p>
 
 - **Solution:**
 
@@ -74,13 +74,15 @@
 
 - Vậy **pass** có độ dài bằng `length`. Dựa vào `Console` tìm được `length` có độ dài bằng 9, vậy chỉ cần nhập 9 kí tự bất kì làm có được password.
 
-[bb]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Javascript/image/2-2.png"/></p>
 
 ### Level 3:
 
 - **URL**: https://www.hackthis.co.uk/levels/javascript/2
 
 - **Description**:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Javascript/image/3.png"/></p>
 
 - **Solution:**
 
@@ -104,6 +106,6 @@
 
 - `pass`= `thecode`
 
-[cc]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Javascript/image/3-3.png"/></p>
 
 Vậy `pass`= `getinthere`
