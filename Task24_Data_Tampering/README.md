@@ -8,18 +8,30 @@
 
 ### Mục lục:
 
-- [1. POST, GET, sự khác nhau và ứng dụng của chúng](#1)
+- [1. POST & GET](#1)
 
-- [2. Tìm hiểu về Data Tampering](#2)
+- [2. Data Tampering](#2)
 
 - [3. Cài đặt Addon/Extension dùng để Tamper Data trên Firefox/Chrome](#3)
+
+	- [3.1 Firefox](#3.1)
+
+		+ [3.1.1 Tamper Data](#3.1.1)
+
+		+ [3.1.2 Httprequester](#3.1.2)
+
+	- [3.2 Chrome](#3.2)
+
+		+ [3.2.1 Tamper Chrome application](#3.2.1)
+
+		+ [3.2.2 Web-sniffer](#3.2.2)
 
 - [Tài liệu tham khảo](#4)
 
 ***
 
 <a name="1"></a>
-### 1. POST, GET:
+### 1. POST & GET:
 
 - 2 phương thức thường được sử dụng cho request và reponse giữa client và server là GET và POST.
 
@@ -84,9 +96,11 @@ name1=value1&name2=value2`
 <a name="3"></a>
 ### 3. Cài đặt Add-on dùng để Tamper Data::
 
+<a name="3.1"></a>
 #### 1. Firefox:
 
-1.1 Tamper Data:
+<a name="3.1.1"></a>
+**1.1 Tamper Data:**
 
 - Download:
 
@@ -120,7 +134,8 @@ name1=value1&name2=value2`
 
 - Dựa vào thông tin trên ta biết được Host mà ta đăng nhập, user agent, email và hiển thị cả Password... Sử dụng Tamper Data ta có thể thay đổi các thông tin (HTTP request) ví dụ như ở đây ta có thể thay đổi Password or email để cho không thể login thành công.
 
-1.2 Httprequester:
+<a name="3.1.2"></a>
+**1.2 Httprequester:**
 
 - Download: https://addons.mozilla.org/vi/firefox/addon/httprequester/
 
@@ -128,9 +143,11 @@ name1=value1&name2=value2`
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/2-1.png"/></p>
 
+<a name="3.2"></a>
 #### 2. Chrome:
 
-2.1 Tamper Chrome (application):
+<a name="3.2.1"></a>
+**2.1 Tamper Chrome (application):**
 
 - Download: https://chrome.google.com/webstore/detail/tamper-chrome-extension/hifhgpdkfodlpnlmlnmhchnkepplebkb/related?hl=vi
 
@@ -142,7 +159,8 @@ name1=value1&name2=value2`
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/4.png"/></p>
 
-2.1 Web-sniffer:
+<a name="3.2.2"></a>
+**2.1 Web-sniffer:**
 
 - Download: https://chrome.google.com/webstore/detail/web-sniffer/ndfgffclcpdbgghfgkmooklaendohaef
 
