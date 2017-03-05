@@ -57,7 +57,7 @@
 
 	+ View source:
 
-```
+```javascript
 <script type='text/javascript'>
     $(function() {
         $('.level-form').submit(function(e) {
