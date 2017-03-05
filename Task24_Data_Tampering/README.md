@@ -106,7 +106,7 @@ name1=value1&name2=value2`
 
 - Sau khi cài đặt trong thanh công cụ **Tool** chọn **Tamper Data** sẽ hiện lên các thông số như sau:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/image/1.png"/></p>
 
 - Các thông số này có ý nghĩa như sau:
 
@@ -130,7 +130,7 @@ name1=value1&name2=value2`
 
 - Ví dụ như khi ta đăng nhập vào 1 trang web và start Tamper Data lên ta có được thông tin như sau:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/image/2.png"/></p>
 
 - Dựa vào thông tin trên ta biết được Host mà ta đăng nhập, user agent, email và hiển thị cả Password... Sử dụng Tamper Data ta có thể thay đổi các thông tin (HTTP request) ví dụ như ở đây ta có thể thay đổi Password or email để cho không thể login thành công.
 
@@ -141,7 +141,7 @@ name1=value1&name2=value2`
 
 - Cũng tương tự như công cụ trên, ta chỉ việc mở 1 trang web bất kì và dán URL vào:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/2-1.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/image/2-1.png"/></p>
 
 <a name="3.2"></a>
 #### 2. Chrome:
@@ -153,11 +153,11 @@ name1=value1&name2=value2`
 
 - Sau khi cài đặt ta vào trong More Tools --> developer tools để chỉnh sửa 1 vài chỗ như sau:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/3.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/image/3.png"/></p>
 
 - Ngay sau khi chỉnh sửa thì công cụ sẽ hiện lên các thông tin sau:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/4.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/image/4.png"/></p>
 
 <a name="3.2.2"></a>
 **2.1 Web-sniffer:**
@@ -166,7 +166,7 @@ name1=value1&name2=value2`
 
 - Mở công cụ lên và chạy nó:
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/4-2.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/image/4-2.png"/></p>
 
 <a name="4"></a>
 ### Tài liệu tham khảo:
