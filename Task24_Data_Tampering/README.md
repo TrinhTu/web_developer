@@ -21,27 +21,60 @@
 <a name="1"></a>
 ### 1. POST, GET:
 
-#### 1.1 Khái niệm:
+- 2 phương thức thường được sử dụng cho request và reponse giữa client và server là GET và POST.
 
-**POST:** Một yêu cầu POST được sử dụng để gởi dữ liệu tới Server ví dụ như thông tin khách hàng, file tải lên,... sử dụng các mẫu HTML
+	- GET: Các yêu cầu dữ liệu từ 1 nguồn chỉ định
 
-**GET:**Phương thức GET được sử dụng để lấy thông tin từ Server đã cung cấp bởi sử dụng 1 URL đã cung cấp, các yêu cầu sử dụng GET chỉ nhận dữ liệu nên không làm ảnh hưởng tới dữ liệu.
+	- POST: gởi dữ liệu để xử lý tới 1 nguồn nhất định
 
-#### 1.2 So sánh:
+- Phương thức GET:
 
-- **Giống nhau:** Đều gởi dữ liệu tới server để xử lí sau khi người dùng nhập thông tin vào Form và thực hiện lệnh Submit
+	+ Lưu ý chuỗi truy vấn (tên/ giá trị) được gởi từ URL của yêu cầu GET: `/test/demo_form.php?name1=value1&name2=value2`
 
-- **Khác nhau:**
+	+ GET requests có thể được lưu giữ
 
-	+ Phương thức POST được bảo mật hơn GET vì nếu dữ liệu gởi nhầm thì sẽ không xuất hiện trên URL
+	+ GET requests vẫn được lưu lại trong lịch sử trình duyệt
 
-	+ GET: dữ liệu được gởi đi tường minh hơn hiện trên URL, kém bảo mật hơn so với POST
+	+ GET requests có thể được bookmarked (đánh dấu lưu lại)
 
-	+ GET thực thi nhanh hơn POST vì những dữ liệu được gởi đi luôn được trình duyệt web cached lại
+	+ GET requests không nên sử dụng để gởi các dữ liệu nhạy cảm
 
-	+ Khi dùng phương thức POST thì server luôn thực thi kết quả trả về cho client, còn đối với phương thức GET thì trình duyệt web sẽ xem trong cached có kết quả tương ứng với yêu cầu đó hay không và trả về ngay mà không cần thực thi các yêu cầu đó ở server.
+	+ GET requests có hạn chế về chiều dài dữ liệu
 
-	+ Đối với những dữ liệu luôn được thay đổi thì nên sử dụng phương thức POST, còn dữ liệu ít được thay đổi thì sử dụng phương thức GET để truy xuất và xử lí nhanh hơn.
+	+ GET requests được sử dụng để lấy lại dữ liệu
+
+- Phương thức POST: 
+
+	+ Lưu ý chuỗi truy vấn (tên/giá trị) được gởi đi trong thông điệp của HTTP của POST request.
+
+```
+POST /test/demo_form.php HTTP/1.1
+Host: w3schools.com
+name1=value1&name2=value2
+```
+
+	+ POST requests không được lưu trữ
+
+	+ POST requests không lưu lại trong lịch sử trình duyệt
+
+	+ POST requests không thể bookmarked
+
+	+ POST requests không bị giới hạn về chiều dài dữ liệu
+
+- So sánh giữa GET và POST:
+
+|   	|  GET 	|  POST 	|
+|---	|---	|---	|
+|   Khi tải lại trang hoặc nhấn nút back	|   	Không ảnh hưởng|  Dữ liệu sẽ được gởi thêm 1 lần nữa 	|
+|   Bookmarked	|   Có thể bookmarked	|   Không thể bookmarked	|
+|   Cached	|   Có thể được lưu trữ	|   Không thể được lưu trữ	|
+|  Kiểu Encoding 	|  application/x-www-form-urlencoded 	| application/x-www-form-urlencoded or multipart/form-data. Sử dụng mã hóa dữ liệu theo nhị phân  	|
+|  History 	|  Các thông số vẫn được lưu lại trong trình duyệt 	|   Các thông số không được lưu lại trong trình duyệt	|
+|   	Giới hạn độ dài dữ liệu|   Khi gởi dữ liệu bằng phương thức GET thì sẽ thêm dữ liệu vào trong URL và độ dài tối đa của URL là 2048 kí tự	|   Không bị giới hạn	|
+|   Hạn chế trong kiểu dữ liệu	|   Chỉ cho phép bảng mã ASCII	|   Không bị hạn chế, cho phép cả dữ liệu nhị phân	|
+|   Security	|   GET kém bảo mật hơn so với POST vì dữ liệu hiển thị 1 phần trong URL nên không dùng GET để gởi những dữ liệu mang tính nhạy cảm	|   POST an toàn hơn so với GET vì thông số không được lưu trữ trong trình duyệt	|
+| Visibility  	| Dữ liệu được hiển thị trong URL  	|   Dữ liệu không được hiển thị trong URL	|
+
 
 <a name="2"></a>
 ### 2. Data Tampering:
@@ -55,7 +88,9 @@
 
 #### 1. Firefox:
 
-- Download Tamper Data tại đây và restart lại trình duyệt: https://addons.mozilla.org/En-us/firefox/addon/tamper-data/
+1.1 Tamper Data:
+
+- Download:
 
 - Sau khi cài đặt trong thanh công cụ **Tool** chọn **Tamper Data** sẽ hiện lên các thông số như sau:
 
@@ -87,7 +122,17 @@
 
 - Dựa vào thông tin trên ta biết được Host mà ta đăng nhập, user agent, email và hiển thị cả Password... Sử dụng Tamper Data ta có thể thay đổi các thông tin (HTTP request) ví dụ như ở đây ta có thể thay đổi Password or email để cho không thể login thành công.
 
+1.2 Httprequester:
+
+- Download: https://addons.mozilla.org/vi/firefox/addon/httprequester/
+
+- Cũng tương tự như công cụ trên, ta chỉ việc mở 1 trang web bất kì và dán URL vào:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/2-1.png"/></p>
+
 #### 2. Chrome:
+
+2.1 Tamper Chrome (application):
 
 - Download: https://chrome.google.com/webstore/detail/tamper-chrome-extension/hifhgpdkfodlpnlmlnmhchnkepplebkb/related?hl=vi
 
@@ -99,6 +144,14 @@
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/4.png"/></p>
 
+2.1 Web-sniffer:
+
+- Download: https://chrome.google.com/webstore/detail/web-sniffer/ndfgffclcpdbgghfgkmooklaendohaef
+
+- Mở công cụ lên và chạy nó:
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task24_Data_Tampering/4-2.png"/></p>
+
 <a name="4"></a>
 ### Tài liệu tham khảo:
 
@@ -109,3 +162,5 @@
 > [3] Change Form Post Data using Firefox Plugin Tamper Data. https://www.youtube.com/watch?v=xjOqcHvfjLU
 >
 > [4] How to use Tamper Data. https://www.youtube.com/watch?v=EcTTNWVYOiA
+>
+> [5] HTTP method. https://www.w3schools.com/tags/ref_httpmethods.asp
