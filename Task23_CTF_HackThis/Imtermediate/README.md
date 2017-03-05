@@ -14,7 +14,7 @@
 
 - **Desciption**:
 
-[1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Imtermediate/image/1.png"/></p>
 
 - **Solution**:
 
@@ -26,7 +26,7 @@
 
 - **Desciption**:
 
-[2]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Imtermediate/image/2.png"/></p>
 
 - **Solution**:
 
@@ -34,5 +34,4 @@
 
 	+ Sử dụng công cụ đó gởi nội dung bằng phương thức POST:
 
-	[2-1]
-	
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Imtermediate/image/2-1.png"/></p>
