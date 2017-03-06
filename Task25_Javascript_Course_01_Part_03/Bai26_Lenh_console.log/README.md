@@ -28,18 +28,23 @@ var website = 'letutrinh';
 console.log(website);
 ```
 
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai26_Lenh_console.log/image/1.png"/></p>
+
 **Ví dụ 2**: console.log() một mảng
 
 ```
 var website = ["Tú Trinh", "Trinh Tú", "Lê Tú", "Trinh Lê"];
 console.log(website);
 ```
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai26_Lenh_console.log/image/2.png"/></p>
 
 **Ví dụ 3**: console.log() một giá trị
 
 ```
 console.log("Chào mừng đến với trang web của Trinh");
 ```
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai26_Lenh_console.log/image/3.png"/></p>
 
 **Ví dụ 4**: console.log() một object
 
@@ -51,6 +56,7 @@ var info = {
 };
 console.log(info);
 ```
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai26_Lenh_console.log/image/4.png"/></p>
 
 Việc sử dụng hàm `console.log()` giúp in ra tất cả giá trị của 1 biến để dễ dàng cho việc debug.
 
