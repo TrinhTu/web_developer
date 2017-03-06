@@ -16,6 +16,7 @@
 
 ***
 
+<a name="1"></a>
 ### 1. Lệnh Break trong Javascript:
 
 Lệnh break có tác dụng là dừng vòng lặp thoát khỏi vòng lặp mặc dù nội dung của vòng lặp vẫn đang đúng, không quan tâm đến điều kiện lặp. Lệnh break sử dụng cho mọi vòng lặp như: for, while, và do while,...
@@ -33,7 +34,7 @@ for (var i = 1; i <= 10; i++)
 }
 ```
 
-[1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai27_Lenh_break_continue/image/1.png"/></p>
 
 **Ví dụ 2:**Vòng lặp while bị nhảy ra khỏi vòng lặp khi biến `i` chia hết cho 9
 
@@ -49,9 +50,9 @@ while (i <= 1000)
 	i++;
 }
 ```
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai27_Lenh_break_continue/image/2.png"/></p>
 
-[2]
-
+<a name="2"></a>
 ### 2. Lệnh continue trong Javascript:
 
 Lệnh này dùng để bỏ qua 1 bước lặp nào đó, tức là lúc gặp lệnh continue thì tất cả đoạn code bên dưới sẽ không được thực hiện, nó sẽ chuyển sang 1 vòng lặp mới.
@@ -67,7 +68,7 @@ for (var i = 1; i <= 10; i ++)
 	document.write(i + "-");
 }
 ```
-[3]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai27_Lenh_break_continue/image/3.png"/></p>
 
 **Ví dụ 2:** Vòng lặp while bỏ qua bước lặp nếu `i`chia hết cho 9
 
@@ -85,5 +86,8 @@ while (i <= 100)
     i++;
 }
 ```
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai27_Lenh_break_continue/image/4.png"/></p>
 
-[4]
+### Tài liệu tham khảo:
+
+> [1] Lệnh break-continue trong javascript.http://freetuts.net/lenh-break-continue-trong-javascript-382.html
