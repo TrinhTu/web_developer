@@ -86,7 +86,7 @@ Text node là 1 node đặc biệt, không phải là 1 thẻ HTML thường mà
     // Đưa thẻ h1 vào trong thẻ body
     document.getElementsByTagName('body')[0].appendChild(h1);
           
-        </script>
+</script>
 ```
 <a name="3"></a>
 ### 3. DOM Node - Các phương thức khác:
@@ -109,7 +109,7 @@ Text node là 1 node đặc biệt, không phải là 1 thẻ HTML thường mà
 	</script>
 ```
 
-[1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai28_DOM_Nodes/1.png"/></p>
 
 <a name="3.2"></a>
 #### 3.2 Phương thức insertBefore():
@@ -140,7 +140,7 @@ Text node là 1 node đặc biệt, không phải là 1 thẻ HTML thường mà
 	</script>
 ```
 
-[2]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai28_DOM_Nodes/2.png"/></p>
 
 <a name="3.3"></a>
 #### 3.3 Phương thức removeChild():
