@@ -1,4 +1,4 @@
-## Bài 28: BOM LÀ GÌ? BOM TRONG JAVASCRIPT
+## Bài 29: BOM LÀ GÌ? BOM TRONG JAVASCRIPT
 
 > Tài liệu: BOM là gì? BOM trong javascript
 >
