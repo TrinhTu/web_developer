@@ -64,7 +64,7 @@ var height = window.innerHeight
 
 Dấu `||` nghĩa là nếu vế trái không thực hiện được sẽ lấy vế phải, đến khi lấy được thì dừng.
 
-[3]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai30_BOM_window/3.png"/></p>
 
 <a name="2"></a>
 ### 2. Thao tác với 1 cửa sổ của window:
