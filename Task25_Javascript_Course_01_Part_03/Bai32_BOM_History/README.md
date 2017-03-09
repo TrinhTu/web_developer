@@ -19,7 +19,7 @@
 ***
 
 <a name="1"></a>
-### History trong Javascript:
+### 1. History trong Javascript:
 
 Cũng như `location`, `history` cũng là 1 thành phần con của window nên thông qua đối tượng window để thao tác với `history`. `window.history`
 
