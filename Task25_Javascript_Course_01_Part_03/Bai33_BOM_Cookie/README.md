@@ -100,7 +100,7 @@ document.cookie = "domain=github.com";
 Trong Javascript không có hàm xóa Cookie mà thay vào đó là sử dụng từ khóa `expires` để thiết lập thời gian sống cho cookie là khoảng thời gian đã qua.
 
 <a name="3"></a>
-### Viết hàm xử lí Cookie trong Javascript:
+### 3. Viết hàm xử lí Cookie trong Javascript:
 
 Vì Cookie được lưu trữ ở dạng chuỗi `key=value` và các chuỗi giá trị cách nhau bởi dấu chấm phẩy nên để lấy 1 giá trị nào đó thì phải xử lí chuỗi rất phức tạp, vậy nên ta thường viết hàm tạo và lấy Cookie để sử dụng được nhiều lần.
 
