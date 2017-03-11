@@ -41,7 +41,7 @@ var domain = 'chuoi \'string\'';
 
 Ngoài ra còn nhiều kí hiệu kết hợp với dấu `\` như trong bảng dưới đây:
 
-[4]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task25_Javascript_Course_01_Part_03/Bai37_Chuoi_String/4.png"/></p>
 
 <a name="2"></a>
 ### 2. Nối chuỗi trong Javascript:
