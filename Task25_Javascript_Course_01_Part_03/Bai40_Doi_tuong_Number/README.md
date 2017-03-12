@@ -20,7 +20,7 @@
 
 	- [2.4 Numbers - Objects](#2.4)
 
-- [3. Tài liệu tham khảo](#3)
+- [Tài liệu tham khảo](#3)
 
 ***
 
