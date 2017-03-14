@@ -90,7 +90,7 @@ Hầu hết các dịch vụ có thể được cấu hình để sử dụng c�
 
 Nó sẽ cung cấp 1 danh sách các cổng thông dụng và các dịch vụ có liên quan của họ:
 
-[1]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task26_Nmap_Port_Scanning/image/1.png"/></p>
 
 ### Cách kiểm tra cổng mở riêng:
 
@@ -115,7 +115,7 @@ sudo apt-get install nmap
 
 Một trong những lợi ích của phần mềm này là cung cấp 1 bản đồ tập tin ngày càng được cải thiện. Có thể thấy được mối liên hệ rộng hơn giữa port và services bằng cách sử dụng câu lệnh: `less /usr/share/nmap/nmap-services`
 
-[2]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task26_Nmap_Port_Scanning/image/2.png"/></p>
 
 Bên cạnh 2 ngàn dòng thì file này thêm vào các trường ví dụ như ở cột thứ 3 - 1 danh sách các cổng mở được phát hiện ra trong quá trình nghiên cứu scan trên Internet.
 
