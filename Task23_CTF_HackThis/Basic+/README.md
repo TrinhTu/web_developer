@@ -92,7 +92,7 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 		+ password: **safe**
 
-### Level 6: // to-do
+### Level 6: 
 
 - **URL:**https://www.hackthis.co.uk/levels/basic+/6
 
@@ -100,7 +100,19 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/6.png"/></p>
 
-- **Solution:**
+- **Solution:** 
+
+	+ Cài đặt Nmap trên máy ảo CentOS 6.5
+
+	+ Sau đó thực hiện câu lệnh: `nmap www.hackthis.co.uk` để tìm được địa chỉ IP
+
+	+ Thực hiện câu lệnh : `host -a www.hackthis.co.uk` để tìm host của server.
+
+	+ Xem các gợi ý và biết được X-B6-Key header được cất trong gmail --> hiển thị thư gốc lên và tìm được key.
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/6.1.png"/></p>
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/6.2.png"/></p>
 
 ### Level 7: // to-do
 
@@ -109,6 +121,5 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 - **Description:**
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/7.png"/></p>
-
 
 - **Solution:**
