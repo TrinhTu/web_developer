@@ -114,7 +114,7 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/6.2.png"/></p>
 
-### Level 7: // to-do
+### Level 7: 
 
 - **URL**: https://www.hackthis.co.uk/levels/basic+/7
 
@@ -123,3 +123,9 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 <p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/7.png"/></p>
 
 - **Solution:**
+
+	+ Thực hiện câu lệnh để Scan toàn bộ các cổng từ 1 --> 65535: `nmap -sV 85.159.213.101 -p 65535`
+
+	+ Sau khi hoàn tất quá trình ta tìm được **NEXT SERVICE FINGERPRINT** là cổng 6776 và đáp án tìm được là: `mapthat`
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task23_CTF_HackThis/Basic%2B/image/7.1.png"/></p>
