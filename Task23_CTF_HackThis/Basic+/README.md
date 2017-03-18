@@ -10,7 +10,7 @@
 
 ### Level 1: 
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/1
+- **URL**: https://www.hackthis.co.uk/levels/basic+/1
 
 - **Description:**
 
@@ -25,7 +25,7 @@
 
 ### Level 2:
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/2
+- **URL**: https://www.hackthis.co.uk/levels/basic+/2
 
 - **Description:**
 
@@ -43,7 +43,7 @@ Tại trình duyệt Chrome ta cài đặt user agent và tạo thêm sercure_us
 
 ### Level 3: 
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/3
+- **URL**: https://www.hackthis.co.uk/levels/basic+/3
 
 - **Description:**
 
@@ -58,7 +58,7 @@ Dùng tamper để thay đổi giá trị
 
 ### Level 4:
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/4
+- **URL**: https://www.hackthis.co.uk/levels/basic+/4
 
 - **Description:**
 
@@ -78,7 +78,7 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 ### Level 5: 
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/5
+- **URL**: https://www.hackthis.co.uk/levels/basic+/5
 
 - **Description:**
 
@@ -94,7 +94,7 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 ### Level 6: 
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/6
+- **URL**: https://www.hackthis.co.uk/levels/basic+/6
 
 - **Description:**
 
@@ -116,7 +116,7 @@ Không còn thông tin gì thêm nên try hard username: `james` và password: `
 
 ### Level 7: // to-do
 
-- **URL:**https://www.hackthis.co.uk/levels/basic+/7
+- **URL**: https://www.hackthis.co.uk/levels/basic+/7
 
 - **Description:**
 
