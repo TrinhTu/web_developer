@@ -28,6 +28,8 @@
 
 	- [3.2 UDP scan](#3.2)
 
+- [4. 6 trạng thái của cổng được xác định bởi Nmap](#4)
+
 - [Tài liệu tham khảo](#4)
 
 ***
@@ -252,8 +254,25 @@ Lựa chọn port và thứ tự quét: mặc định nmap sẽ quét 1000 port 
 - Tùy chọn -r: thứ tự quét các port từ thấp lên cao thay vì mặc định là ngẫu nhiên.
 
 <a name="4"></a>
+### 4. 6 trạng thái của cổng được xác định bởi Nmap là:
+
+- **open**: Khi scan sẽ bắt gặp trạng thái này, luôn có ở các port 20,21(FTP) hay 80(HTTP)... Vì nó được mở nên attacker sẽ tấn công từ đây và các nhà quản trị, bảo mật cố gắng bảo vệ chúng bằng cách đặt tường lửa nhằm ngăn cản scan tuy nhiên hiện nay có quá nhiều tool scan xuyên qua cả tường lửa. Các port ở trạng thái này thường được quan tâm trong quá trình scan vì bên cạnh đó chúng còn cung cấp các dịch vụ khác được sử dụng trên hệ thống mạng đó.
+
+- **closed**: port ở trạng thái này có thể sử dụng được, nó nhận và trả lời các gói tin thăm dò của Nmap, tuy nhiên chúng không biết port này đang chạy dịch vụ nào, các port ở trạng thái này có thể được mở lại bởi các nhà quản trị. Để bảo vệ chúng có thể đặt firewall, khi đó chúng ở trạng thái filtered.
+
+- **filtered**: Nmap sẽ không thể xác định được port nào đang ở trạng thái Open bởi khi bạn sử dụng Nmap gởi các gói tin đến thăm dò thì nó sẽ được lọc, chặn trước khi tới các port ở trạng thái Filtered này. Filtered có thể từ 1 thiết bị tường lửa, rules router hay các phần mềm tường lửa dựa trên máy chủ. Các cổng này rất ít thu hút attacker bởi chúng chứa rất ít thông tin. Đôi khi trả lời lại với các lỗi ICMP như loại mã 3 loại 13. điều này làm cho quá trình scan diễn ra chậm hơn.
+
+- **unfiltered**: Các port ở trạng thái này có thể sử dụng được nhưng Nmap không thể xác định được nó đóng hay mở. Scan các port Unfilerd với các kiểu scan như Window Scan, SYN steath... giúp tìm được những port nào được mở.
+
+- **open|filtered**: Nmap sẽ xác định port ở trạng thái Open/Filtered khi không xác định được port ở trạng thái Open hoặc Filtered. Trạng thái này xảy ra với các kiểu scan mà các port ở trạng thái Open không trả lời lại, việc không trả lời lại có thể do các gói tin đã bị chặn --> Filtered. Các kiểu scan nhằm hỗ trợ bao gồm UDP scan, IP Protocol scan, NULL scan và Xmas Tree Scan.
+
+- **closed|filtered**: đây là trạng thái được sử dụng khi Nmap không có khả năng xác định cổng là closes hay filtered. Nó được sử dụng cho việc quét IPID Idle.
+
+<a name="4"></a>
 ### Tài liệu tham khảo:
 
 > [1] Nmap port scanning. https://nmap.org/book/man-port-scanning-techniques.html
 >
 > [2] How to use nmap to scan for open ports on your vps. https://www.digitalocean.com/community/tutorials/how-to-use-nmap-to-scan-for-open-ports-on-your-vps
+>
+> [3] man port scanning basics. https://nmap.org/book/man-port-scanning-basics.html
