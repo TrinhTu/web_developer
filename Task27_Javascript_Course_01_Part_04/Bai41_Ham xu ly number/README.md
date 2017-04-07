@@ -4,7 +4,7 @@
 >
 > Người thực hiện: Lê Tú Trinh
 >
-> Cập nhập lần cuối: 
+> Cập nhập lần cuối: 07/04/2017
 
 ### Mục lục: 
 
@@ -156,7 +156,7 @@ x.toFixed(4); // returns 5.6560
 x.toFixed(6); // returns 5.656000
 ```
 
-<a name="2.3"><
+<a name="2.3"></a>
 #### 2.3 toPrecision(n)
 
 - Hàm này có tác dụng chuyển 1 số thành 1 số có chiều dài n, hàm này khác với hàm `toFixed()` ở chỗ hàm `toFixed()` chuyển thành số có n số lẻ phía sau. Lưu ý tham số `n`  luôn luôn lớn hơn `0`, nếu không truyền tham số vào thì mặc định nó sẽ lấy luôn chiều dài ban đầu.
@@ -171,7 +171,7 @@ x.toPrecision(4); // returns 5.656
 x.toPrecision(6); // returns 5.65600
 ```
 
-<a name="2.4"><
+<a name="2.4"></a>
 #### 2.4 valueOf():
 
 - Hàm này có tác dụng lấy giá trị của 1 biến hoặc 1 giá trị khác, hàm này không được sử dụng nhiều bởi thường lấy giá trị trực tiếp. Ngoài kiểu Number thì hàm còn có thể được sử dụng với  các kiểu dữ liệu khác.
@@ -185,6 +185,7 @@ x.valueOf(); // returns 135
  
 (2 + 3).valueOf(); // returns 5
 ```
+
 <a name="3"></a>
 ### Tài liệu tham khảo:
 
