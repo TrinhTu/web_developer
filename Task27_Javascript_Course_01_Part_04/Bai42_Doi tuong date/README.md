@@ -91,7 +91,7 @@ var ISO_2 = new Date("2014-11");
 var ISO_3 = new Date("2014");
 ```
 
-<a name="2.2"><
+<a name="2.2"></a>
 #### 2.2 Định dạng Long:
 
 - Định dạng này truyền vào với tên của tháng là 3 chữ cái đầu tiên ghi bằng tiếng anh, có thể đặt vị trí của nó bất kì vì đối tượng Date có thể tự nhận diện và chuyển đổi.
