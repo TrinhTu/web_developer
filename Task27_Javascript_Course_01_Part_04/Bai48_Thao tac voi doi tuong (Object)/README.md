@@ -27,7 +27,7 @@
 <a name="1"></a>
 ### 1. Thao tác với đối tượng (Object) trong Javascript:
 
-**Đề bài**: Viết chương trình quản lý sinh viên gồm các thao tác chính như sau:
+- **Đề bài**: Viết chương trình quản lý sinh viên gồm các thao tác chính như sau:
 
     + Xem danh sách sinh viên
     
