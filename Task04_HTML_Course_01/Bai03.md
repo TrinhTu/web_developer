@@ -6,7 +6,7 @@
 > 
 > Cập nhật lần cuối: **14/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Thẻ khai báo loại tập tin](#the01)
 

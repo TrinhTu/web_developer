@@ -1,6 +1,6 @@
-## BÀI 48: THAO TÁC VỚI ĐỐI TƯỢNG (OBJECT) TRONG JAVASCRIPT
+## BÀI 47: ĐỐI TƯỢNG (OBJECT) TRONG JAVASCRIPT
 
-> Tài liệu: Thao tác với đối tượng (Object) trong Javascript
+> Tài liệu: Đối tượng (Object) trong javascript
 >
 > Người thực hiện: Lê Tú Trinh
 >
@@ -8,155 +8,311 @@
 
 ### Mục lục: 
 
-- [1. Thao tác với đối tượng (Object) trong Javascript](#1)
+- [1. Đối tượng (Object) là gì?](#1)
 
-	+ [1.1 Hàm xem đối tượng sinh viên](#1.1)
+    + [1.1 Khởi tạo đối tượng](#1.1)
 
-	+ [1.2 Hàm thêm đối tượng sinh viên](#1.2)
+- [2. Thuộc tính và phương thức đối tượng](#2)
 
-	+ [1.3 Hàm xóa đối tượng sinh viên](#1.3)
+    + [2.1 Thuộc tính](#2.1)
 
-	+ [1.4 Hàm sửa đối tượng sinh viên](#1.4)
+    + [2.2 Phương thức](#2.2)
 
-	+ [1.5 Sử dụng đối tượng sinh viên](#1.5)
+    + [2.3 Xem danh sách phương thức và thuộc tính](#2.3)
 
-- [Tài liệu tham khảo](#2)
+- [3. Thao tác với thuộc tính và phương thức đối tượng](#3)
+
+    + [3.1 Gán giá trị cho thuộc tính](#3.1)
+
+    + [3.2 Lấy giá trị của thuộc tính](#3.2)
+
+    + [3.3 Gọi phương thức](#3.3)
+
+- [4. Mảng chứa đối tượng - đối tượng chứa đối tượng](#4)
+
+    + [4.1 Đối tượng chứa đối tượng](4.1)
+
+    + [4.2 Mảng chứa đối tượng](#4.2)
+
+- [Tài liệu tham khảo](#5)
 
 ***
 
 <a name="1"></a>
-### 1. Thao tác với đối tượng (Object) trong Javascript:
+### 1. Đối tượng (Object) là gì?
 
-**Đề bài**: Viết chương trình quản lý sinh viên gồm các thao tác chính như sau:
+- Đối tượng thể hiện cho 1 đối tượng cụ thể và có sẵn ví dụ như Date, Number... Ngoài các đối tượng trên thì lập trình viên còn có thể tạo 1 đối tượng theo ý mình dựa vào yêu cầu, Ví dụ cần tạo đối tượng chuyên xử lí vấn đề về bình luận cho trang tin tức thì tạo đối tượng Commnet.
 
-    + Xem danh sách sinh viên
-    
-    + Thêm sinh viên
-    
-    + Xóa sinh viên khỏi danh sách
-    
-    + Sửa thông tin sinh viên
+<a name="1.1"></a>
+#### 1.1 Khởi tạo đối tượng:
 
-- Với mỗi sinh viên cần lưu trữ các thông tin sau:
+Có 2 cách tạo đối tượng:
 
-    + Mã sinh viên
-    
-    + Tên sinh viên
-    
-    + Emai
+- **Cách 1**: Sử dụng từ khóa `new Object()`
 
-- Xác định các thuộc tính của đối tượng - thông tin lưu trữ của sinh viên --> cấu trúc của đối tượng như sau:
+`var Comment = new Object();`
+
+- **Cách 2**: Sử dụng từ khóa `{}`
+
+`var Comment = {};`
+
+<a name="2"></a>
+### 2. Thuộc tính và phương thức đối tượng:
+
+Mỗi đối tượng sẽ bao gồm các thuộc tính và phương thức.
+
+<a name="2.1"></a>
+#### 2.1 Thuộc tính
+
+- Thuộc tính làm những đặc điểm (biến) cần được lưu trữ trong đối tượng, ví dụ với đối tượng Comment thì cần các thuộc tính sau: title, content, fullname, email...
+
+Có 3 cách khai báo:
+
+- **Cách 1**: Sử dụng từ khóa `new Object`
 
 ```javascript
-var Student = {
-    data : [],
-    viewStudent : function(){
-        // Xem danh sách sinh viên
+// Khởi tạo
+var Comment = new Object();
+ 
+// Thêm thuộc tính
+Comment.title = '';
+Comment.content = '';
+Comment.fullname = '';
+Comment.email = '';
+```
+
+- **Cách 2**: Sử dụng từ khóa `{}` và thêm thuộc tính vào lúc khai báo.
+
+```javascript
+// Khởi tạo
+var Comment = {
+    title : "",
+    content : "",
+    fullname : "",
+    email : ""
+};
+```
+
+- **Cách 3**: Sử dụng từ khóa `{}` và thêm thuộc tính sau đó
+
+```javascript
+// Khởi tạo
+var Comment = {};
+ 
+// Thêm thuộc tính
+Comment.title = '';
+Comment.content = '';
+Comment.fullname = '';
+Comment.email = '';
+```
+
+<a name="2.2"></a>
+#### 2.2 Phương thức
+
+- Phương thức là những hành động (hàm) của đối tượng. Ví dụ trong đối tượng Comment cần hai phương thức là: 
+
+    + addComment()
+    
+    + validateComment()
+
+Có 3 cách khai báo thuộc tính:
+
+- **Cách 1**: Sử dụng từ khóa `new Object()`
+
+```javascript
+// Khởi tạo
+var Comment = new Object();
+ 
+// Thêm phương thức
+Comment.addComment = function(){
+    // do some thing
+};
+ 
+Comment.validateComment = function(){
+    // do some thing
+};
+```
+
+- **Cách 2**: Sử dụng từ khóa `{}` và thêm phương thức ngay lúc khai báo
+
+```javascript
+// Khởi tạo
+var Comment = {
+    addComment : function(){
+        // do some thing
     },
-    addStudent : function(id, name, email){
-        // Thêm sinh viên mới
-    },
-    removeStudent : function(id){
-        // Xóa sinh viên
-    },
-    editStudent : function(id, name, email){
-        // Sửa sinh viên
+    validateComment : function(){
+        // do some thing
     }
 };
 ```
 
-<a name="1.1"></a>
-#### 1.1 Hàm xem đối tượng sinh viên:
-
-- Hàm này dùng để lặp qua đối tượng và dùng hàm `document.write` để hiển thị thông tin.
+- **Cách 3**: Sử dụng từ khóa `{}` và thêm phương thức sau đó
 
 ```javascript
-viewStudent : function(){
-    // Lấy danh sách sinh viên
-    var listStudent = this.data;
+// Khởi tạo
+var Comment = {};
  
-    // Lặp và hiển thị sinh viên
-    for(var i = 0; i < listStudent; i++){
-        document.write("<div>" + listStudent[i].id + "|" + listStudent[i].name + "|" + listStudent[i].email + "</div>");
+// Thêm phương thức
+Comment.addComment = function(){
+    // do some thing
+};
+ 
+Comment.validateComment = function(){
+    // do some thing
+};
+```
+
+<a name="2.3"></a>
+#### 2.3 Xem danh sách phương thức và thuộc tính
+
+- Để xem và debug đối tượng thì nên sử dụng Firebug
+
+<a name="3"></a>
+### 3. Thao tác với thuộc tính và phương thức đối tượng
+
+- Có 2 cách sử dụng đối tượng là gọi và gán dữ liệu cho thuộc tính và phương thức.
+
+<a name="3.1"></a>
+#### 3.1 Gán giá trị cho thuộc tính
+
+- Để gán giá trị cho thuộc tính thực hiện bằng cách sử dụng toán tử = giống như cách gán giá trị cho biến.
+
+`Comment.title = "Tiêu đề bình luận";`
+
+- Gọi từ một hàm trong đối tượng thì có thể sử dụng từ khóa `this`
+
+```javascript
+var Comment = {
+    title : "",
+    addComment : function(){
+        this.title = "Tiêu đề bình luận";
     }
-}
+};
 ```
 
-<a name="1.2"></a>
-#### 1.2 Hàm thêm đối tượng sinh viên:
+<a name="3.2"></a>
+#### 3.2 Lấy giá trị của thuộc tính
 
-- Để thêm đối tượng cần truyền vào 3 tham số như yêu cầu:
+- Thực hiện tương tự như biến.
+
+`var title = Comment.title;`
+
+- Gọi từ một hàm trong đối tượng thì có thể sử dụng từ khóa `this`
 
 ```javascript
-addStudent : function(id, name, email){
-    // Tạo thông tin sinh viên
-    var item = {
-        id : id,
-        name : name,
-        email : email
-    };
- 
-    //Thêm sinh viên
-    this.data.push(item);
-}
+var Comment = {
+    title : "",
+    addComment : function(){
+        var title = this.title;
+    }
+};
 ```
 
-<a name="1.3"></a>
-#### 1.3 Hàm xóa đối tượng sinh viên:
+<a name="3.3"></a>
+#### 3.3 Gọi phương thức
 
-- Để xóa sinh viên cần biết `id` của sinh viên đó, sử dụng hàm `splice` để xóa các phần tử của mảng.
+`comment.addComment();`
+
+- Gọi trong hàm của đối tượng.
 
 ```javascript
-removeStudent : function(id){
-    // Lặp qua sinh viên để tìm kiếm và xóa
-    for(var i = 0; i < this.data.length; i++){
-        if (this.data[i].id === id) { // nếu là sinh viên cần xóa
-            this.data.splice(i, 1); // thì xóa
+var Comment = {
+    title : "",
+    addComment : function(){
+        this.validateComment();
+    },
+    validateComment : function(){
+        // do some thing
+    }
+};
+```
+
+<a name="4"></a>
+### 4. Mảng chứa đối tượng - đối tượng chứa đối tượng
+
+- Mỗi đối tượng (object) trong Javascript có thể chứa các đối tượng khác hoặc một mảng có thể chứa các đối tượng.
+
+<a name="4.1"></a>
+#### 4.1 Đối tượng chứa đối tượng
+
+- **Ví dụ 1**: Gom các thuộc tính của Comment vào một đối tượng `Info`.
+
+```javascript
+var Comment = {
+    info : {
+        title : "",
+        content : "",
+        email : "",
+        fullname : ""
+    }
+};
+```
+
+- **Ví dụ 2**: Gom các phương thức (hàm) của Comment vào đối tượng `func`.
+
+```javascript
+var Comment = {
+    func : {
+        addComment : function(){
+            // Something
+        },
+        validateComment : function(){
+            // Something
         }
-    }
-},
+    },
+};
 ```
 
-<a name="1.4"></a>
-#### 1.4 Hàm sửa đối tượng sinh viên:
-
-- Dựa vào `id` truyền vào để tìm sinh viên cần sửa.
+- Để truy xuất tới các thuộc tính và phương thức sử dụng dấu chấm và bổ sung thêm một cấp nữa.
 
 ```javascript
-editStudent : function(id, name, email){
-    // Tìm sinh viên cần edit
-    for(var i = 0; i < this.data.length; i++){
-        // nếu là sinh viên cần edit thì thực hiện edit
-        if (this.data[i].id === id) { 
-            this.data[i].name = name;
-            this.data[i].email = email;
-        }
-    }
-}
+Comment.info.title = "Comment tại freetuts.net";
+Comment.func.addComment();
 ```
 
-<a name="1.5"></a>
-#### 1.5 Sử dụng đối tượng sinh viên:
+<a name="4.2"></a>
+#### 4.2 Mảng chứa đối tượng
+
+- Để gán giá trị là một đối tượng vào mảng cũng tương tự như gán các giá trị khác.
 
 ```javascript
-document.write('<h4>Danh sách sinh viên ban đầu</h4>');
-Student.viewStudent();
+// Đối tượng Comment
+var Comment = {
+    title   : "",
+    content : "",
+    email   : "",
+    fullname : ""
+};
  
-document.write('<h4>Danh sách sinh viên sau khi thêm hai sinh viên</h4>');
-Student.addStudent("sv001", 'Nguyễn Văn Cường', "thehalfheart@gmail.com");
-Student.addStudent("sv002", 'Vũ Thị Thu Tình', "freetuts.net@gmail.com");
-Student.viewStudent();
+// Khởi tạo mảng
+var Comments = [];
  
-document.write('<h4>Danh sách sinh viên sau khi xóa một sinh viên</h4>');
-Student.removeStudent('sv001');
-Student.viewStudent();
+// Gán giá trị cho phần tử mảng
+Comments[0] = Comment;
  
-document.write('<h4>Danh sách sinh viên sau khi sửa thông tin</h4>');
-Student.editStudent('sv002', "Tên Sinh Viên Mới", "mrcuong.winter@gmail.com");
-Student.viewStudent();
+// Gọi tới thuộc tính
+Comments[0].title = "Tiêu đề bình luận";
+alert(Comments[0].title);
 ```
 
-<a name="2"></a>
+Hoặc:
+
+```javascript
+// Khởi tạo mảng
+var Comment = [{
+    title   : "",
+    content : "",
+    email   : "",
+    fullname : "" 
+}];
+ 
+// Sử dụng
+Comment[0].title = "Tiêu đề bình luận";
+alert(Comment[0].title);
+```
+
+<a name="5"></a>
 ### Tài liệu tham khảo:
 
-> [1] Thao tác với đối tượng (Object) trong Javascript. https://freetuts.net/thao-tac-voi-doi-tuong-object-trong-javascript-409.html
+> [1] Đối tượng (Object) trong Javascript. https://freetuts.net/doi-tuong-object-trong-javascript-408.html
