@@ -23,7 +23,7 @@ Có 2 loại đơn  vị đo lường chính đó là:
 - Đơn vị tương đối (Relative Units) : Đơn vị sẽ bị biến đổi bởi thành phần khác hoặc thành phần mẹ.
 
 <a name="1"></a>
-####1. Absolute Units:
+#### 1. Absolute Units:
 
 Là đơn vị vật lí đã được định nghĩa sẵn và đại diện cho các đơn vị đo lường vật lý, các đơn vị này không bị phụ thuộc và không hề bị thay đổi bởi các tác động nào. Ví dụ như là: mét, xen ti mét, px... là đơn vị tuyệt đối..
 
@@ -41,7 +41,7 @@ Ví dụ về đại lượng **pt** cũng tương tự:
 
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_04/image/2.png)
 <a name="2"></a>
-####2. Relative Units:
+#### 2. Relative Units:
 
 Là đơn vị đo lường được sử dụng trong CSS ở mức tương đối, nó có thể bị thay đổi bởi các thành phần khác, như kích thước màn hình.
 

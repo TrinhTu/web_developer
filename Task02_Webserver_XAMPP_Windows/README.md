@@ -8,13 +8,17 @@
 
 ###Mục lục:
 
-1. [Tìm hiểu về Localhost](#localhost)
+1. [Tìm hiểu về Localhost](#localhost) 
+
 2. [Hướng dẫn tải về Webserver XAMPP trên Windows](#caidat)
+
 3. [Thực hành cài đặt Webserver trên máy tính](#thuchanh)
+
 4. [Tạo 1 trang "index.php"](#taotrang)
+
 5. [Truy cập được từ trình duyệt "http://127.0.0.1"](#truycap) 
 
-###II. Nội dung.
+### II. Nội dung.
 
 <a name="localhost"></a>
 ####1. Localhost là gì ?
@@ -22,37 +26,40 @@
 > Localhost là một máy tính chủ được vận hành trên máy tính của bạn Localhost gồm nhiều ứng dụng đi kèm với nhau và tất cả các ứng dụng đó sẽ kết hợp với nhau để tạo ra mã nguồn để chạy WordPress trên máy tính của người dùng, bao gồm:
 
  -  Phần mềm Webserver trên Apache
+
  - Phần mềm PHP để xử lý mã PHP vì WordPress viết bằng ngôn ngữ PHP
+
  - Phần mềm MySQL server để xử lý và lưu trữ dữ liệu, do WordPress sử dụng MySQL làm nền tảng cơ sở dữ liệu(database)
+
  - Phần mềm PHPMyAdmin để xem và quản lý cơ sở dữ liệu MySQL.
  
- > Khi cài đặt Localhost vào máy tính rồi, thì máy tính của bạn đã có một phần mềm Webserver để chạy ứng dụng website với địa chỉ là IP là http://127.0.0.1. Đây là địa chỉ IP dạng localhost, ngoài ra bạn cũng có thể chạy localhost với đường dẫn là http://localhost.
-
+> Khi cài đặt Localhost vào máy tính rồi, thì máy tính của bạn đã có một phần mềm Webserver để chạy ứng dụng website với địa chỉ là IP là http://127.0.0.1. Đây là địa chỉ IP dạng localhost, ngoài ra bạn cũng có thể chạy localhost với đường dẫn là http://localhost.
 
 ----------
 <a name="caidat"></a>
 ####2 .Hướng dẫn cài đặt localhost cho Windows,và thực hành trên máy tính
 	
+- Nếu sử dụng windows thì dùng phần mềm XAMPP, vào trang web và download [tai_day](https://www.apachefriends.org/download.html)
 
- - Nếu sử dụng windows thì dùng phần mềm XAMPP, vào trang web và download [tai_day](https://www.apachefriends.org/download.html) 
 Nên sử dụng phần mềm XAMPP vì nó hoàn toàn miễn phí thích hợp cho người mới học muốn tìm hiểu về chúng, ngoài ra có còn dễ sử dụng và hỗ trợ các hệ điều hành thông dụng như Windows, Linux, Mac. Tuy XAMPP chỉ hỗ trợ cho phiên bản 32bit nhưng máy 64 bit vẫn có thể sử dụng bình thường.
 
 Trước khi tải về bạn cần làm 1 số thao tác sau:
 
- - Nếu như máy tính có cài đặt Skype thì nên vào cài đặt để chỉnh sửa cổng cho Skype, bởi vì mặc định của Skype là chiếm cổng 80, mà cổng 80 là cổng mặc định của Webserver. Bởi vậy nên cần vào **Skype->tool->connection option** bỏ chọn *Use port 80 and 443* và nhập 1 cổng bất kì khác để Skype sử dụng
- - Nếu máy tính đang bật chức năng User Account Control thì nên tắt nó đi, bằng cách vào **Control panel** tìm kiếm **control user** và khi nó hiện ra bạn sẽ chọn bên dưới mục Action Center chọn **change user account settings** và kéo thanh xuống hết mức như hình:
+- Nếu như máy tính có cài đặt Skype thì nên vào cài đặt để chỉnh sửa cổng cho Skype, bởi vì mặc định của Skype là chiếm cổng 80, mà cổng 80 là cổng mặc định của Webserver. Bởi vậy nên cần vào **Skype->tool->connection option** bỏ chọn *Use port 80 and 443* và nhập 1 cổng bất kì khác để Skype sử dụng
+
+- Nếu máy tính đang bật chức năng User Account Control thì nên tắt nó đi, bằng cách vào **Control panel** tìm kiếm **control user** và khi nó hiện ra bạn sẽ chọn bên dưới mục Action Center chọn **change user account settings** và kéo thanh xuống hết mức như hình:
 
 ![hinh](http://i.imgur.com/xybhPq7.png)
 
  
- - Còn nếu như bật tường lửa và các phần mềm antivirus thì nên tắt đi vì nó có thể chặn các phần mềm webserver và cổng 80, cách tắt tường lửa nếu chưa biết có thể xem [tat_tuong_lua](http://quantrimang.com/cach-tat-bat-windows-firewall-trong-windows-7-68908)
+- Còn nếu như bật tường lửa và các phần mềm antivirus thì nên tắt đi vì nó có thể chặn các phần mềm webserver và cổng 80, cách tắt tường lửa nếu chưa biết có thể xem [tat_tuong_lua](http://quantrimang.com/cach-tat-bat-windows-firewall-trong-windows-7-68908)
  
 <a name="thuchanh"></a>
-###Thực hành cài đặt XAMPP trên Windows
+### Thực hành cài đặt XAMPP trên Windows
 
  1.  Bấm vào [đây](https://www.apachefriends.org/download.html) để download XAMPP về máy, mình sẽ tải phiên bản có PHP là 5.6.24
  
- ![anh](http://imageshack.com/a/img923/879/wKqiqA.png)
+![anh](http://imageshack.com/a/img923/879/wKqiqA.png)
   
 Nếu như ở phía trên bạn chưa tắt chức năng UAC  thì nó sẽ hiện ra như thế này:
 
@@ -116,13 +123,11 @@ Rồi lưu lại trong  với tên là **index.php** trong C->xampp->htdocs->tut
 ![anh](http://imageshack.com/a/img923/3888/aJrYko.png)
 
 <a name="truycap"></a>
-###5. Truy cập được từ trình duyệt (http://127.0.0.1/)
+### 5. Truy cập được từ trình duyệt (http://127.0.0.1/)
 
 Vì mình đổi cổng cho Apache nên việc truy cập vào trình duyệt này cũng có 1 chút thay đổi, nên thay vì truy cập vào địa chỉ 127.0.0.1 thì mình sẽ truy cập vào địa chỉ là http://127.0.0.1:8888/TuTrinh/ sẽ được kết quả:
 
 ![anh](http://imageshack.com/a/img922/6799/u7C37g.png)
-
-
 
 Tại sao bạn lại nên dùng XAMPP?
 
@@ -131,7 +136,7 @@ Tại sao bạn lại nên dùng XAMPP?
 - Dễ sử dụng nhất
 - Ít gặp lỗi
 
-###Tài liệu tham khảo
+### Tài liệu tham khảo
 
 (http://thachpham.com/thu-thuat/cai-dat-localhost-xampp.html)
  

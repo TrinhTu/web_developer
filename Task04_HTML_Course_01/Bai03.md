@@ -1,4 +1,4 @@
-###Bài 3: Cấu trúc một tài liệu Web bằng HTML
+### Bài 3: Cấu trúc một tài liệu Web bằng HTML
 
 > Tài liệu: Cấu trúc một tài liệu Web bằng HTML
 > 
@@ -16,7 +16,7 @@
 
 [4. Thẻ đóng và mở phần nội dung Website](#the04)
 
-###Nội dung
+### Nội dung
 
 <a name="the01"></a>
 ####1. Thẻ khai báo loại tập tin
@@ -36,7 +36,7 @@ Thẻ đầu tiên trong tài liệu Website bằng HTML là thẻ `<!DOCTYPE>` 
 - Ngoài ra còn có thể tham khảo thêm 1 số mã ngôn ngữ khác [tại đây](https://webvn.com/ma-ngon-ngu-theo-chuan-iso/)
 
 <a name="the03"></a>
-####3. Thẻ đóng mở phần thông tin Website
+#### 3. Thẻ đóng mở phần thông tin Website
 
 Tiếp theo nữa đó là thẻ `<head>` thẻ này cũng có thẻ đóng là `</head>` nằm trong cặp thẻ `<html>`  `</html>` dùng để khai báo 1 số thông tin về tài liệu website của bạn. Thẻ `<head>` này sẽ chứa nhưng thông tin của website mà không hiển thị ra màn hình nhưng có nhiệm vụ chứa các thông tin quan trọng về website. Trong thẻ này chứa những thẻ khác như là:
 
@@ -48,7 +48,7 @@ Tiếp theo nữa đó là thẻ `<head>` thẻ này cũng có thẻ đóng là 
 
 ![anh](http://imageshack.com/a/img922/3391/BOMZev.png)
 <a name="the04"></a>
-####4. Thẻ đóng và mở phần nội dung Website
+#### 4. Thẻ đóng và mở phần nội dung Website
 
 Đây là cặp thẻ bạn có thể tiến hành viết nội dung vào đó `<body>` `</body>` thẻ này sẽ chứa toàn đoạn văn bản nằm trong nội dung website của bạn. Với tài liệu HTML được mở bằng trình duyệt thì chỉ có thể thấy nội dung nằm bên trong thẻ body thôi nếu viết bên ngoài thẻ `<body>` `</body>` thì sẽ không thể hiển thị được.
 

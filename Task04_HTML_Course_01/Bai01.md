@@ -1,4 +1,4 @@
-###Bài 1:   HTML là gì và vai trò của HTML
+### Bài 1:   HTML là gì và vai trò của HTML
 
 > Tài liệu: HTML là gì và vai trò của HTML
 > 
@@ -6,18 +6,22 @@
 > 
 > Cập nhật lần cuối: **14/10/2016**
 
-####Mục lục
+#### Mục lục
 
 1. [HTML là gì ](#html)
+
 2. [HTML được xử lí ra sao](#xuli)
+
 3. [Cấu trúc một đoạn HTML](#cautruc)
+
 4. [Chương trình để viết HTML](#chuongtrinh)
+
 5. [Vai trò của HTML trong Website](#vaitro)
 
-###Nội dung
+### Nội dung
 
 <a name="html"></a>
-####1. HTML là gì:
+#### 1. HTML là gì:
 
 HTML là viết tắt của cụm từ Hyper Text Markup Language tức là ngôn ngữ đánh dấu siêu văn bản, được dùng để tạo trang web, trên mỗi website sẽ có rất nhiều trang, mỗi trang được quy 1 tài liệu HTML. Người sáng tạo ra HTML là Tim Berners-Lee, ông ấy cũng là người sáng tạo ra World Wide Web và là chủ tịch của [World Wide Web Consortium](https://www.w3.org/)
 
@@ -30,11 +34,12 @@ Văn bản muốn được đánh dấu bằng HTML phải được khai báo b�
 Tóm lại một tập tin HTML sẽ bao gồm các phần tử HTML và được lưu lại với đuôi mở rộng là .html hoặc .htm
 
 <a name="xuli"></a>
-####2. HTML được xử lí ra sao:
+#### 2. HTML được xử lí ra sao:
 
-Khi tạo ra 1 tập tin HTML thì việc xử lí nó sẽ do trình duyệt web đảm nhận, trình duyệt đó sẽ đọc hiểu nộ dung của HTML từ các thẻ được sử dụng và chuyển nó thành dạng văn bảng đã được đánh dấu có thể đọc và hiểu được.
+Khi tạo ra 1 tập tin HTML thì việc xử lí nó sẽ do trình duyệt web đảm nhận, trình duyệt đó sẽ đọc hiểu nộ dung của HTML từ các thẻ được sử dụng và chuyển nó thành dạng văn bảng đã được đánh dấu có thể đọc và hiểu được. 
+
 <a name="cautruc"></a>
-####3. Cấu trúc 1 đoạn HTML:
+#### 3. Cấu trúc 1 đoạn HTML:
 
 Cấu trúc 1 đoạn HTML bao gồm các thẻ, các thẻ thường mang 1 nội dung và ý nghĩa nhất định và ảnh hưởng lên nội dung mà chúng bao quanh. Sau đây sẽ là cấu trúc 1 đoạn HTML để khai báo văn bản:
 
@@ -44,8 +49,9 @@ Hầu như các thẻ trong HTML luôn tồn tại và sử dụng theo cặp, p
 
 Một thẻ có thể có nhiều thuộc tính, muốn biết ý nghĩa của các thẻ 1 cách đầy đủ chúng ta có thể tìm hiểu và tra cứu [tại đây](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-<a name="chuongtrinh></a>
-####4. Chương trình để viết HTML:
+<a name="chuongtrinh"></a>
+#### 4. Chương trình để viết HTML:
+
 HTML là tập tin siêu văn bản nên có thể dùng biết cứ chương trình gì để soạn HTML nhưng khi lưu lại phải lưu là đuôi `.html` và sử dụng trình duyệt website để đọc nó. Có thể sử dụng `notepad`, `notepad++`, `sublime text`, `code write`,... Nhưng ở đây lưu ý không nên sử dụng notepad vì nó quá đơn giản nên khó có thể tìm được lỗi khi viết, và các cặp thẻ khi viết sẽ không có định dạng màu nên để tìm lỗi và gặp khó khăn khi viết, và nếu không để ý chỉnh sửa thì có thể bị lỗi tiếng việt.
 
 Đây là 1 chương trình được viết bằng HTML nếu như bạn dùng Notepad 
@@ -59,7 +65,7 @@ Còn nếu như sử dụng 1 phần mềm khác chẳng hạn như ở đây t�
 Các thẻ sẽ được đánh dấu màu và khi gõ 1 câu lệnh mà không thể nhớ hết thì chỉ cần gõ vài chữ đầu nó sẽ hiện lên bên dưới để chúng ta lựa chọn, có thể nói là rất tiện lợi.
 
 <a name="vaitro"></a>
-####5. Vai trò của HTML trong Website:
+#### 5. Vai trò của HTML trong Website:
 
 HTML đóng vai trò xây dựng cấu trúc văn bản trong website, khai báo các tập tin kĩ thuật số như hình ảnh và video âm nhạc...
 
@@ -67,7 +73,7 @@ HTML đóng vai trò xây dựng cấu trúc văn bản trong website, khai báo
 
 HTML chỉ đóng 1 vai trò trong website. Nhiều thành phần hợp lại sẽ tạo thành 1 Website hoàn chỉnh.
  
- Có thể tham khảo thêm tại đây [thachpham.com](http://thachpham.com/web-development/html-css/html-la-gi-va-vi-sao-no-quan-trong.html)
+Có thể tham khảo thêm tại đây [thachpham.com](http://thachpham.com/web-development/html-css/html-la-gi-va-vi-sao-no-quan-trong.html)
 
 
 

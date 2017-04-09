@@ -1,4 +1,4 @@
-##Bài 9: Box Model và các thuộc tính
+## Bài 9: Box Model và các thuộc tính
 
 > Tài liệu: Box Model và các thuộc tính
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhập lần cuối: 29/10/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Box Model ](#1)
 
@@ -18,10 +18,10 @@
 
 [2. Kiểm tra Box Model với Developer Tools](#2)
 
-###Nội dung
+### Nội dung
 
 <a name="1"></a>
-####1. Box Model:
+#### 1. Box Model:
 
 Là kĩ thuật cơ bản nhất trong CSS layout được sử dụng để mô tả về khoảng cách mà mỗi phần tử trên Website được sở hữu hay nói cách khác là kĩ thuật chỉnh khoảng cách cho mỗi phần tử trong Website.
 
@@ -48,7 +48,7 @@ Phần **content** sẽ không có thuộc tính nào đại diện cho nó vì 
 - padding: top right bottom left;
 ```
 <a name="1.1"></a>
-####1.1 Padding:
+#### 1.1 Padding:
 
  Là thiết lập khoảng cách từ phần **content** trở ra viền của phần tử, có thuộc tính là `padding` với các giá trị lần lượt là **top right bottom left** (trên > phải > dưới > trái) và có kèm theo đơn vị đo lường. 
 
@@ -59,7 +59,7 @@ Phần **content** sẽ không có thuộc tính nào đại diện cho nó vì 
 
  
 <a name="1.2"></a>
-####1.2 Border:
+#### 1.2 Border:
 
 Nghĩa là thuộc tính để tạo viền cho phần tử sẽ được khai báo bằng thuộc tính `border` trong CSS.
  
@@ -80,7 +80,7 @@ Nghĩa là thuộc tính để tạo viền cho phần tử sẽ được khai b
  ![2](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_09/image/2.png)
  
 <a name="1.3"></a>
-####1.3 Margin:
+#### 1.3 Margin:
 
 Trong Padding cón nhiệm vụ tạo khoảng cách giữa các phần tử Content với Margin sẽ có tác dụng tạo khoảng cách từ Border trở ra ngoài tức là nó sẽ giúp bạn tùy chỉnh khoảng cách giữa các phần tử với nhau. Ví dụ:
 
@@ -89,7 +89,7 @@ Trong Padding cón nhiệm vụ tạo khoảng cách giữa các phần tử Con
 Giữa 2 giá trị **box** có 1 khoảng trắng, đó là Margin. Cú pháp của Margin tương tự như Padding đó là: top right bottom left. Và nó cũng có thuộc tính con là: `margin-top`, `margin-right`, `margin-bottom`, `margin-left`.
 
 <a name="2"></a>
-####2. Kiểm tra Box Model với Developer Tools:
+#### 2. Kiểm tra Box Model với Developer Tools:
 
 Để kiểm tra Box Model thì trên trình duyệt Google Chrome và Firefor có tích hợp sẵn bộ dụng cụ dành cho nhà phát triển Web là Developer Tools.
 

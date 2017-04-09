@@ -1,4 +1,4 @@
-###Bài 2: Soạn một đoạn văn bản bằng HTML
+### Bài 2: Soạn một đoạn văn bản bằng HTML
 
 > Tài liệu: Soạn một đoạn văn bản bằng HTML
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhật lần cuối: **14/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Cài đặt và sử dụng sublime text để soạn thảo](#sublime)
 
@@ -15,14 +15,14 @@
 ###Nội dung
 
 <a name="sublime"></a>
-####1. Cài đặt và sử dụng Sublime text để soạn thảo:
+#### 1. Cài đặt và sử dụng Sublime text để soạn thảo:
 
- - Download [sublime](https://www.sublimetext.com/3) 
+- Download [sublime](https://www.sublimetext.com/3) 
  
- - Vì Sublime text là một phần mềm soạn thảo văn bản đơn giản cho đến các đoạn code phức tạp và miễn phí nên ta có thể dễ dàng sử dụng, vừa nhẹ vừa đẹp mà lại rất chuyên nghiệp.
+- Vì Sublime text là một phần mềm soạn thảo văn bản đơn giản cho đến các đoạn code phức tạp và miễn phí nên ta có thể dễ dàng sử dụng, vừa nhẹ vừa đẹp mà lại rất chuyên nghiệp.
  
 <a name="soan"></a>
-####2. Soạn thảo một đoạn văn bản bằng HTML đầu tiên:
+#### 2. Soạn thảo một đoạn văn bản bằng HTML đầu tiên:
 
 Đầu tiên là mở Sublime text lên và gõ vào đó 1 đoạn văn bản đơn giản
 

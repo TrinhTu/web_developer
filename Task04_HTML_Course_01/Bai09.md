@@ -1,4 +1,4 @@
-###Bài 9: Tạo form nhập liệu
+### Bài 9: Tạo form nhập liệu
 
 > Tài liệu: Tạo form nhập liệu
 > 
@@ -6,18 +6,18 @@
 > 
 > Cập nhật lần cuối: **16/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Các thuộc tính trong thẻ `<form>`](#01)
 
 [2. Các thuộc tính trong thẻ `<input>`](#02)
 
-###Nội dung
+### Nội dung
 
 Để tạo form chúng ta sử dụng cặp thẻ `<form>` `</form>` thẻ này chứa vài thuộc tính quan trọng và nội dung bên trong cặp thẻ đó là các thẻ `<input>` để khai báo các trường nhập liệu
 
 <a name="01"></a>
-####1. Các thuộc tính trong thẻ `<form>`:
+#### 1. Các thuộc tính trong thẻ `<form>`:
 
 - `action` : đường  dẫn đến 1 trang xử lí dữ liệu sau khi người dùng ấn nút gởi dữ liệu
 
@@ -30,7 +30,7 @@ Tạm thời thì chưa cần quan tâm đến 3 thuộc tính đó nhưng cần
 ![anh](http://i.imgur.com/s8sXGsV.png)
 
 <a name="02"></a>
-####2. Các thuộc tính trong thẻ `<input>`:
+#### 2. Các thuộc tính trong thẻ `<input>`:
 
 Thẻ này đại diện cho các trường nhập dữ liệu, mỗi thẻ là 1 trường khác nhau, kiểu nhập liệu của mỗi thẻ là khác nhau dựa vào thuộc tính `type` bên trong nó, hiện nay HTML hỗ trợ đến 23 kiểu nhập liệu tương ứng với 23 giá trị của thuộc tính `type`
 
@@ -92,7 +92,7 @@ Thu được kết quả như sau:
 
 ![anh](http://i.imgur.com/IQBvAjy.png)
 
-###Tài liệu tham khảo
+### Tài liệu tham khảo
 
 [Học HTML cơ bản toàn tập](http://thachpham.com/web-development/html-css/gioi-thieu-serie-hoc-html-co-ban.html)
 

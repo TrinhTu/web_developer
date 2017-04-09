@@ -1,4 +1,4 @@
-###Bài 2: Nhúng CSS vào Website
+### Bài 2: Nhúng CSS vào Website
 
 > Tài liệu: Nhúng CSS vào Website
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhật lần cuối: **24/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Cách nhúng CSS với Inline Styles](#01)
 
@@ -14,7 +14,7 @@
 
 [3. Nhúng tập tin CSS vào bên trong tập tin CSS](#03)
 
-###Nội dung
+### Nội dung
 
 Trước khi viết CSS để CSS có thể thực thi trên Website hoặc  tài liệu HTML thì đầu tiên phải nhúng CSS vào trong Website, có 2 cách nhúng CSS vào trong Website đó là:
 
@@ -23,7 +23,7 @@ Trước khi viết CSS để CSS có thể thực thi trên Website hoặc  tà
 - Kiểu 2: Extenal Styles
 
 <a name="01"></a>
-####1. Cách nhúng CSS với Inline Styles:
+#### 1. Cách nhúng CSS với Inline Styles:
  
  Trong thẻ `<head>` thêm cặp thẻ `<style>` trong thẻ `<style>` này có có 1 tham số tên là `type` và có giá trị là **text/css**
 
@@ -32,7 +32,7 @@ Trước khi viết CSS để CSS có thể thực thi trên Website hoặc  tà
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_02/image/anh2.png.png)
 
 <a name="02"></a>
-####2. Cách nhúng CSS với External Styles:
+#### 2. Cách nhúng CSS với External Styles:
 
 Tạo ra 1 tập tin CSS với tên bất kì có thể dùng bất cứ chường trình soạn thảo văn bản nào để tạo sau đó dán 1 đoạn CSS đơn giản vào như thế này:
 
@@ -57,7 +57,7 @@ Và sau khi đã nhúng CSS vào trong tài liệu HTML ta có result như sau:
 Nếu như tạo tập tin **css** mà lưu không cùng thư mục thì nên nhớ thêm đường dẫn thư mục vào `href`
 
 <a name="03"></a>
-####3. Nhúng tập tin CSS vào bên trong tập tin CSS:
+#### 3. Nhúng tập tin CSS vào bên trong tập tin CSS:
 
 Nếu có 3 tập tin CSS mà không muốn thêm cả 3 vào website mà chỉ muốn thêm 1 tập tin vào thì có thể sử dụng từ khóa `@import` và các từ khóa này phải đặt ở đầu tập tin .css ( không bao gồm các đoạn comment)
 

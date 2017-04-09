@@ -1,4 +1,4 @@
-###Bài 8: Chèn tập tin kĩ thuật số vào Web
+### Bài 8: Chèn tập tin kĩ thuật số vào Web
 
 > Tài liệu: Chèn tập tin kĩ thuật số vào Web
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhật lần cuối: **16/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Chèn ảnh vào HTML](#01)
 
@@ -18,10 +18,10 @@
 
 [5. Nhúng tài liệu HTML vào Web](#05)
 
-###Nội dung
+### Nội dung
 
 <a name="01"></a>
-####1. Chèn ảnh vào HTML:
+#### 1. Chèn ảnh vào HTML:
 
 Để chèn ảnh vào HTML chúng ta sử dụng thẻ `img` với các tham số bắt buộc, và thẻ này không có thẻ đóng. Thẻ `img` có các thuộc tính sau:
 
@@ -40,7 +40,7 @@
 ![anh](http://i.imgur.com/Sc74xzt.png)
 
 <a name="02"></a>
-####2. Chèn video:
+#### 2. Chèn video:
 
 Sử dụng thẻ `<video>` `</video>` trong HTML5. Trong `video` còn có các thuộc tính như `width` là chiều rộng video, `height` chiều dài, ngoài ra còn 1 thẻ mà chỉ có trong  HTML5 nhưng chúng ta vẫn có thể sử dụng được đó là thẻ `controls` để hiển thị lên các nút lệnh tùy chỉnh video.
 
@@ -59,7 +59,7 @@ và xong khi tải lên đọc bằng trình duyệt:
 ![anh](http://i.imgur.com/zQ0FLor.png)
 
 <a name="03"></a>
-####3. Chèn âm thanh, nhạc:
+#### 3. Chèn âm thanh, nhạc:
 
 Giống như thẻ `<video>` để chèn âm thanh nhạc sử dụng thẻ `<audio>`
 
@@ -68,14 +68,14 @@ Giống như thẻ `<video>` để chèn âm thanh nhạc sử dụng thẻ `<au
 ![anh](http://i.imgur.com/64vvMaT.png)
 
 <a name="04"></a>
-####4. Chèn đối tượng kĩ thuật số với thẻ `object`:
+#### 4. Chèn đối tượng kĩ thuật số với thẻ `object`:
 
 Ngoài các thẻ đặc trưng cho từng loại tập tin ở trên thì bạn còn có một cách khác để chèn các đối tượng kỹ thuật số vào tài liệu HTML đó là dùng thẻ `<object>`, đây là một thẻ có thể giúp bạn chèn các loại đối tượng kỹ thuật số như Flash, Java, Audio, Video, PDF, ActiveX. Nhưng thông thường thì các loại mã nhúng của một số website cho phép sử dụng mã nhúng như Youtube họ sẽ dùng thẻ này để bạn chèn đối tượng vào web.
 
 Thẻ này có khá nhiều thuộc tính nên bạn có thể tham khảo [thêm](http://www.w3schools.com/tags/tag_object.asp)
 
 <a name="05"></a>
-####5. Nhúng tài liệu HTML vào Web:
+#### 5. Nhúng tài liệu HTML vào Web:
 
 Nếu muốn nhúng thẳng 1 trang nào đó vào tài liệu HTML có thể sử dụng thẻ `<iframe>`
 

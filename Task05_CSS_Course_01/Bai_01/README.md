@@ -1,4 +1,4 @@
-###Bài 1: CSS là gì và vai trò của nó trên Website
+### Bài 1: CSS là gì và vai trò của nó trên Website
 
 > Tài liệu: CSS là gì và vai trò của nó trên Website
 > 
@@ -6,16 +6,16 @@
 > 
 > Cập nhật lần cuối: **24/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Giới thiệu về CSS và vai trò của nó trong Website](#01)
 
 [2. Cấu trúc một đoạn CSS](#02)
 
-###Nội dung
+### Nội dung
 
 <a name="01"></a>
-####1. Giới thiệu về CSS và vai trò của nó trong Website:
+#### 1. Giới thiệu về CSS và vai trò của nó trong Website:
 
 CSS là viết tắt của cụm từ Cascading Style Sheets là 1 kiểu ngôn ngữ định dạng cho các ngôn ngữ đánh dấu siêu văn bản như là **HTML**, **XML**, **SVG**...
 
@@ -23,10 +23,8 @@ Trong Website CSS đóng vai trò làm các định dạng cho Website như thê
 
 Phương thức hoạt động của CSS là sẽ tìm dựa vào các vùng chọn, có thể là tên thẻ HTML, ID, class sau đó sẽ áp dụng các thuộc tính cần thay đổi lên vùng chọn đó
 
-
-
 <a name="02"></a>
-####2. Cấu trúc một đoạn CSS:
+#### 2. Cấu trúc một đoạn CSS:
 
 Trong 1 đoạn CSS có 1 số thành phần như sau:
 

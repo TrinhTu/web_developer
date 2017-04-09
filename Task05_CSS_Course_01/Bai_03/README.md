@@ -1,4 +1,4 @@
-###Bài 3: TÌM HIỂU VỀ VÙNG CHỌN CƠ BẢN (SELECTOR)
+### Bài 3: TÌM HIỂU VỀ VÙNG CHỌN CƠ BẢN (SELECTOR)
 
 > Tài liệu: Tìm hiểu về vùng chọn cơ bản (selector)
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhật lần cuối: **24/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Vùng chọn là gì?](#1)
 
@@ -23,21 +23,21 @@
 - [Vùng chọn theo thứ cấp liền nhau](#6)
 
 
-###Nội dung
+### Nội dung
 
 Vùng chọn trong CSS đóng vai trò rất quan trọng khi viết CSS vì nếu chọn sai vùng thì các quy tắc CSS đó sẽ không được áp dụng hoặc áp dụng không đúng chỗ
 
 Vùng chọn trong CSS rất linh hoạt có thể chọn bất cứ gì từ thẻ `<body>` và đi vào sâu bên trong nó
 
 <a name="1"></a>
-####1. Vùng chọn là gì?
+#### 1. Vùng chọn là gì?
 
 Vùng chọn là khu vực trong website được áp dụng chỉ đụng sử dụng CSS. Ví dụ như muốn viết CSS trong thẻ h1 thì vùng chọn của bạn sẽ là thẻ h1. Một đoạn CSS có thể sử dụng nhiều vùng chọn khác nhau.
 
 Vùng chọn có thể là tên thẻ HTML hoặc thuộc tính của HTML.
 
 <a name="2"></a> 
-####2. Các loại vùng chọn cơ bản:
+#### 2. Các loại vùng chọn cơ bản:
 
 <a name="7"></a>
 - Vùng chọn dựa vào tên thẻ:

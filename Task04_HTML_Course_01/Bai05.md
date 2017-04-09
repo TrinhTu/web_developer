@@ -1,4 +1,4 @@
-###Bài 5: Các thẻ định dạng chữ viết và văn bản
+### Bài 5: Các thẻ định dạng chữ viết và văn bản
 
 > Tài liệu: Các thẻ định dạng chữ viết và văn bản
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhật lần cuối: **15/10/2016**
 
-####Mục lục
+#### Mục lục
 
 [1. Tiêu đề và đoạn văn bản](#01)
 
@@ -18,10 +18,10 @@
 
 [5. Thuộc tính Style để định dạng chữ viết](#05)
 
-###Nội dung
+### Nội dung
 
 <a name="01"></a>
-####1. Tiêu đề và đoạn văn bản:
+#### 1. Tiêu đề và đoạn văn bản:
 
 Tiêu đề (headline) và đoạn văn bản (paragraph) là thành phần cần phải phân biệt. Trong HTML thẻ tiêu đề được định nghĩa bằng cặp thẻ `<hn>` trong đó n chạy từ 1->6, tương ứng với từng cấp độ số càng nhỏ thì cấp độ sẽ càng lớn
 
@@ -32,7 +32,7 @@ Còn đoạn văn bản thì nó sẽ được khai báo bằng cặp thẻ `<p>
 ![anh](http://imageshack.com/a/img922/2675/dcgHrh.png)
 
 <a name="02"></a>
-####2. Các thẻ định dạng chữ viết:
+#### 2. Các thẻ định dạng chữ viết:
 
 Cũng tương tự như Markdown, với HTML cũng có chức năng để định dạng văn bản như là **in đậm**, *in nghiêng*, ~~gạch ngang~~, ... Sau đây là các thẻ HTML để thực hiện các chức năng trên.
 
@@ -55,7 +55,7 @@ Cũng tương tự như Markdown, với HTML cũng có chức năng để địn
 ![anh](http://imageshack.com/a/img922/7306/UZkBKF.png)
 
 <a name="03"></a>
-####3. Thẻ trích dẫn:
+#### 3. Thẻ trích dẫn:
 
 Thẻ trích dẫn (Quote) là một thẻ dùng thường xuyên để viết báo hay phóng sự, mục đích của nó là trích dẫn lại câu nói như một câu dẫn hoặc có thể định dạng thêm tên người dẫn chuyên nghiệp hơn. Thẻ trích dẫn được quy định là `<quote>` thẻ trích dẫn tên tác giả là `<cite>`
 
@@ -68,7 +68,7 @@ Và đây là kết quả sau khi mở bằng trình duyệt
 Trên đây là những câu lệnh khá là đơn giản và dễ nhớ không hề phức tạp gì mấy nên có thể dễ dàng thực hiện được.
 
 <a name="04"></a>
-####4. Thẻ định dạng sẵn:
+#### 4. Thẻ định dạng sẵn:
 
 Trong HTML có 1 thẻ gọi là thẻ định dạng sẵn (preformatted) được viết là `<pre>`  `</pre>`  nó được gọi là thẻ định dạng bởi vì mặc định trình duyệt đã tự động định dạng cho các nội dung nằm bên trong thẻ đó như kích thước chữ, khoảng cách, màu chữ....
 
@@ -81,9 +81,9 @@ Save lại và mở bằng trình duyệt sẽ được kết quả như sau:
 ![anh](http://imageshack.com/a/img923/5382/h4Dlj8.png)
  
 <a name="05"></a>
-####5. Thuộc tính Style để định dạng chữ viết:
+#### 5. Thuộc tính Style để định dạng chữ viết:
 
- Mặc dù việc đảm nhận màu sắc trong website do CSS đảm nhận nhưng đối với 1 văn bản HTML thông thường bạn vẫn có thể thêm màu sắc bằng thuộc tính `<style>` . Thuộc tính `<style>` có thể đặt trong bất cứ thẻ nào
+Mặc dù việc đảm nhận màu sắc trong website do CSS đảm nhận nhưng đối với 1 văn bản HTML thông thường bạn vẫn có thể thêm màu sắc bằng thuộc tính `<style>` . Thuộc tính `<style>` có thể đặt trong bất cứ thẻ nào
 
 Cấu trúc của thẻ:  `<tên thẻ style="tên thuộc tính:giá trị">`
 
