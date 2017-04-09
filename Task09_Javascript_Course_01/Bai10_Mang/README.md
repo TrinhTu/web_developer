@@ -1,12 +1,12 @@
-##Bài 10: Thao tác với mảng trong JS
+## Bài 10: Thao tác với mảng trong JS
 
->Tài liệu: Thao tác với mảng trong JS
+> Tài liệu: Thao tác với mảng trong JS
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 13/11/2016
+> Cập nhập lần cuối: 13/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1.Khai báo mảng ](#1)
 
@@ -24,15 +24,15 @@
 
 - [4.2 Lặp mảng với vòng lặp while](#4.2)
 
-###Nội dung:
+### Nội dung:
 
  Mảng là một tập hợp các phần tử lại và mỗi phần tử sẽ được đánh dấu một vị trí trong tập hợp đó. Trong javascript nếu mảng có 10 phần tử thì các phần tử sẽ được đánh dấu từ 0 -9.
 
 <a name="1"></a>
-####1. Khai báo mảng:
+#### 1. Khai báo mảng:
 
 <a name="1.1"></a>
-#####1.1 Khai báo mảng với từ khóa new Array:
+##### 1.1 Khai báo mảng với từ khóa new Array:
 
 Cú pháp:
 
@@ -43,7 +43,7 @@ var name_array = new Array(1,2,3);
 ```
 
 <a name="1.2"></a>
-#####1.2 Khai báo mảng với cặp dấu ngoặc vuông:
+##### 1.2 Khai báo mảng với cặp dấu ngoặc vuông:
 
 Cú pháp:
 
@@ -53,7 +53,7 @@ var name_array = [];
 var name_array = [1,2,3];
 ```
 <a name="2"></a>
-####2. Truy xuất các phần tử trong mảng:
+#### 2. Truy xuất các phần tử trong mảng:
 
 Ta sử dụng cú pháp `tenmang[vitri]. Ví dụ:
 
@@ -67,7 +67,7 @@ alert(t[2]); // kết quả là 3
  Phần tử đầu tiên sẽ có số chỉ mục là 0, phần tử thứ hai là 1, ... phần tử thứ n là n-1.
 
 <a name="3"></a>
-####3. In mảng ra trình duyệt và console:
+#### 3. In mảng ra trình duyệt và console:
 
 Để hiển thị các phần tử ra ngoài trình duyệt ta sử dụng hàm `arry.join()` . Ví dụ:
 
@@ -93,7 +93,7 @@ Chạy giao diện console như sau:
 ![anh](http://i.imgur.com/5NRTxxR.png)
 
 <a name="4"></a>
-####4. Sử dụng vòng lặp để lặp mảng:
+#### 4. Sử dụng vòng lặp để lặp mảng:
 
 Để đếm tổng số phần tử của một mảng chúng ta sẽ dùng thuộc tính length của nó. Ví dụ:
 
@@ -102,7 +102,7 @@ var t = new Array(1,2,3);
 alert(t.length);<br>
 ```
 <a name="4.1"></a>
-#####4.1 Lặp mảng với vòng lặp for:
+##### 4.1 Lặp mảng với vòng lặp for:
 
 Để lặp mảng với vòng lặp for thì chúng ta phải dùng thuộc tính length như trên để đếm tổng số phần tử, sau đó ở mỗi vòng lặp chúng ta sử dụng cú pháp truy xuất đến phần tử của mảng ở phần 2 để xử lý. Ví dụ:
 
@@ -114,7 +114,7 @@ for (var i = 0; i < name_array.length; i++){
 ```
 
 <a name="4.2"></a>
-#####4.2 Lặp mảng với vòng lặp while:
+##### 4.2 Lặp mảng với vòng lặp while:
 
 Tương tự để lặp với vòng lặp while  chúng ta sẽ khai báo một biến index để lưu vị trí đang lặp. Ví dụ:
 

@@ -1,4 +1,4 @@
-###Bài 21: Thiết kế giao diện đơn giản
+### Bài 21: Thiết kế giao diện đơn giản
 
 > Tài liệu: Thiết kế giao diện đơn giản
 >
@@ -6,7 +6,7 @@ Thực hiện: Lê Tú Trinh
 >
 > Cập nhập lần cuối: 1/11/2016
 
-###Mục lục
+### Mục lục
 
 [1. Bắt đầu](#1)
 
@@ -18,36 +18,26 @@ Thực hiện: Lê Tú Trinh
 
 - [4.1 Phần `menu`](#4.1)
 
-
 - [4.2 Phần `content`](#4.2)
-
 
 - [4.2.1 Phần `header`](#4.3.3)
 
-
 - [4.2.2 Phần `row`](#4.2.2)
-
 
 - [4.2.3 Phần `call-to-action`](#4.2.3)
 
-
 - [4.3 Phần `footer`](#4.3)
     
-
 [5. Viết CSS cho giao diện](#5)
-
 
 [6. Chia khung cho Website](#6)
 
-
 [7. Viết CSS cho `#menu`](#7)
-
 
 [8. Viết CSS chung cho `content`](#8)
 
-
 <a name="1"></a>
-####1. Bắt đầu:
+#### 1. Bắt đầu:
 
 Copy tài nguyên về sau đó tạo 1 thư mục chứa các file `img` `normalize.css` và tạo thêm các file `index.html` và `style.css` để chứa tài liệu CSS của website.
 
@@ -64,7 +54,7 @@ Copy tài nguyên về sau đó tạo 1 thư mục chứa các file `img` `norma
 ```
 
 <a name="2"></a>
-####2. Thêm các thẻ khai báo thông tin:
+#### 2. Thêm các thẻ khai báo thông tin:
 
 Thêm các thẻ khai báo thông tin trong cặp thẻ `<head>` như sau:
 
@@ -80,7 +70,7 @@ Thêm các thẻ khai báo thông tin trong cặp thẻ `<head>` như sau:
 ```
 
 <a name="3"></a>
-####3. Tạo khu vực trong website
+#### 3. Tạo khu vực trong website
 
 Tạo bố cục cho website như sau:
 
@@ -215,7 +205,7 @@ Kết quả ban đầu như sau:
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_21/image/2.png)
 
 <a name="5"></a>
-####5. Viết CSS cho giao diện:
+#### 5. Viết CSS cho giao diện:
 
 Đầu tiên ta thiết lập các thuộc tính cơ bản cho web như màu chữ, màu nền, font chữ...
 
@@ -247,7 +237,7 @@ a:hover, a:visited {
 ```
 
 <a name="6"></a>
-####6. Chia khung cho Website
+#### 6. Chia khung cho Website
 
 Tiếp theo mình sẽ viết CSS cho phần `#container` và chia cột cho phần `#menu`:
 
@@ -307,7 +297,7 @@ Sau đó là thêm Style khi rê chuột vào menu:
 ![4](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_21/image/4.png)
 
 <a name="7"></a>
-####7. Viết CSS cho `#menu`
+#### 7. Viết CSS cho `#menu`
 
 ```
 #content {
@@ -356,7 +346,7 @@ Thêm CSS cho các phần nằm bên trong `.row`:
 ```
 
 <a name="8"></a>
-####8. Viết CSS cho `#footer`:
+#### 8. Viết CSS cho `#footer`:
 
 ```
 #footer{
@@ -370,7 +360,7 @@ Giờ thì xem kết quả:
 ![5](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_21/image/5.png)
 
 
-###Tài liệu tham khảo:
+### Tài liệu tham khảo:
 
 https://thachpham.com/web-development/html-css/thuc-hanh-tao-layout-css-don-gian.html
 

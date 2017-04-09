@@ -1,12 +1,12 @@
-##Bài 3: Tìm hiểu CSS Selector căn bản
+## Bài 3: Tìm hiểu CSS Selector căn bản
 
->Tài liệu: Tìm hiểu CSS Selector căn bản
+> Tài liệu: Tìm hiểu CSS Selector căn bản
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 14/11/2016
+> Cập nhập lần cuối: 14/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Selector là gì?](#1)
 
@@ -20,7 +20,7 @@
 
 [3. Một vài lưu ý về CSS Selector](#3)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
 ####1. Selector là gì?
@@ -35,10 +35,10 @@ div{
 ```
 
 <a name="2"></a>
-####2. Các CSS selector thông dụng:
+#### 2. Các CSS selector thông dụng:
 
 <a name="2.1"></a>
-#####2.1 Selector phân cấp:
+##### 2.1 Selector phân cấp:
 
 Phân cấp là dựa vào cấp mẹ để tìm cấp con, tức là dựa vào thẻ bao bọc bên ngoài mà tìm ra thẻ cần tìm nằm bên trong thẻ đó.
 
@@ -62,7 +62,7 @@ Ta có kết quả như sau:
 ![1](https://github.com/TrinhTu/web_developer/blob/master/Task10_CSS_Course_02/Bai03_Selector/image/1.png)
 
 <a name="2.2"></a>
-#####2.2 Selector ID:
+##### 2.2 Selector ID:
 
 Trong 1 trang web thì ID là duy nhất, không được định nghĩa 2 ID giống nhau trong 1 layout. Dấu # chính là đại diện cho ID. Ví dụ:
 
@@ -89,7 +89,7 @@ Ta xem kết quả:
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task10_CSS_Course_02/Bai03_Selector/image/2.png)
 
 <a name="2.3"></a>
-#####2.3 Selector class:
+##### 2.3 Selector class:
 
 
 `class` là viết CSS cho nhiều thẻ cùng lúc mà không cần phải viết đi viết lại nhiều lần. Selection cho `class` là dấu `(.)`
@@ -121,7 +121,7 @@ CSS:
 ![3](https://github.com/TrinhTu/web_developer/blob/master/Task10_CSS_Course_02/Bai03_Selector/image/3.png)
 
 <a name="3"></a>
-####3. Một vài lưu ý về CSS selector:
+#### 3. Một vài lưu ý về CSS selector:
 
 Cần phân biệt giữa ID selector với CSS selector:
 

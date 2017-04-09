@@ -1,22 +1,22 @@
 
-##Bài 2: Cú pháp và cách viết CSS
+## Bài 2: Cú pháp và cách viết CSS
 
->Tài liệu: Cú pháp và cách viết CSS
+> Tài liệu: Cú pháp và cách viết CSS
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 14/11/2016
+> Cập nhập lần cuối: 14/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Cú pháp CSS](#1)
 
 [2. Nơi viết CSS](#2)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Cú pháp CSS:
+#### 1. Cú pháp CSS:
 
 Cú pháp viết CSS như sau, ví dụ:
 
@@ -34,7 +34,7 @@ Trong đó:
 - `background`, `color` là các thuộc tính bên trong dùng để tạo style trong các đối tượng trên
 
 <a name="2"></a>
-####2. Nơi viết CSS:
+#### 2. Nơi viết CSS:
 
 ó 3 cách viết CSS đó là:
 

@@ -1,28 +1,28 @@
-##Bài 1: CSS là gì? Học CSS như thế nào?
+## Bài 1: CSS là gì? Học CSS như thế nào?
 
->Tài liệu: CSS là gì? Học CSS như thế nào?
+> Tài liệu: CSS là gì? Học CSS như thế nào?
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 14/11/2016
+> Cập nhập lần cuối: 14/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. CSS là gì?](#1)
 
 [2. Gom nhóm các thể loại của CSS](#2)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. CSS là gì?
+#### 1. CSS là gì?
 
 CSS là viết tắt của cụm từ Cascading Style Sheet, CSS dùng để trình bày bố cục của Website dựa vào các thẻ HTML, nó tác động thay đổi cách hiển thị mặc định của các thẻ HTML nhằm thân thiện với người dùng hơn hay nhằm 1 mục đích cụ thể nào đó
 
 CSS đóng vai trò quan trọng trong việc xây dựng giao diện Website
 
 <a name="2"></a>
-####2. Gom nhóm các thể loại của CSS
+#### 2. Gom nhóm các thể loại của CSS
 
 CSS có nhiều kiểu sau:
 

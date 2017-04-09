@@ -1,12 +1,12 @@
-##Bài 5: Lệnh kiểm tra điều kiện if else trong javascrip
+## Bài 5: Lệnh kiểm tra điều kiện if else trong javascrip
 
->Tài liệu: Lệnh kiểm tra điều kiện trong Javascript
+> Tài liệu: Lệnh kiểm tra điều kiện trong Javascript
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 12/11/2016
+> Cập nhập lần cuối: 12/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Lệnh if trong Javascript](#1)
 
@@ -18,10 +18,10 @@
 
 [5. Bài tập thực hành](#5)
 
-###Nội dung:
+### Nội dung:
 
 <a name= "1"></a>
-####1. Lệnh if trong javascript:
+#### 1. Lệnh if trong javascript:
 
 Cú pháp:
 
@@ -49,7 +49,7 @@ Kết quả sẽ hiển thị ra là a và b bằng nhau.
 Nếu như câu lệnh bên trong là câu lệnh đơn thì có thể bỏ dấu ngoặc nhọn đi.
 
 <a name="2"></a>
-####2. Lệnh else trong javascript:
+#### 2. Lệnh else trong javascript:
 
 Lệnh else sẽ được thực hiện nếu như lệnh if không thỏa, vậy nên muốn sử dụng lệnh else thì phải có lệnh if trước nó. Ví dụ:
 
@@ -68,7 +68,7 @@ Lệnh else sẽ được thực hiện nếu như lệnh if không thỏa, vậ
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai05_If_else/image/2.png)
 
 <a name="3"></a>
-####3. Kết hợp nhiều lệnh if else trong javascript:
+#### 3. Kết hợp nhiều lệnh if else trong javascript:
 
 Có thể kết hợp nhiều cú pháp if else để xử lí:
 
@@ -89,7 +89,7 @@ Có thể kết hợp nhiều cú pháp if else để xử lí:
 ![3](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai05_If_else/image/3.png)
 
 <a name="4"></a>
-####4. Lệnh if else lồng nhau trong javasript:
+#### 4. Lệnh if else lồng nhau trong javasript:
 
 Nghĩa là trong lệnh if sẽ chứa nhiều lệnh if khác. Ví dụ:
 
@@ -113,7 +113,7 @@ Nghĩa là trong lệnh if sẽ chứa nhiều lệnh if khác. Ví dụ:
 ![4](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai05_If_else/image/4.png)
 
 <a name="5"></a>
-####5. Bài tập thực hành:
+#### 5. Bài tập thực hành:
 
 1. Tìm min max của 2 số cho trước bằng javascript
 

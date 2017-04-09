@@ -1,12 +1,12 @@
-###Giao thức HTTP
+### Giao thức HTTP
 
->Tài liệu: Giao thức HTTP
+> Tài liệu: Giao thức HTTP
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 4/11/2016
+> Cập nhập lần cuối: 4/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1.Khái niệm cơ bản về giao thức HTTP](#1)
 
@@ -20,20 +20,15 @@
 
 - [3.1 HTTP Status Code](#3.1)
 
- <ul>
+  + [3.1.1 Thông tin:1xx](#3.1.1)
 
-  <li>[3.1.1 Thông tin:1xx](#3.1.1)</li>
+  + [3.1.2 Thành công: 2xx](#3.1.2)
 
-  <li>[3.1.2 Thành công: 2xx](#3.1.2)</li>
-
-   <li>[3.1.3 Sự điều hướng lại: 3xx](#3.1.3)</li>
+  + [3.1.3 Sự điều hướng lại: 3xx](#3.1.3)
    
-   <li>[3.1.4 Lỗi Client: 4xx](#3.1.4)</li>
+  + [3.1.4 Lỗi Client: 4xx](#3.1.4)
    
-   <li>[3.1.5 Lỗi Server: 5xx](#3.1.5)</li>
-
-</ul>
-
+  + [3.1.5 Lỗi Server: 5xx](#3.1.5)
 
 - [3.2 HTTP Response Header Fields](#3.2)
 
@@ -44,10 +39,10 @@
 [5. HTTP Caching](#5)
 
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Khái niệm cơ bản về giao thức HTTP: 
+#### 1. Khái niệm cơ bản về giao thức HTTP: 
 
 HTTP là viết tắt của HeyperText Transfer Protocol đây là giao thức truyền tải siêu văn bản là 1 trong 5 giao thức chuẩn về mạng internet, được dùng để liên hệ thông tin giữa máy cung cấp dịch vụ (web server) và máy sử dụng dịch vụ( web client)
 
@@ -56,7 +51,7 @@ Là giao thức nằm ở tầng ứng dụng của bộ giao thức TCP/IP (gia
 HTTP request gồm 2 thành phần: URL và Verb (phương thức) được client gởi. Còn server sẽ trả vể HTTP response chưa Status code và Message body.
 
 <a name="2"></a>
-####2. HTTP Request methods:
+#### 2. HTTP Request methods:
 
 Có 2 loại kết nối HTTP đó là kết nối bền vững và kết nối bền vững và kết nối không bền vững.
 
@@ -77,7 +72,7 @@ Có 2 loại kết nối HTTP đó là kết nối bền vững và kết nối 
 > Kết nối bền vững: server sẽ duy trì kết nối TCP cho việc gởi nhiều đối tượng có nghĩa là 1 client có thể gởi nhiều yêu cầu đến server trong cùng 1 kết nối
 
 <a name="2.1"></a>
-#####2.1 HTTP Request Methods:
+##### 2.1 HTTP Request Methods:
 
  Chỉ phương thức để được thực hiện trên nguồn được nhận diện bởi Request URL đã cung cấp.Bắt đầu của HTTP Request sẽ là dòng Request-Line bao gồm 3 thông tin đó là:
 
@@ -118,7 +113,7 @@ Tiếp theo là các trường request-header, cho phép client gửi thêm các
 - TRACE: trình bày vòng lặp kiểm tra thông báo song song với path tới nguồn mục tiêu.
 
 <a name="2.2"></a>
-#####2.2 URLs: Viết tắt của Uniform Resourse Locators 
+##### 2.2 URLs: Viết tắt của Uniform Resourse Locators 
 
 Cấu trúc của URL:
 
@@ -136,21 +131,21 @@ Cấu trúc của URL:
 
 
 <a name="3"></a>
-####3. HTTP response:
+#### 3. HTTP response:
 
 Cấu trúc cảu HTTP response:
 
 ![anh](http://4.bp.blogspot.com/-6MzisogRE1I/U51YmWRQalI/AAAAAAAAAFI/AlztIUBFZFw/s1600/4.PNG)
 
 <a name="3.1"></a>
-#####3.1 HTTP Status Code:
+##### 3.1 HTTP Status Code:
 
  Là mã trạng thái HTTP được server phản hồi lại mỗi khi nhận được HTTP resquest 
 
 Yếu tố Status là 1 số nguyên có 3 kí tự, trong đó kí tự đầu tiên được mã hóa trạng thái định nghĩa hạng phản hồi và hai kí tự cuối không có vai trò phân loại nào. 5 giá trị của kí tự đầu tiên:
 
 <a name="3.1.1"></a>
-#####1xx-thông tin: 
+##### 1xx-thông tin: 
 
 Yêu cầu được chấp nhận và đang tiến trình tiếp tục
 
@@ -159,7 +154,7 @@ Yêu cầu được chấp nhận và đang tiến trình tiếp tục
 - 101( Switching protocol): request đã hỏi server vể việc thay đổi protocol và server đã chấp nhận
 
 <a name="3.1.2"></a>
-#####2xx-thành công: 
+##### 2xx-thành công: 
 
 Nghĩa là hoạt động đã được nhận, hiểu và chấp nhận thành công.
 
@@ -178,7 +173,7 @@ Nghĩa là hoạt động đã được nhận, hiểu và chấp nhận thành 
 - 206( Partial content): Máy chủ xử lí thành công 1 phần của yêu cầu.
 
 <a name="3.1.3"></a>
-#####3xx-sự điều hướng lại): 
+##### 3xx-sự điều hướng lại): 
 
 Hoạt động phải được thực hiện để hoàn thành yêu cầu.
 
@@ -189,7 +184,7 @@ Hoạt động phải được thực hiện để hoàn thành yêu cầu.
 - 304 ( Not modified): các yêu cầu đã không được sửa đổi kể từ khi yêu cầu cuối cùng. Khi máy chủ trả về phản hồi này nó không trả lại các nội dung của trang.
 
 <a name="3.1.4"></a>
-#####4xx- lỗi Client: 
+##### 4xx- lỗi Client: 
 
 Yêu cầu có cú pháp không chính xác hoặc không thể thực hiện.
 
@@ -226,7 +221,7 @@ Yêu cầu có cú pháp không chính xác hoặc không thể thực hiện.
 - 417( Expectation failed): server không thể đáp ứng yêu cầu của các trường yêu cầu.
 
 <a name="3.1.5"></a>
-#####5xx- Lỗi server:
+##### 5xx- Lỗi server:
 
  Server thất bại với việc thực hiện yêu cầu khả thi
 
@@ -243,7 +238,7 @@ Yêu cầu có cú pháp không chính xác hoặc không thể thực hiện.
 - 505(HTTP version not supported): server không hỗ trợ phiên bản giao thức HTTP đưuọc sử dụng trong yêu cầu
 
 <a name="3.2"></a>
-#####3.2 HTTP Response Header Fields
+##### 3.2 HTTP Response Header Fields
 
 Các trường Header phản hồi cho phép Server truyền thông tin thêm về phản hồi mà không thể được đặt trong dòng Status-Line. Những trường Header này cung cấp thông tin về Server và về truy cập từ xa tới nguồn được xác định bởi Request-URI:
 
@@ -260,7 +255,7 @@ response-header = Accept-Ranges           ;
 ```
 
 <a name="3.3"></a>
-####3.3. Gói tin HTTP:
+#### 3.3. Gói tin HTTP:
 
 Mở Wireshark lên ta có thể thấy được 1 số thông tin sau:
 
@@ -278,16 +273,16 @@ Các mã hồi đáp có nghĩa như sau:
 
 
 <a name="4"></a>
-####4. Encrypted connections:
+#### 4. Encrypted connections:
 
 Có 2 cách thường dùng để mã hóa kết nối HTTP là HTTP secure ( là HTTPS + SSL) hoặc kết hợp HTTP và Transport Layer Securerity (TLS)
 
 <a name="5"></a>
-####5. HTTP Caching:
+#### 5. HTTP Caching:
 
 HTTP thường sử dụng cho các hệ thống thông tin phân phối nơi hiệu suất được cải thiện bằng việc sử dụng bộ nhớ đệm. Mục đích của bộ nhớ đệm là loại bỏ sự cần thiết phải gởi yêu cầu trong nhiều trường hợp, và loại bỏ sự cần thiết phải gởi phản hồi 1 cách đầy đủ trong nhiều trường hợp khác để tiết kiệm tài nguyên. Caching sẽ vô ích nếu như không được cải thiện hiệu suất.
 
-###Tài liệu tham khảo:
+### Tài liệu tham khảo:
 
 https://www.stdio.vn/articles/read/202/http-request-va-http-response
 

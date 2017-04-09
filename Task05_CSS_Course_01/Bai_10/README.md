@@ -1,4 +1,4 @@
-##Bài 10: Các thuộc tính tùy chỉnh kích thước
+## Bài 10: Các thuộc tính tùy chỉnh kích thước
 
 > Tài liệu: Các thuộc tính tùy chỉnh kích thước
 > 
@@ -6,9 +6,9 @@
 > 
 > Cập nhập lần cuối: 29/10/2016
 
-###Mục lục:
+### Mục lục:
 
-###Nội dung:
+### Nội dung:
 
 Khi làm việc với Box Model nói riêng và CSS layout nói chung thì ngoài việc chỉnh hiển thị cho các phần tử còn phải thiết lập kích thước cho các phần tử.  Hiện tại trong CSS có 6 thuộc tính để tùy biến chỉnh chiều rộng và chiều cao cụ thể như sau:
 

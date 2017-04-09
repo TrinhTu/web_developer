@@ -1,12 +1,12 @@
-##Bài 3: Hàm alert()- confirm()-prompt() trong javascript
+## Bài 3: Hàm alert()- confirm()-prompt() trong javascript
 
->Tài liệu:
+> Tài liệu:
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 11/11/2016
+> Cập nhập lần cuối: 11/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Hàm alert() trong javascript](#1)
 
@@ -14,10 +14,10 @@
 
 [3. Hàm prompt() trong javascript](#3)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Hàm alert:
+#### 1. Hàm alert:
 
 Hàm có nhiệm vụ thông báo popup (cửa sổ bật lên), nó có 1 tham số truyền vào và tham số này chính là nội dung muốn thông báo với người dùng.
 
@@ -38,7 +38,7 @@ Kết quả trả về như sau:
 
 
 <a name="2"></a>
-####2. Hàm confirm:
+#### 2. Hàm confirm:
 
 Hàm confirm() cũng sẽ xuất hiện 1 thông báo popup nhưng có thêm 2 sự lựa chọn là Yes và No. Nếu người dùng chọn Yes thì nó trả về TRUE và sai là FALSE. Nó cũng có 1 tham số truyền vào và tham số này chính là nội dung thông báo:
 
@@ -72,7 +72,7 @@ Nếu click vào Cancle:
 ![4](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai03_Cac_ham_co_ban/image/4.png)
 
 <a name="3"></a>
-####3. Hàm prompt:
+#### 3. Hàm prompt:
 
 Dùng để lấy thông tin từ người dùng, gồm có 2 tham số truyền vào là nội dung thông báo và giá trị ban đầu. Nếu người dùng không nhập thì nó sẽ trả về NULL
 

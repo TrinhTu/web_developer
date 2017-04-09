@@ -1,14 +1,14 @@
-##Bài 23: Tạo chuyển động với transition
+## Bài 23: Tạo chuyển động với transition
 
->Tài liệu: Tạo chuyển động với transition
+> Tài liệu: Tạo chuyển động với transition
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 23/11/2016
+> Cập nhập lần cuối: 23/11/2016
 
-###Mục lục:
+### Mục lục:
 
-###Nội dung:
+### Nội dung:
 
 Cấu trúc khai báo transition như sau:
 

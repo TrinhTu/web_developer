@@ -1,4 +1,4 @@
-##Bài 19: Kĩ thuật tạo menu ngang
+## Bài 19: Kĩ thuật tạo menu ngang
 
 > Tài liệu: Kĩ thuật tạo menu ngang
 >
@@ -6,16 +6,16 @@
 >
 > Cập nhập lần cuối: 31/10/2016
 
-###Mục lục
+### Mục lục
 
 [1. Cách tạo menu ngang cơ bản](#1)
 
 [2. Cách tạo menu dropdown đơn giản](#2)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Cách tạo menu ngang cơ bản
+#### 1. Cách tạo menu ngang cơ bản
 
 - Sử dụng thẻ `<ul>` để tạo ra menu không sắp xếp trong đó sử dụng các thẻ `<li>` để tạo các mục trong menu đó, đặt menu nằm trong thẻ `<div>` như sau:
 

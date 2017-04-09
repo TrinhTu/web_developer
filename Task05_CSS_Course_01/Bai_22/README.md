@@ -1,12 +1,12 @@
-##Bài 22: CSS Framework và cách sử dụng
+## Bài 22: CSS Framework và cách sử dụng
 
->Tài liệu: CSS Framework và cách sử dụng
+> Tài liệu: CSS Framework và cách sử dụng
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 9/11/2016
+> Cập nhập lần cuối: 9/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. CSS Framework là gì](#1)
 
@@ -24,10 +24,10 @@
 
 [3. Cách sử dụng CSS Framework](#3)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. CSS Framework là gì?
+#### 1. CSS Framework là gì?
 
 CSS Framework: là 1 bộ mã nguồn CSS đã được viết sẵn để chúng ta có thể sử dụng
 
@@ -42,7 +42,7 @@ Có 2 loại CSS Framework là:
 - UI Framework: Bộ CSS hoàn chỉnh bao gồm đầy đủ các thành phần cho website như nút bấm, menu, form...
 
 <a name="2"></a>
-####2.Các bộ CSS Framework phổ biến hiện nay:
+#### 2.Các bộ CSS Framework phổ biến hiện nay:
 
 <a name="2.1"></a>
 - Bootstrap: 
@@ -90,7 +90,7 @@ Cũng giống như Bootstrap, Foundation có hỗ trợ các thành phần bên 
 Tham khảo: http://foundation.zurb.com/
 
 <a name="3"></a>
-####3. Cách sử dụng:
+#### 3. Cách sử dụng:
 
 Cách sử dụng Framework là đọc tài liệu hướng dẫn sử dụng thật kĩ, thêm các Class tương ứng, với các chức năng cần sử dụng vào phần tử style. Các bước thực hiện như sau:
 

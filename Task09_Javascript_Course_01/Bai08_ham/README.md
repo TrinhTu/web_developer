@@ -1,12 +1,12 @@
-##Bài 8: Hàm vào tạo hàm (function) trong javascript
+## Bài 8: Hàm vào tạo hàm (function) trong javascript
 
->Tài liệu: Hàm và tạo hàm (function) 
+> Tài liệu: Hàm và tạo hàm (function) 
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 12/11/2016
+> Cập nhập lần cuối: 12/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Định nghĩa hàm (function)](#1)
 
@@ -14,12 +14,12 @@
 
 [3. Ví dụ tạo hàm trong javascript](#3)
 
-###Nội dung:
+### Nội dung:
 
 Hàm là phương pháp lập trình truyền thống thường đc ứng dụng trong các phương pháp lập trình thủ tục lập trình hướng module...
 
 <a name="1"></a>
-####1. Định nghĩa hàm (function) trong javascript:
+#### 1. Định nghĩa hàm (function) trong javascript:
 
 Là sẽ gom một số đoạn code vào một khối xử lý và khi cần thì gọi ra dùng. Cú pháp tạo hàm trong javascript là:
 
@@ -58,7 +58,7 @@ text_number(5);
 ```
 
 <a name="2"></a>
-####2. Hàm có return và hàm không có return:
+#### 2. Hàm có return và hàm không có return:
 
 Hàm có return là hàm có sử dụng từ khóa return để đặt ở cuối hàm mục đích trả kết quả về để sử dụng tiếp ở những đoạn code bên ngoài.  Ví dụ ta cần viết một hàm tính tổng của hai số a và b thì hàm này phải trả về giá trị là tổng của hai số a, b.
 
@@ -96,7 +96,7 @@ tong(so_1, so_2);
 ![b](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai08_ham/image/(b).png)
 
 <a name="3"></a>
-####3. Ví dụ tạo hàm trong javascript:
+#### 3. Ví dụ tạo hàm trong javascript:
 
 Viết chương trình kiểm tra năm đó có phải là năm nhuận không.
 

@@ -1,12 +1,12 @@
-##Bài 24: Thay đổi hình dạng với transform và transform-origin
+## Bài 24: Thay đổi hình dạng với transform và transform-origin
 
->Tài liệu: Thay đổi hình dạng với transform và transform-origin
+> Tài liệu: Thay đổi hình dạng với transform và transform-origin
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 26/11/2016
+> Cập nhập lần cuối: 26/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Thay đổi hình dạng với transform](#1)
 
@@ -18,10 +18,10 @@
 
 [2. Tùy chỉnh tâm hình dạng với transform-origin](#2)
 
-###Nội dung
+### Nội dung
 
 <a name="1"></a>
-####1. Thay đổi hình dạng với transform:
+#### 1. Thay đổi hình dạng với transform:
 
 Với transform có thể xoay, co giãn kích thước hoặc bóp nghiêng hình dạng 1 phần tử. Cú pháp:
 
@@ -34,7 +34,7 @@ transform: function(value);
 Trong đó `function` là tên hàm làm thay đổi hình dạng và giá trị(value) của hàm, mỗi hàm sẽ có các cách viết giá trị khác nhau. Các hàm thay đổi giá trị thường dùng là: Skew, Scale, Rotate, Translate.
 
 <a name="1.1"></a>
-#####1.1 Xoay: (rotate)
+##### 1.1 Xoay: (rotate)
 
 Hàm `rotate` này nhằm thiết lập đối tượng bị xoay theo độ góc, giá trị của hàm này là: `[n]deg` ( giá trị góc đơn vị là độ) hoặc có thể `[n]turn`. Ví dụ:
 
@@ -69,7 +69,7 @@ Thêm thuộc tính CSS:
 Ta có kết quả như sau: http://tutrinh01.chuyengiaseoweb.net/transform.html
 
 <a name="1.2"></a>
-#####1.2 Co giãn:
+##### 1.2 Co giãn:
  Hàm `scale` thiết lập kích thước của 1 phần tủ dựa vào trục thẳng đứng và trục ngang, hàm này có giá trị như sau: `scale(X)` hoặc `scale(Y)` 
 
  Ví dụ tương tự như trên ta thay giá trị của hàm `rotate` thành `scale`:
@@ -94,7 +94,7 @@ Ta có kết quả như sau: http://tutrinh01.chuyengiaseoweb.net/transform.html
 Kết quả như sau: http://tutrinh01.chuyengiaseoweb.net/scale.html
 
 <a name="1.3"></a>
-#####1.3 Kéo nghiêng:
+##### 1.3 Kéo nghiêng:
 
 Có thể kéo nghiêng đối tượng dựa trên trục Y và trục X với hàm `skewX()` và hàm `skewY()`, giá trị bên trong là số `[n]deg` tương tự như `rotate()`
 
@@ -122,7 +122,7 @@ Có thể kéo nghiêng đối tượng dựa trên trục Y và trục X với 
 Kết quả như sau: http://tutrinh01.chuyengiaseoweb.net/skew.html
 
 <a name="2"></a>
-####2. Tùy chỉnh tâm hình dạng với transform:
+#### 2. Tùy chỉnh tâm hình dạng với transform:
 
 Ngoài ra còn có thêm thuộc tính đó là `transform-origin`, cho phép dịch chuyển phần tử dựa vào thay đổi hình dạng `transform`. Thuộc tính `transform-origin` được dùng kèm với `transform` và có thể áp dụng cho bất kì hàm nào.
 

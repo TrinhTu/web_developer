@@ -1,4 +1,4 @@
-##Bài 16: Thuộc tính `display`
+## Bài 16: Thuộc tính `display`
 
 > Tài liệu: Thuộc tính `display`
 >
@@ -6,7 +6,7 @@
 >
 > Cập nhập lần cuối: 31/10/2016
 
-###Nội dung:
+### Nội dung:
 
 - Block: Các phần tử block nó sẽ được nằm một hàng riêng biệt khi hiển thị. Ví dụ như các thẻ `<div>`, `<li>`, `<ul>`, `<h1>`,..là các block.
 

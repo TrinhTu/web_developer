@@ -1,12 +1,12 @@
-##Bài 7: Vòng lặp While- do while
+## Bài 7: Vòng lặp While- do while
 
->Tài liệu: Vòng lặp While- do while
+> Tài liệu: Vòng lặp While- do while
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 12/11/2016
+> Cập nhập lần cuối: 12/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Vòng lặp While](#1)
 
@@ -16,10 +16,10 @@
 
 [4. Bài tập thực hành](#4)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Vòng lặp While:
+#### 1. Vòng lặp While:
 
 Cấu trúc vòng lặp While:
 
@@ -58,7 +58,7 @@ var a = null;
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai07_while%2Bdo_while/image/(2).png)
 
 <a name="2"></a>
-####2. Vòng lặp do while:
+#### 2. Vòng lặp do while:
 
 Vòng lặp này có 1 đặc điểm là thực thi lệnh  rồi mới kiểm tra điều kiện, vậy nên vòng lặp này luôn được thực hiện ít nhất 1 lần. Cấu trúc của vòng lặp này là:
 
@@ -83,7 +83,7 @@ while (condition);
 ```
 
 <a name="3"></a>
-####3. Vòng lặp while- do while lồng nhau:
+#### 3. Vòng lặp while- do while lồng nhau:
 
 Tương tự như vòng lặp for trong vòng lặp while và do while ta có thể lồng nhiều vòng lặp vào nhau. Ví dụ sử dụng vào lặp while hoặc do while để xây dựng ma trận 6x6
 
@@ -103,7 +103,7 @@ var i=0;
 ![3](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai07_while%2Bdo_while/image/(3).png)
 
 <a name="4"></a>
-####4. Bài tập thực hành:
+#### 4. Bài tập thực hành:
 
 In ra các số từ 1->100 bằng vòng lặp while và do while:
 

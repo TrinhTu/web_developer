@@ -1,4 +1,4 @@
-##Bài 13: Chia cột với float và clear float
+## Bài 13: Chia cột với float và clear float
 
 > Tài liệu: Chia cột với float và clear float 
 > 
@@ -6,7 +6,7 @@
 > 
 > Cập nhập lần cuối: 30/10/2016
 
-###Mục lục
+### Mục lục
 
 [1. Chia cột trong CSS](#1)
 
@@ -20,10 +20,10 @@
 
 - [4.1. Sử dụng overflow](#4.2)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Chia cột trong CSS:
+#### 1. Chia cột trong CSS:
 
 Khi thực hiện viết tài liệu trong website thì có 1 kĩ thuật rất quan trọng và không thể thiếu đó là cách chia cột, vậy việc chia cột trong CSS là việc thiết lập các phần tử con trong phần tử mẹ nằm trên cùng 1 hàng. Để thực hiện được việc đó trước tiên cần tạo ra 1  thẻ `div` container ( phần tử mẹ ) và các thẻ `div` nằm bên trong các phần tử mẹ đó là các phần tử con để thực hiện việc chia cột (column). Cơ bản như sau:
 
@@ -36,7 +36,7 @@ Khi thực hiện viết tài liệu trong website thì có 1 kĩ thuật rất 
 Vậy phần `content` ở đây  là phần tử mẹ trong đó chưa 2 nội dung là `cot1` và `cot2` việc cần làm là thiết lập sao cho 2 nội dung đó thành 2 cột riêng biệt nằm thẳng hàng với nhau.
 
 <a name="2"></a>
-####2. Các bước chia cột:
+#### 2. Các bước chia cột:
 
 - Tạo 1 container bao bọc các phần tử bên trong
 
@@ -48,7 +48,7 @@ Vậy phần `content` ở đây  là phần tử mẹ trong đó chưa 2 nội 
 
 - Tiến hành clear float.
 <a name="3"></a>
-####3. Cách chia cột:
+#### 3. Cách chia cột:
  - Thiết lập các thuộc tính cơ bản cho container:
 
 ```
@@ -100,12 +100,12 @@ Nhưng ở đây khi ta thêm giá trị height vào `container` thì 2 cột s�
  Mặc khác nếu thêm height cho `container` thì nếu nội dung bên trong dài quá thì nó không thể hiển thị tiếp được vì đã bị giới hạn bởi độ dài cố định vậy nên ta có cách giải quyết vấn đề này bằng cách sử dụng **Clear float**
 
 <a name="4"></a>
-####4. Cách sử dụng Clear float:
+#### 4. Cách sử dụng Clear float:
 
 Clear float là tạo điểm kết thúc cho phần tử cho nó không float ra ngoài khung mẹ.
 
 <a name="4.1"></a>
-#####4.1 Cách sử dụng thẻ `div` trống:
+##### 4.1 Cách sử dụng thẻ `div` trống:
 
 Tạo thêm 1 thẻ `div` trống không có nội dung với thuộc tính khai báo là `class` với giá trị là `clear` nằm ở hàng cuối cùng trong nội dung.
 
@@ -128,7 +128,7 @@ Both nghĩa là clear đều 2 bên. Vậy bây giờ khung của mình đã n�
 
 
 <a name="4.2"></a>
-#####4.2 Sử dụng overflow:
+##### 4.2 Sử dụng overflow:
 
 Tìm đến phần tử mẹ và thêm cho nó thuộc tính ở phần CSS là `overflow: auto;` mà không cần chỉnh sửa nội dung phần HTML
 

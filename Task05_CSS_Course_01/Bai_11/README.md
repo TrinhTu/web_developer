@@ -1,4 +1,4 @@
-##Bài 11: Tìm hiểu box-sizing
+## Bài 11: Tìm hiểu box-sizing
 
 > Tài liệu: Tìm hiểu box-sizing
 > 
@@ -6,13 +6,13 @@
 > 
 > Cập nhập lần cuối: 30/10/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Lưu ý về cách viết](#1)
 
 [2. Các giá trị của box-sizing](#2)
 
-###Nội dung
+### Nội dung
 
 Khi sử dụng Box Model thì có 2 thuộc tính là Padding và Border thì có đặc điểm là nó sẽ làm khung phần tử bị biến đổi kích thước, và nếu như thêm thuộc tính `width` và `height` để thiết lập kích thước cho nó.
 
@@ -22,9 +22,8 @@ Ví dụ như có box có width là 300px và height là 300px (300x300px) nhưn
 
 Tóm lại, nếu như muốn cho phần tử của mình giữ nguyên kích thước không bị thay đổi khi đặt thêm thuộc tính Padding hay Border như trên thì cần có thêm 1 thuộc tính nữa là box-sizing. Thuộc tính cày có tác dụng là khi mình thiết lập giá trị của width và height là đã bao gồm tính toán luôn cả thuộc tính padding và border, nên padding và border sẽ dựa vào đó mà tự tính toán sao cho phù hợp với thiết lập bên trong.
 
-
 <a name="1"></a>
-####1 . Lưu ý cách viết:
+#### 1 . Lưu ý cách viết:
 
 Khi viết phần tử trong HTML nên sử dụng toàn bộ là `border box`. Để chọn toàn bộ phần tử ta thực hiện như sau:
 
@@ -47,7 +46,7 @@ Khi đã áp dụng `border-box` thì tỉ lệ bên trong khi đã thiết lậ
 ![10](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_11/image/10.png)
 
 <a name="2"></a>
-####2. Các giá trị của box-sizing:
+#### 2. Các giá trị của box-sizing:
 
 Hiện tại box-sizing có hỗ trợ một số giá trị :
 

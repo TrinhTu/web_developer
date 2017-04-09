@@ -1,12 +1,12 @@
-##BÀi 2: Biến và khai báo biến trong Javascrip
+## BÀi 2: Biến và khai báo biến trong Javascrip
 
->Tài liệu: Biến và khai báo biến trong Javascrip
+> Tài liệu: Biến và khai báo biến trong Javascrip
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 11/11/2016
+> Cập nhập lần cuối: 11/11/2016
 
-###Mục lục
+### Mục lục
 
 [1. Khai báo biến trong javascrip](#1)
 
@@ -16,10 +16,10 @@
 
 [4. In giá trị của biến ra trình duyệt](#4)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Khai báo giá trị cho biến trong javascrip:
+#### 1. Khai báo giá trị cho biến trong javascrip:
 
 Để khai báo 1 biến ta sử dụng từ khóa `var tenbien` :
 
@@ -34,7 +34,6 @@ Tên biến được đặt theo quy tắc sau đây:
 - Tên biến bắt đầu là chữ hoặc dấu gạch dưới, không được bắt đầu là số
 
 - Tên biến có thể dài hay ngắn tùy người đặt
-
 
 Ví dụ: 
 
@@ -51,7 +50,7 @@ Ngoài ra còn có thể khai báo liên tiếp cách nhau bởi dấu phẩy:
 ```
 
 <a name="2"></a>
-####2. Gán giá trị cho biến:
+#### 2. Gán giá trị cho biến:
 
 Ta sử dụng dấu (=) để gán giá trị cho biến. Có 2 cách gán thông dụng đó là:
 
@@ -63,10 +62,8 @@ Ta sử dụng dấu (=) để gán giá trị cho biến. Có 2 cách gán thô
 var username;
 username ='tutrinh';
 ```
-
-
 <a name="3"></a>
-####3. Gán kiểu giá trị cho biến:
+#### 3. Gán kiểu giá trị cho biến:
 
 Dựa vào giá trị của biến để xác định xem biến có kiểu dữ kiệu gì. Ví dụ:
 
@@ -83,7 +80,7 @@ var website = 10.5;
 
 Trong javascrip có những kiểu dữ liệu thông dụng như sau: kiểu chuỗi(String), số (number), mảng(Array), đối tượng (Object).
 <a name="4"></a>
-####4. In giá trị của biến ra trình duyệt:
+#### 4. In giá trị của biến ra trình duyệt:
 
 Để in giá trị của biến hoặc chuỗi ra trình duyệt sử dụng hàm `document.write(value)`
 

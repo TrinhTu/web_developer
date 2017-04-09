@@ -1,4 +1,4 @@
-###Bài 20: Kĩ thuật tạo menu dọc cơ bản
+### Bài 20: Kĩ thuật tạo menu dọc cơ bản
 
 > Tài liệu: Kĩ thuật tạo menu dọc cơ bản
 >
@@ -6,13 +6,13 @@
 >
 > Cập nhập lần cuối: 31/10/2016
 
-###Mục lục
+### Mục lục
 
 [1. Tạo menu dọc cơ bản](#1)
 
 [2. Tạo menu dọc đổ xuống(dropdown)](#2)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
 ####1. Tạo menu dọc cơ bản:
@@ -70,7 +70,7 @@ Tạo tương tự như tạo menu ngang:
 ```
 
 <a name="2"></a>
-####2. Tạo menu dọc đổ xuống (dropdown)
+#### 2. Tạo menu dọc đổ xuống (dropdown)
 
 Cũng tương tự như cách tạo menu ngang, đầu tiên ta tạo thêm các mục con bên trong các mục vừa tạo:
 

@@ -1,12 +1,12 @@
-##BÀi 4: Các toán tử toán học và toán tử gán trong Javascript
+## BÀi 4: Các toán tử toán học và toán tử gán trong Javascript
 
->Tài liệu: Các toán tử toán học và toán tử gán trong Javascript
+> Tài liệu: Các toán tử toán học và toán tử gán trong Javascript
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 11/11/2016
+> Cập nhập lần cuối: 11/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Toán tử toán học trong Javascript](#1)
 
@@ -14,10 +14,10 @@
 
 [3. Bài tập thực hành](#3)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Toán tử toán học trong JS
+#### 1. Toán tử toán học trong JS
 
 - Phép cộng: (+) nếu là số thì nó sẽ cộng 2 số đó lại, còn nếu là chuỗi thì sẽ nối chuỗi.
 
@@ -66,7 +66,7 @@ var c = a % b;
 
 
 <a name="2"></a>
-####2. Toán tử gán trong JS:
+#### 2. Toán tử gán trong JS:
 
 - Toán tử (=):
 
@@ -105,7 +105,7 @@ x -= y; //tương đương x = x - y
 - Tương tự ta áp dụng cho các toán tử (*=), (/=) và (%=)
 
 <a name="3"></a>
-####3. Bài tập thực hành: 
+#### 3. Bài tập thực hành: 
 
 Thực hiện cộng trừ nhân chia và chia lấy dư của 2 số a và b sau đó hiển thị kết quả ra màn hình:
 

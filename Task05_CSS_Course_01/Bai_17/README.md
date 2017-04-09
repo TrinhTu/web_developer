@@ -1,4 +1,4 @@
-##Bài 17: Thuộc tính `position` và Absolute – Relative
+## Bài 17: Thuộc tính `position` và Absolute – Relative
 
 > Tài liệu: Thuộc tính `position` và Absolute - Relative
 >
@@ -6,7 +6,7 @@
 >
 > Cập nhập lần cuối: 31/10/2016
 
-###Mục lục
+### Mục lục
 
 [1. Các giá trị của thuộc tính position](#1)
 
@@ -16,10 +16,10 @@
 
 [4. Ví dụ về kiểu fixed](#4)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Các giá trị của thuộc tính position:
+#### 1. Các giá trị của thuộc tính position:
 
 - relative: không thay đổi cấu trúc thẻ image, dùng để thiết lập một phần tử sử dụng các thuộc tính
 
@@ -44,16 +44,16 @@ Position có 4 thuộc tính để tùy chỉnh vị trí và giá trị của n
 Lưu ý: là khi chúng ta sử dụng left thì không được sử dụng right, khi sử dụng top thì không sử dụng bottom và ngược lại.
 
 <a name="2"></a>
-####2. Ví dụ về kiểu relative:
+#### 2. Ví dụ về kiểu relative:
 
 ![i](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_17/image/i.png)
 
 <a name="3"></a>
-####3. Ví dụ về kiểu absolute:
+#### 3. Ví dụ về kiểu absolute:
 
 ![ii](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_17/image/ii.png)
 <a name="4"></a>
-####4. Ví dụ về kiểu fixed:
+#### 4. Ví dụ về kiểu fixed:
 
 ![iii](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_17/image/iii.png)
 

@@ -1,12 +1,12 @@
-###Tìm hiểu các khái niệm Hosting, Server, Domain
+### Tìm hiểu các khái niệm Hosting, Server, Domain
 
->Tài liệu: Hosting, Server, Domain
+> Tài liệu: Hosting, Server, Domain
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 5/11/2016
+> Cập nhập lần cuối: 5/11/2016
 
-###Mục lục
+### Mục lục
 
 [1. Hosting](#1)
 
@@ -34,18 +34,18 @@
 
 - [3.2 Phân biệt các domain](#3.2)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Hosting:
+#### 1. Hosting:
 
 <a name="1.1"></a>
-#####1.1 Khái niệm: 
+##### 1.1 Khái niệm: 
 
 > Hosting là dịch vụ lưu trữ dữ liệu và chia sẻ tài liệu trực tuyến, là không gian trên máy chủ có cài đặt các dịch vụ internet như là world wide web (www), truyền file (FTP), mail... nơi đó có thể chứa nội dung trang web hay dữ liệu trên không gian đó
 
 <a name="1.2"></a>
-#####1.2 Phân loại hosting:
+##### 1.2 Phân loại hosting:
 
 Hosting được chia ra thành các loại cơ bản thường sử dụng như sau:
 
@@ -70,7 +70,7 @@ Ngoài ra còn có 1 số loại khác:
 - Linux hosting
 
 <a name="1.3"></a>
-#####1.3 Đặc điểm của từng loại hosting:
+##### 1.3 Đặc điểm của từng loại hosting:
 
 - Shared hosting: đây là 1 dịch vụ lưu trữ nhiều trang web trên 1 máy chủ kết nối internet, mỗi trang web có phân vùng riêng của mình. Đây không phải là hosting do người khác chia sẻ miễn phí mà là các gói host ( bao gồm có trả phí và miễn phí), sử dụng chung 1 nguồn tài nguyên trên máy chủ như RAM, CPU, băng thông và cùng nằm chung trên 1 máy chủ vật lí. Đặc điểm của share host là có bảng điều khiển nên dễ sử dụng, được hỗ trợ kĩ thuật khi có lỗi sự cố, giá thành rẻ, có cài các phần mềm cần thiết chạy trên website, tốc độ cao...
 
@@ -89,7 +89,6 @@ Nhưng mặc khác nó sẽ bị giới hạn về tài nguyên( như băng thô
 - File hosting: File hosting là dịch vụ lưu trữ tập tin trực tuyến, được thiết kế đặc biệt để lưu trữ các nội dung tĩnh, điển hình là các tập tin lớn mà không phải là các trang web. Thông thường cho phép truy cập qua giao thức FTP được tối ưu hóa phục vụ cho nhiều người sử dụng.
 
 - Windows hosting: là 1 dịch vụ lưu trữ nhiều trang web trên 1 máy chủ chạy hệ điều hành windows server kết nối internet, mỗi trang web có phân vùng riêng của mình thường sửu dụng các phần mềm chia hosting như Hosting Controller.  Hosting Windows chuyên hỗ trợ về ngôn ngữ lập trình ASP, ASP.Net, HTML …. vì các ngôn ngữ này chạy chuyên trên Hosting Windows, do vậy khi load Web sẽ hỗ trợ tốt hơn, Hosting Windows có hỗ trợ ngôn ngữ PHP, nhưng chủ yếu là hỗ trợ chính là ASP. 
-
 
 - Linux hosting: là 1 dịch vụ lưu trữ nhiều trang web trên 1 máy chủ chạy hệ điều hành Linux kết nối internet, mỗi trang web có phân vùng riêng của mình thường sử dụng các phần mềm chia hosting như Cpanel, Direct Admin..., Hỗ trợ ngôn ngữ lập trình PHP, Perl, Python, Joomla, các mã nguồn mở...
 
@@ -118,7 +117,7 @@ Nhưng mặc khác nó sẽ bị giới hạn về tài nguyên( như băng thô
 - FTP accounts: Số lượng FTP account bạn có thể tạo và dùng nó upload dữ liệu lên hosting
 
 <a name="1.4"></a>
-#####1.4 Sự khác nhau giữa Shared hosting và Dedicated hosting:
+##### 1.4 Sự khác nhau giữa Shared hosting và Dedicated hosting:
 
 - Dedicated hosting thì người sử dụng có thể thuê toàn bộ máy chủ không phải chia sẻ thông tin với bất kì ai, còn đối với Shared hosting thì nội dung được đặt trong máy chủ chia sẻ với khách hàng sử dụng cùng máy chủ lưu trữ đó.
 
@@ -127,17 +126,17 @@ Nhưng mặc khác nó sẽ bị giới hạn về tài nguyên( như băng thô
 - Dedicated hosting giá thành cao. Shared hosting giá thành rẻ.
 
 <a name="2"></a>
-####2. Server
+#### 2. Server
 
 <a name="2.1"></a>
-#####2.1 Khái niệm:
+##### 2.1 Khái niệm:
 
 > Server( máy chủ): một máy tính được kết nối với một mạng máy tính hoặc internet, có IP tĩnh, có năng lực xử lý cao và trên đó người ta cài đặt các phần mềm để phục vụ cho các máy tính khác truy cập để yêu cầu cung cấp các dịch vụ và tài nguyên.
 
 Máy chủ cũng là 1 máy tính được cung cấp các tính năng vượt trội hơn đảm nhận vai trò cung cấp dữ liệu liên tục cho các máy trạm, nơi lưu trữ các dữ liệu quan trọng, là cầu nối trung gian cho các hoạt động chia sẻ tài nguyên, công cụ hữu ích góp phần ngăn chặn các tác nhân phá hoại từ bên ngoài..
 
 <a name="2.2"></a>
-#####2.2 Dedicated Server:
+##### 2.2 Dedicated Server:
 
 Dedicated Server là dịch vụ cho thuê máy chủ riêng, khi thuê dịch vụ này người dùng sẽ sở hữu 1 máy riêng và có toàn quyền xử lí và cài đặt phần mềm. Hoạt động theo mô hình Client-server là các ứng dụng máy tính hoạt động để phục vụ yêu cầu của các ứng dụng khác
 
@@ -158,7 +157,7 @@ Nhược điểm:
 - Cần có người quản trị mạng
 
 <a name="2.3"></a>
-#####2.3 VPS:
+##### 2.3 VPS:
 
 VPS là dịch vụ máy chủ chạy dưới dạng chia sẻ từ 1 tài nguyên server chính hoạt động như 1 Dedicated Server. Người quản trị có quyền cao nhất trong việc quản trị server.
 
@@ -173,7 +172,7 @@ VPS là giải pháp chung để dung hòa giữa Shared Hosting và Dedicated S
 - Nguy cơ hacking giảm tối đa
 
 <a name="2.4"></a>
-#####2.4 Phân biệt Dedicated Server và VPS:
+##### 2.4 Phân biệt Dedicated Server và VPS:
 Về khác biệt giữa VPS và Dedicated Server là: 
 
 - Dedicated Server là giải pháp tối ưu cho việc vận hành website, hệ thống e-mail và các giải pháp trực tuyến khác còn VPS là giải pháp dung hòa giữa Shared hosting  và Dedicated Server về chi phí và cách vận hành
@@ -181,10 +180,10 @@ Về khác biệt giữa VPS và Dedicated Server là:
 - Dedicated Server sử dụng độc lập hệ thống riêng không chi sẻ với ai, còn VPS thì hoạt động với tài nguyên chia sẻ theo phân vùng khác nhau.
 
 <a name="3"></a>
-####3. Domain:
+#### 3. Domain:
 
 <a name="3.1"></a>
-#####3.1 Khái niệm:
+##### 3.1 Khái niệm:
 
 > Domain( tên miền) là chuỗi các kí tự trong bảng chữ cái được sắp xếp giống như tên riêng có hoặc không có nghĩa. Tên miền được sử dụng để định danh địa chỉ internet (IP) của 1 máy chủ gồm các dãy kí tự cách nhau bằng dấu chấm.
 
@@ -201,7 +200,7 @@ Về khác biệt giữa VPS và Dedicated Server là:
 - Tên miền của bạn không cần bắt đầu bằng http:// hoặc www hay `http://www`.
 
 <a name="3.2"></a>
-#####3.2 Phân loại các Domain:
+##### 3.2 Phân loại các Domain:
 
 - Sub-domains: là tên miền phụ tức là phần mở rộng của tên miền chính trỏ đến mục trong cùng của 1 trang web, tùy vào cách sử dụng mà có ý nghĩa, lĩnh vực khác nhau. Sub-domain tạo điều kiện cho việc sử dụng nhiều thành phần trên Website với địa chỉ URL riêng.
 
@@ -210,7 +209,7 @@ Về khác biệt giữa VPS và Dedicated Server là:
 
 - Park-domain: (Domain Alias hay Domain Pointer) là domain đươc add vào host của Domain chính và domain này sẽ hoạt động chung cấu trúc file/folder với Domain chính. Chức năng này cho phép nhiều domain chạy trên cùng 1 website duy nhất (web của Domain chính) trên cùng một host.
 
-###Tài liệu tham khảo:
+### Tài liệu tham khảo:
 
 https://vi.wikipedia.org/wiki/Hosting
 

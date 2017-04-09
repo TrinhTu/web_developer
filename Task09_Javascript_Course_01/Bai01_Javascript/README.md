@@ -1,12 +1,12 @@
-##BÀi 1: Javascript là gì? Viết ứng dụng JS đầu tiên
+## BÀi 1: Javascript là gì? Viết ứng dụng JS đầu tiên
 
->Tài liệu: Javascript là gì, viết ứng dụng JS
+> Tài liệu: Javascript là gì, viết ứng dụng JS
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 11/11/2016
+> Cập nhập lần cuối: 11/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Javascrip là gì?](#1)
 
@@ -14,15 +14,15 @@
 
 [3. Viết chương trình Javascrip đầu tiên](#3)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Javascrip là gì?
+#### 1. Javascrip là gì?
 
 Javascrip là ngôn ngữ lập trình kịch bản dựa vào đối tượng phát triển có sẵn hoặc tự định nghĩa ra, được sử dụng rộng rãi trong ứng dụng của các website. Javascrip hỗ trợ hầu như trên mọi trình duyệt có cả trình duyệt trên thiết bị di động.
 
 <a name="2"></a>
-####2. Các thư viện Javascrip:
+#### 2. Các thư viện Javascrip:
 
 Các thư viện, Framework:
 
@@ -37,7 +37,7 @@ Các thư viện, Framework:
 - jQuery: thư viện rất mạnh về hiểu ứng
 
 <a name="3"></a>
-####3. Viết chương trình Javascrip đầu tiên:
+#### 3. Viết chương trình Javascrip đầu tiên:
 
 Tất cả những đoạn mã Javascrip đều phải được đặt trong cặp thẻ `<script>` 
 

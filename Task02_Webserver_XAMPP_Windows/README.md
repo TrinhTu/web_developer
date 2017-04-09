@@ -21,7 +21,7 @@
 ### II. Nội dung.
 
 <a name="localhost"></a>
-####1. Localhost là gì ?
+#### 1. Localhost là gì ?
 
 > Localhost là một máy tính chủ được vận hành trên máy tính của bạn Localhost gồm nhiều ứng dụng đi kèm với nhau và tất cả các ứng dụng đó sẽ kết hợp với nhau để tạo ra mã nguồn để chạy WordPress trên máy tính của người dùng, bao gồm:
 
@@ -37,7 +37,7 @@
 
 ----------
 <a name="caidat"></a>
-####2 .Hướng dẫn cài đặt localhost cho Windows,và thực hành trên máy tính
+#### 2 .Hướng dẫn cài đặt localhost cho Windows,và thực hành trên máy tính
 	
 - Nếu sử dụng windows thì dùng phần mềm XAMPP, vào trang web và download [tai_day](https://www.apachefriends.org/download.html)
 

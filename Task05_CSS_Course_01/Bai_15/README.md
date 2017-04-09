@@ -1,4 +1,4 @@
-##Bài 15: Tùy biến hiển thị danh sách (list)
+## Bài 15: Tùy biến hiển thị danh sách (list)
 
 > Tài liệu: Tùy biến hiển thị danh sách
 >
@@ -6,7 +6,7 @@
 >
 > Cập nhập lần cuối: 31/10/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Quy tắc viết thuộc tính list-style](#1)
 
@@ -14,10 +14,10 @@
 
 [3. Viết ngắn gọn vào `list-style`](#3)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Quy tắc viết thuộc tính list-style:
+#### 1. Quy tắc viết thuộc tính list-style:
 
 Với thuộc tính `list-style` này bạn có thể thay đổi tùy chỉnh cách hiển thị danh sách theo ý muốn, tức là thay vì trong HTML thẻ `<ol>` là hiển thị danh sách đánh số thứ tự, `<ul>` danh sách không đánh số thứ tự thì ở đây việc sử dụng thuộc tính `list-style` này nhằm để tự thiết lập cách hiển thị theo ý muốn. Thuộc tính này có các giá trị như sau:
 
@@ -34,7 +34,7 @@ list-style: <list-style-type> <list-style-position> <list-style-image>;
 - `list-style-image` sử dụng hình ảnh để làm các dấu đầu dòng trong danh sách.
 
 <a name="2"></a>
-####2. Sử dụng thuộc tính này cho phần tử nào:
+#### 2. Sử dụng thuộc tính này cho phần tử nào:
 
 Thuộc tính `list-style` này chỉ có thể sử dụng cho các phần tử `<li>` trong website, tuy nhiên vẫn có thể sử dụng cho các phần tử có thêm thuộc tính `display: list-style-type`
 
@@ -70,7 +70,7 @@ Thuộc tính `list-style` này chỉ có thể sử dụng cho các phần tử
 ![c](https://github.com/TrinhTu/web_developer/blob/master/Task05_CSS_Course_01/Bai_15/image/c.png)
 
 <a name="3"></a>
-####3. Viết ngắn gọn vào `list-style`:
+#### 3. Viết ngắn gọn vào `list-style`:
 
 Hoặc ta có thể viết ngắn gọn 3 thuộc tính trên vào 1 dòng mà không cần viết dài dòng như vậy, cú pháp như sau:
 

@@ -1,12 +1,12 @@
-##Bài 6: Vòng lặp for trong javascript
+## Bài 6: Vòng lặp for trong javascript
 
->Tài liệu: Vòng lặp for trong javascript
+> Tài liệu: Vòng lặp for trong javascript
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 12/11/2016
+> Cập nhập lần cuối: 12/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1. Một số cách sử dụng vòng lặp for](#1)
 
@@ -16,7 +16,7 @@
 
 [4. Bài tập thực hành](#4)
 
-###Nội dung:
+### Nội dung:
 
 Vòng lặp for trong javascript dùng để lặp 1 khoảng hoặc 1 mảng nào đó để giải quyết vấn đề cho bài toán. Cấu trúc của vòng lặp for như sau:
 
@@ -38,7 +38,7 @@ Trong đó:
 
 
 <a name="1"></a>
-####1. Một số cách sử dụng vòng lặp for:
+#### 1. Một số cách sử dụng vòng lặp for:
 
 - Lặp với bước nhảy tăng lên 1 đơn vị:
 
@@ -75,7 +75,7 @@ Ngoài ra ta còn có thể khai báo biến i bên trong vòng lặp như sau:
 	}
 ```
 <a name="2"></a>
-####2. Lặp vô hạn với vòng lặp for:
+#### 2. Lặp vô hạn với vòng lặp for:
 
 Khi sử dụng vòng lặp for nếu sử dụng sai sẽ dẫn đến lặp vô hạn. Ví dụ như:
 
@@ -85,7 +85,7 @@ Khi sử dụng vòng lặp for nếu sử dụng sai sẽ dẫn đến lặp v�
 		}
 ```
 <a name="3"></a>
-####3. Vòng lặp for lồng nhau:
+#### 3. Vòng lặp for lồng nhau:
 
 Cũng tương tự như lệnh trong if else. Ta có cấu trúc của nó như sau:
 
@@ -114,7 +114,7 @@ Kết quả thu được:
 ![c](https://github.com/TrinhTu/web_developer/blob/master/Task09_Javascript_Course_01/Bai06_for/image/c.png)
 
 <a name="4"></a>
-####4. Bài tập thực hành:
+#### 4. Bài tập thực hành:
 
 1. Vòng lặp trong javascript in ra các số từ 1 đến 100:
 
