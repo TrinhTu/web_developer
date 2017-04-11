@@ -37,9 +37,7 @@
 <a name="1.2"></a>
 #### 1.2 Nguyên lí:
 
-- Minified source code đặc biệt hữu ích cho các ngôn ngữ giải thích được triển khai và chuyển giao trên Internet (ví dụ như Javascript), bởi nó giảm thiểu tối đa dữ liệu cần để để chuyển. Minified source code có thể được sử dụng như **obfuscation**, mặc dù obfuscation có được sử dụng phân biệt như 1 dạng mật mã trong khi 1 minified code có thể bị đảo ngược bằng cách sử dụng 1 pretty- printer. Trong lập trình, mục đích Minified source code là mục đích giảm thiểu mã nguồn cực nhỏ. 
-
-- Minification có thể được phân biệt với khái niệm tổng quát về nén dữ liệu, trong Minified source có  thể giải thích lập tức mà không cần bước giải thích, cùng 1 thông dịch viên có thể làm việc với bản gốc cũng như với minified source.
+- Minified source code đặc biệt hữu ích cho các ngôn ngữ giải thích được triển khai và chuyển giao trên Internet (ví dụ như Javascript), bởi nó giảm thiểu tối đa dữ liệu cần chuyển. Minified source code có thể được sử dụng như **obfuscation**, mặc dù obfuscation có được sử dụng phân biệt như 1 dạng mật mã trong khi 1 minified code có thể bị đảo ngược bằng cách sử dụng 1 pretty- printer. Trong lập trình, mục đích Minified source code là mục đích giảm thiểu mã nguồn cực nhỏ. 
 
 - **Ví dụ:** Cho đoạn javascript:
 
@@ -81,7 +79,7 @@ Quy tắc này được áp dụng khi PageSpeed Insights phát hiện ra kích 
 <a name="2.1"></a>
 #### 2.1 Khái niệm:
 
-- Trong phát triển phần mềm, làm rối code bằng tay là hành động có chủ ý làm rối loạn code gây khó khăn cho người đọc. Giống như obfuscation trong ngôn ngữ tự nhiên, nó sử dụng các biểu thức không cần thiết để thể hiện. Các lập trình viên có thể cố tình làm xáo trộn mã để che dấu mục đích mục đích hay tính logic của nó.
+- Trong phát triển phần mềm, làm rối code bằng tay là hành động có chủ ý làm rối loạn code gây khó khăn cho người đọc. Giống như obfuscation trong ngôn ngữ tự nhiên, nó sử dụng các biểu thức không cần thiết để thể hiện. Các lập trình viên có thể cố tình làm xáo trộn mã để che dấu mục đích hay tính logic của nó.
 
 - Thêm vào đó, công cụ `obfuscators` còn cung cấp làm rối loạn tự động để biên dịch ứng dụng làm cho kĩ thuật dịch ngược trở nên khó khăn cho người và máy móc, nhưng bên cạnh đó nó không làm biến đổi trạng thái của ứng dụng bị xáo trộn.
 
