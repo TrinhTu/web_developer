@@ -1,6 +1,6 @@
-## MINIFICATION (PROGRAMMING) AND OBFUSCATION (SOFTWARE)
+## MINIFICATION AND OBFUSCATION
 
-> Tài liệu:  Minification (Programming) and Obfuscation (Software)
+> Tài liệu:  Minification and Obfuscation
 >
 > Người thực hiện: Lê Tú Trinh
 >
@@ -8,7 +8,7 @@
 
 ### Mục lục: 
 
-- [1. Minification (Programming)](#1)
+- [1. Minification](#1)
 
     + [1.1 Khái niệm](#1.1)
 
@@ -16,7 +16,7 @@
 
     + [1.3 Công cụ](#1.3)
 
-- [2. Obfuscation (software)](#2)
+- [2. Obfuscation](#2)
 
     + [2.1 Khái niệm](#2.1)
 
@@ -27,7 +27,7 @@
 - [Tài liệu tham khảo](#3)
 
 <a name="1"></a>
-### 1. Minification(Programming)
+### 1. Minification:
 
 <a name="1.1"></a>
 #### 1.1 Khái niệm:
@@ -76,7 +76,7 @@ Quy tắc này được áp dụng khi PageSpeed Insights phát hiện ra kích 
 - CSS: [CSS Nano](https://github.com/ben-eb/cssnano), [csso](https://github.com/css/csso)
 
 <a name="2"></a>
-### 2. Obfuscation (software):
+### 2. Obfuscation:
 
 <a name="2.1"></a>
 #### 2.1 Khái niệm:
