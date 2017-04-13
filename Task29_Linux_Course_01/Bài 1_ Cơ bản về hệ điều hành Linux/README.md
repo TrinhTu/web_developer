@@ -1,10 +1,10 @@
-## BÀI 1: CƠ BẢN HỆ ĐIỀU HÀNH LINUX (1.1).FLV
+## BÀI 1: CƠ BẢN HỆ ĐIỀU HÀNH LINUX
 
-> Tài liệu: Cơ bản hệ điều hành Linux (1.1).FLV
+> Tài liệu: Cơ bản hệ điều hành Linux
 >
 > Người thực hiện: Lê Tú Trinh
 >
-> Cập nhập lần cuối: 11/04/2017
+> Cập nhập lần cuối: 12/04/2017
 
 ### Mục lục: 
 
