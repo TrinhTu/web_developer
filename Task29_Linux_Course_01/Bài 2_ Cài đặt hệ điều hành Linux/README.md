@@ -136,7 +136,7 @@
 
 - Sau khi cài đặt xong
 
-![1]()
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%202_%20C%C3%A0i%20%C4%91%E1%BA%B7t%20h%E1%BB%87%20%C4%91i%E1%BB%81u%20h%C3%A0nh%20Linux/1.png)
 
 <a name="4"></a>
 ### 4. Tài liệu tham khảo:
