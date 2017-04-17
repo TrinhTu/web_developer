@@ -178,11 +178,11 @@
 
 - **Ví dụ**: Xem nội dung file FSTAB bằng câu lệnh `more /etc/fstab`. Nội dung file này cung cấp cho chúng ta tất cả các thông tin về các thiết bị sẽ được gắn kết trong quá trình khởi động.
 
-![1]()
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%203_%20Ti%E1%BA%BFn%20tr%C3%ACnh%20kh%E1%BB%9Fi%20%C4%91%E1%BB%99ng/1.png)
 
 - Ngoài ra còn có thể xem thông tin nằm trong thư mục `more /etc/mtab`. File `mtab` này chứa tất cả các thông tin về các thiết bị đã được mount vào trong hệ thống.
 
-![2]()
+![2](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%203_%20Ti%E1%BA%BFn%20tr%C3%ACnh%20kh%E1%BB%9Fi%20%C4%91%E1%BB%99ng/2.png)
 
 <a name="5"></a>
 ### 5. Hồ sơ đăng nhập người dùng:
@@ -226,7 +226,7 @@
 
 	+ Cách 2 có thể dùng lệnh `dmesg | more`
 
-![3]()
+![3](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%203_%20Ti%E1%BA%BFn%20tr%C3%ACnh%20kh%E1%BB%9Fi%20%C4%91%E1%BB%99ng/3.png)
 
 - Có 6 mức khởi động trong linux (run level)
 
