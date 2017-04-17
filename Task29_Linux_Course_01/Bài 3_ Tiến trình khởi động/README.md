@@ -4,7 +4,7 @@
 >
 > Người thực hiện: Lê Tú Trinh
 >
-> Cập nhập lần cuối: 16/03/2017
+> Cập nhập lần cuối: 17/03/2017
 
 ### Mục lục:
 
@@ -154,6 +154,8 @@
 	+ Stage 2: trỏ tới file cấu hình, trong trường hợp không xác định được vị trí file cấu hình thì command line sẽ xuất hiện để người dùng cấu hình thủ công
 
 	+ Sử dụng lệnh grub để tìm lỗi trong quá trình cài đặt
+
+- **to do**
 
 <a name="4"></a>
 ### 4. File FSTAB:
