@@ -94,7 +94,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Có thể chuyển từ shell này sang shell khác bằng cách thay đổi tên, về cấu trúc các lệnh cơ bản vẫn như cũ.
 
-![4]()
+![1](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/1.png)
 
 <a name="2"></a>
 ### 2. Cấu trúc lệnh và cú pháp:
@@ -125,8 +125,6 @@ if ( ! -e mylife ) echo mytext > mylife
 - Các switch được phân cách với nhau trong các câu lệnh bởi dấu (-).
 
 - Các switch có thể được xâu chuỗi lại. 
-
-![1](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/1.png)
 
 ![2](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/2.png)
 
