@@ -94,7 +94,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Có thể chuyển từ shell này sang shell khác bằng cách thay đổi tên, về cấu trúc các lệnh cơ bản vẫn như cũ.
 
-![1](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/1.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/1.png"/></p>
 
 <a name="2"></a>
 ### 2. Cấu trúc lệnh và cú pháp:
@@ -126,11 +126,11 @@ if ( ! -e mylife ) echo mytext > mylife
 
 - Các switch có thể được xâu chuỗi lại. (Ví dụ: ls -al)
 
-![2](https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/2.png)
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/2.png"/></p>
 
 - Khi gõ 1 lệnh thì Linux sẽ thực hiện việc tìm kiếm trong các thư mục
 
-![3]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/3.png"/></p>
 
 <a name="3"></a>
 ### 3. Các trang trợ giúp Help và MAN
@@ -151,7 +151,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Không được hỗ trợ trong tất cả các lệnh hoặc bản phân phối
 
-![4]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/4.png"/></p>
 
 - **Lệnh info**:
 
@@ -163,7 +163,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Cú pháp lệnh sử dụng: $info command_name. Ví dụ: $info mkdir
 
-![5]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/5.png"/></p>
 
 - **MAN page** (manual pages)
 
@@ -201,7 +201,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 		+ Thoát khỏi man pages ấn q
 
-![6]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/6.png"/></p>
 
 <a name="4"></a>
 ### 4. Các lệnh làm việc với thư mục:
@@ -228,7 +228,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Không có thư mục con bên trong thư mục bin
 
-![9]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/9.png"/></p>
 
 - **/sbin**
 
@@ -238,7 +238,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Ngoài ra còn có các tiện ích tương tự trong các thư mục /usr/sbin và /usr/local/bin
 
-![8]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/8.png"/></p>
 
 - **/dev**
 
@@ -258,7 +258,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ ...
 
-![11]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/11.png"/></p>
 
 - **/home**
 
@@ -266,7 +266,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Các cấu hình liên quan đến thư mục home có thể khác nhau trên các hệ thống khác nhau vậy nên không nên để các chương trình thực thi trong thư mục này.
 
-![10]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/10.png"/></p>
 
 - **/boot**
 
@@ -274,7 +274,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Kernel của hệ điều hành phải được đặt tại `/` hoặc `/boot`
 
-![7]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/7.png"/></p>
 
 - **/etc**:
 
@@ -292,7 +292,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Không nên đặt file nhị phân nào trong thư mục /etc
 
-![12]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/12.png"/></p>
 
 - **lib**
 
@@ -302,7 +302,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Các thư mục thư viện có thể bao gồm các thư viện liên kết tĩnh hoặc chia sẻ (/usr/lib)
 
-![13]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/13.png"/></p>
 
 - **/root**
 
@@ -328,7 +328,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 		+ ...
 
-![14]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/14.png"/></p>
 
 - **/var**: 
 
@@ -336,7 +336,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Nên đặt /var ra 1 phân vùng độc lập trong quads trình cài đặt
 
-![15]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/15.png"/></p>
 
 - **/tmp**:
 
@@ -350,7 +350,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ Một vài chương trình sử dụng thư mục này như vùng làm việc tạm
 
-![16]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/16.png"/></p>
 
 - Để tham chiếu tới 1 thư mục sử dụng 2 dạng đường dẫn: đường dẫn tuyệt đối và đường dẫn tương đối
 
@@ -366,7 +366,7 @@ if ( ! -e mylife ) echo mytext > mylife
 
 	+ $ls: liệt kê nội dung của thư mục với rất nhiều switch
 
-![17]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%204_%20C%C6%A1%20b%E1%BA%A3n%20v%E1%BB%81%20h%E1%BB%87%20l%E1%BB%87nh/image/17.png"/></p>
 
 <a name="5"></a>
 ### Tài liệu tham khảo:
