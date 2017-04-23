@@ -61,7 +61,9 @@
 
 	+ Xem file đã bị ẩn: `ls -la`
 
-![1]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/1.png"/></p>
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/2.png"/></p>
 
 <a name="2"></a>
 ### 2. Các dạng file:
@@ -139,9 +141,9 @@
 
 - Thư mục có thể được tạo bởi lệnh `mkdir`
 
-![3]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/3.png"/></p>
 
-![4]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/4.png"/></p>
 
 - Sao chép file:
 
@@ -161,7 +163,7 @@
 
 	+ Có thể được sử dụng để đặt lại tên file
 
-![5]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/5.png"/></p>
 
 - Xóa thư mục và các file nằm trong thư mục: `rm -rf name`
 
@@ -233,9 +235,9 @@
 
 - Trước khi thực hiện lệnh `locate` nên chạy lệnh `updatedb`
 
-![6]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/6.png"/></p>
 
-![7]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/7.png"/></p>
 
 - **Find**:
 
@@ -263,9 +265,9 @@
 
 	+ Where: tìm kiếm các thông tin có liên quan đến vị trí chương trình nhập vào
 
-![8]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/8.png"/></p>
 
-![9]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%205_Qu%E1%BA%A3n%20l%C3%AD%20file/image/9.png"/></p>
 
 <a name="6"></a>
 ### Tài liệu tham khảo:
