@@ -29,7 +29,7 @@
 
 - Lệnh 'cat' sẽ gởi toàn bộ nội dung file văn bản ra ngoài màn hình
 
-![1.1]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%206_X%E1%BB%AD%20l%C3%AD%20file%20v%C4%83n%20b%E1%BA%A3n/image/1.1.png"/></p>
 
 - Lệnh 'more' cho phép xem nội dung của các file văn bản và định dạng kết quả hiện ra dưới dạng các trang
 
@@ -39,7 +39,7 @@
 
 - Cú pháp: $more ten_file
 
-![1.2]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%206_X%E1%BB%AD%20l%C3%AD%20file%20v%C4%83n%20b%E1%BA%A3n/image/1.2.png"/></p>
 
 - Lệnh 'less' hiển thị toàn bộ nội dung file văn bản ra màn hình
 
@@ -51,7 +51,7 @@
 
 - Có thể tìm kiếm trong 1 file hoặc mở 1 file để chỉnh sửa bằng tiện ích vi
 
-![1.3]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%206_X%E1%BB%AD%20l%C3%AD%20file%20v%C4%83n%20b%E1%BA%A3n/image/1.3.png"/></p>
 
 <a name="2"></a>
 ### 2. Xử lí các luồng dữ liệu văn bản:
@@ -80,7 +80,7 @@
 
 - '>>' thêm stout hoặc stderr vào nội dung 1 file có sẵn
 
-![1.4]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%206_X%E1%BB%AD%20l%C3%AD%20file%20v%C4%83n%20b%E1%BA%A3n/image/1.4.png"/></p>
 
 <a name="3"></a>
 ### 3. Tìm kiếm nội dung trong file văn bản:
