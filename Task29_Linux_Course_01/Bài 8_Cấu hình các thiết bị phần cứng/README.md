@@ -51,13 +51,13 @@
 
 - Ví dụ để xem các thông tin hiện tại thông qua lệnh `ifconfig`:
 
-![1]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/1.png"/></p>
 
 Các thông số này có thể thay đổi được, ví dụ thay đổi địa chỉ IP bằng lệnh:
 
 `ifconfig ens33 192.168.0.200 netmask 255.255.255.0 up`
 
-![2]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/2.png"/></p>
 
 - Để thực hiện việc cấp phát động địa chỉ IP thực hiện lệnh: `dhclient`
 
@@ -65,16 +65,15 @@ Các thông số này có thể thay đổi được, ví dụ thay đổi đị
 
 - Để xem các file cấu hình cho thiết bị:
 
-![3]()
-
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/3.png"/></p>
 
 - Chỉnh sửa nội dung file cấu hình gán địa chỉ IP:
 
-![4]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/4.png"/></p>
 
 Khởi động lại các dịch vụ mạng bằng câu lệnh `service network restart`. Địa chỉ IP đã được gán:
 
-![5]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/5.png"/></p>
 
 <a name="2"></a>
 ### 2. Cấu hình các thiết bị ngoại vi:
@@ -139,15 +138,15 @@ Khởi động lại các dịch vụ mạng bằng câu lệnh `service network
 
 - Để lấy thông tin về số hiệu ngắt bằng cách xem thông tin file `interrupts`:
 
-![6]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/6.png"/></p>
 
 - Để thu thập thông tin cổng I/O xem nội dung file `ioports`
 
-![7]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/7.png"/></p>
 
 - Để thu thập thông tin về các kênh DMA được phân bố trong hệ thống xem nội dung file `dma`
 
-![8]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%208_C%E1%BA%A5u%20h%C3%ACnh%20c%C3%A1c%20thi%E1%BA%BFt%20b%E1%BB%8B%20ph%E1%BA%A7n%20c%E1%BB%A9ng/image/8.png"/></p>
 
 <a name="3"></a>
 ### 3. Cấu hình các thiết bị trao đổi thông tin:
