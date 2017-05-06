@@ -47,21 +47,21 @@
 
 - Tải trực tiếp gói phần mềm về cài đặt:
 
-![1]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%209_Qu%E1%BA%A3n%20l%C3%AD%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20g%C3%B3i%20ph%E1%BA%A7n%20m%E1%BB%81m/image/1.png"/></p>
 
 - Giải nén: `tar xzvf ftp://ftp.gnu.org/gnu/grub/grub-2.00.tar.gz`
 
 - Kết thúc quá trình giải nén chuyển vào thư mục chứa cấu hình:
 
-![2]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%209_Qu%E1%BA%A3n%20l%C3%AD%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20g%C3%B3i%20ph%E1%BA%A7n%20m%E1%BB%81m/image/2.png"/></p>
 
 - Xem nội dung file hướng dẫn `INSTALL`:
 
-![3]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%209_Qu%E1%BA%A3n%20l%C3%AD%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20g%C3%B3i%20ph%E1%BA%A7n%20m%E1%BB%81m/image/3.png"/></p>
 
 - Thực hiện các bước như trong file hướng dẫn -> chạy `./configure`
 
-![4]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%209_Qu%E1%BA%A3n%20l%C3%AD%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20g%C3%B3i%20ph%E1%BA%A7n%20m%E1%BB%81m/image/4.png"/></p>
 
 <a name="2"></a>
 ### 2. Hệ thống quản lí gói phần mềm của Redhat:
@@ -92,7 +92,7 @@
 
 - **Ví dụ**: xem hướng dẫn cài đặt các gói `rpm` bằng lệnh `man`
 
-![5]()
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task29_Linux_Course_01/B%C3%A0i%209_Qu%E1%BA%A3n%20l%C3%AD%20ph%E1%BA%A7n%20m%E1%BB%81m%20v%C3%A0%20g%C3%B3i%20ph%E1%BA%A7n%20m%E1%BB%81m/image/5.png"/></p>
 
 <a name="3"></a>
 ### 3. Hệ thống quản lí gói phần mềm của Debian:
