@@ -1,12 +1,12 @@
-##Bài : FTP protocol
+## Bài : FTP protocol
 
->Tài liệu: FTP protocol
+> Tài liệu: FTP protocol
 >
->Người thực hiện: Lê Tú Trinh
+> Người thực hiện: Lê Tú Trinh
 >
->Cập nhập lần cuối: 25/11/2016
+> Cập nhập lần cuối: 25/11/2016
 
-###Mục lục:
+### Mục lục:
 
 [1.Khái niệm về FTP protocol](#1)
 
@@ -20,22 +20,21 @@
 
 [6. Tài liệu tham khảo](#6)
 
-###Nội dung:
+### Nội dung:
 
 <a name="1"></a>
-####1. Khái niệm về FTP protocol
+#### 1. Khái niệm về FTP protocol
 
-FTP là viết tắt của File Transfer Protocol, đây là giao thức truyền tải tập tin dùng để trao đổi tập tin qua mạng lưới truyền thông sử dụng giao thức TCP/IP
+- FTP là viết tắt của File Transfer Protocol, đây là giao thức truyền tải tập tin dùng để trao đổi tập tin qua mạng lưới truyền thông sử dụng giao thức TCP/IP
 
-FTP thường chạy trên 2 cổng 20 và 21. Thông qua giao thức FTP người dùng có thể tải dữ liệu như hình ảnh, văn bản, các tập tin media... từ máy tính lên máy chủ đặt ở 1 nơi khác, hoặc tải tập tin trên máy chủ về máy tính cá nhân.
+- FTP thường chạy trên 2 cổng 20 và 21. Thông qua giao thức FTP người dùng có thể tải dữ liệu như hình ảnh, văn bản, các tập tin media... từ máy tính lên máy chủ đặt ở 1 nơi khác, hoặc tải tập tin trên máy chủ về máy tính cá nhân.
 
 <a name="2"></a>
-####2. Hoạt động của FTP protocol:
+#### 2. Hoạt động của FTP protocol:
 
-Hoạt động của FTP cần có 2 máy tính, 1 client và 1 server. Server FTP dùng để chạy phần mềm cung cấp dịch vụ FTP, lắng nghe yêu cầu về dịch vụ của các máy tính khác trên mạng lưới gọi là trình chủ. Client chạy các phần mềm FTP dành cho người sử dụng dịch vụ gọi là trình khách.
+- Hoạt động của FTP cần có 2 máy tính, 1 client và 1 server. Server FTP dùng để chạy phần mềm cung cấp dịch vụ FTP, lắng nghe yêu cầu về dịch vụ của các máy tính khác trên mạng lưới gọi là trình chủ. Client chạy các phần mềm FTP dành cho người sử dụng dịch vụ gọi là trình khách.
 
-Trình chủ FTP lắng nghe các yêu cầu dịch vụ của các trình khách FTP trên cổng 21. Tại đây đường kết nối này tạo nên 1 dòng truyền điều khiển, cho phép các dòng lệnh được chuyển qua trình chủ FTP. Khi người dùng có yêu cầu trao đổi file, FTP mở kết nối TCP để truyền dữ liệu qua cổng 20, FTP truyền đúng 1 file qua kết nối này, sau khi truyền xong thì đóng kết nối lại, khi có 1 yêu cầu khác  thì FTP sẽ mở kết nối khác. Luồng thông tin điểu khiển được mở và tồn tại trong suốt phiên làm việc của người dùng, nhưng mỗi kết nối dữ liệu được tạo ra cho 1 yêu cầu truyền file, tức là kết nối dữ liệu là không liên tục.
-
+- Trình chủ FTP lắng nghe các yêu cầu dịch vụ của các trình khách FTP trên cổng 21. Tại đây đường kết nối này tạo nên 1 dòng truyền điều khiển, cho phép các dòng lệnh được chuyển qua trình chủ FTP. Khi người dùng có yêu cầu trao đổi file, FTP mở kết nối TCP để truyền dữ liệu qua cổng 20, FTP truyền đúng 1 file qua kết nối này, sau khi truyền xong thì đóng kết nối lại, khi có 1 yêu cầu khác  thì FTP sẽ mở kết nối khác. Luồng thông tin điểu khiển được mở và tồn tại trong suốt phiên làm việc của người dùng, nhưng mỗi kết nối dữ liệu được tạo ra cho 1 yêu cầu truyền file, tức là kết nối dữ liệu là không liên tục.
 
 Tiến trình phía server có 2 giao thức chính:
 
@@ -60,13 +59,12 @@ Trình tự truy cập FTP:
 - Server sẽ kiểm tra tên người dùng và password trong cơ sở dữ liệu người dùng của nó, nếu như hợp lệ thì server sẽ gởi thông báo tới người dùng là kết nối đã mở. Nếu không hợp lệ thì server sẽ yêu cầu người dùng chứng thực lại, sau 1 số lần chứng thực sai thì sẽ ngắt kết nối
 
 <a name="3"></a>
-####3. Ứng dụng:
+#### 3. Ứng dụng:
 
 FTP được sử dụng nhiều nhất vào việc truyền tải dữ liệu ( Nhất là đối với những tài liệu có dung lượng lớn mà không thể gởi qua mail hay các phương thức khác như CD USB flash).Có thể cùng lúc tải nhiều tập tin để tiết kiệm thời gian
 
-
 <a name="4"></a>
-####4. Ưu điểm và nhược điểm của FTP protocol:
+#### 4. Ưu điểm và nhược điểm của FTP protocol:
 
 Ưu điểm:
 
@@ -88,7 +86,7 @@ Nhược điểm:
 
 - Khi nhận dữ liệu thì không có phương pháp để kiểm chứng toàn bộ dữ liệu truyền sang. Nếu kết nối bị ngắt khi truyền dữ liệu thì không có cách khắc phục
 <a name="5"></a>
-####5. Cài đặt và dùng thử các FTP Client phổ biến:
+#### 5. Cài đặt và dùng thử các FTP Client phổ biến:
 
 Trong phần trước đã thực hiện cài đặt Filezilla, vậy nên bây giờ sẽ thử sử dụng 1 phần mềm client khác nhưng cũng hoạt động tương tự đó là WINSCP. 
 
@@ -109,9 +107,8 @@ Trong phần trước đã thực hiện cài đặt Filezilla, vậy nên bây 
 - Truy cập vào server để kiểm tra: http://chuyengiaseoweb.net/FTP.html
 
 <a name="6"></a>
-###Tài liệu tham khảo:
+### Tài liệu tham khảo:
 
->
 > [1] Vũ Thanh Lai. Tìm hiểu về Giao thức FTP. 
 > 
 > Online: http://sinhvienit.net/forum/tim-hieu-ve-giao-thuc-ftp.28754.html 
@@ -119,4 +116,3 @@ Trong phần trước đã thực hiện cài đặt Filezilla, vậy nên bây 
 > [2] Wikipedia. FTP. 
 > 
 > Online: https://vi.wikipedia.org/wiki/FTP
->
