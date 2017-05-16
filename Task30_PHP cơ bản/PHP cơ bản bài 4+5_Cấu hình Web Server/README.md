@@ -19,11 +19,11 @@
 
 - Thư mục **bin** trong Wampp chứa 3 thư mục, mỗi thư mục là thành phần của webserver.
 
-!2
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP%20c%C6%A1%20b%E1%BA%A3n/image/2.png"/></p>
 
 - Sửa lỗi xung đột cổng: vào thư mục `httpd.conf`, tại đây sửa cổng mặc định cổng 80 thành cống khác
 
-!3
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP%20c%C6%A1%20b%E1%BA%A3n/image/3.png"/></p>
 
 <a name="2"></a>
 ### Tài liệu tham khảo:
