@@ -19,6 +19,20 @@
 
 - Khai báo switch để bắt các trường hợp của 1 biến.
 
+**Cú pháp cơ bản như sau**:
+
+```javascript
+switch (variable) {
+		case 'value':
+			# code...
+			break;
+		
+		default:
+			# code...
+			break;
+	}
+```
+
 - Ví dụ:
 
 ```javascript
