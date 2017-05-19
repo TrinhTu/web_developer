@@ -12,7 +12,7 @@
 
 - **Description**: 
 
-![3]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task31_CTF_OverTheWire_Natas/image/3.png"/></p>
 
 - **Solution**:
 
@@ -20,7 +20,7 @@
 
 	+ Để xem nội dung files chứa gì ta link tới http://natas2.natas.labs.overthewire.org/files/
 
-![4]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task31_CTF_OverTheWire_Natas/image/4.png"/></p>
 
 - Trong tập tin `users.txt` vừa tìm thấy ta có:
 

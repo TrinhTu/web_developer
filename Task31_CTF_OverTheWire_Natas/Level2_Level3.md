@@ -12,7 +12,7 @@
 
 - **Description**: 
 
-![3]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task31_CTF_OverTheWire_Natas/image/3.png"/></p>
 
 - **Solution**:
 
@@ -20,6 +20,6 @@
 
 	+ Có thể thông tin đã được tập tin `robots.txt` chặn, link đến http://natas3.natas.labs.overthewire.org/robots.txt
 
-![5]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task31_CTF_OverTheWire_Natas/image/5.png"/></p>
 
 - Truy cập tới http://natas3.natas.labs.overthewire.org/s3cr3t/ tìm được tập tin users.txt trong đó chứa **natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ**

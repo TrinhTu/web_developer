@@ -12,7 +12,7 @@
 
 - **Description**: 
 
-![2]
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task31_CTF_OverTheWire_Natas/image/2.png"/></p>
 
 - **Solution**:
 
