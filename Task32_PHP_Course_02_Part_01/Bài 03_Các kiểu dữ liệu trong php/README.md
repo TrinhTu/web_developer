@@ -147,7 +147,7 @@ $a = (string)$a; //Chuyển biến $a thành kiểu chuỗi và có giá trị l
 
 - Mảng là danh sách các phần tử có cùng kiểu dữ liệu, có 2 loại mảng là mảng 1 chiều và mảng nhiều chiều. Đối với PHP thì các phần tử của mảng có thẻ không cùng kiểu dữ liệu, các phần tử của mảng được truy xuất thông qua các chỉ mục (vị trí) của nó nằm trong mảng.
 
-### Khởi tạo và truy xuất các phần tử nằm trong mảng
+#### Khởi tạo và truy xuất các phần tử nằm trong mảng
 
 - Để khai báo mảng ta dùng cú pháp sau:
 
@@ -190,11 +190,11 @@ print_r($sinhvien);
 ?>
 ```
 
-### Mảng 1 chiều:
+#### Mảng 1 chiều:
 
 - Các ví dụ phía trên là mảng 1 chiều
 
-### Mảng nhiều chiều:
+#### Mảng nhiều chiều:
 
 - Là mảng có nhiều chỉ mục cho từng phần tử, ví dụ mảng 2 chiều thì mỗi phần tử có 2 chỉ mục, 3 chiều thì mỗi phần tử có 3 chỉ mục...
 
@@ -243,7 +243,7 @@ $d = (bool)$a; // Biến $d có giá trị FALSE
 - Để kiểm tra 1 biến có giá trị null hay không sử dụng hàm `is_null($bien)`. 
 
 <a name="7"></a>
-### 7. Kiểu Object (dối tượng):
+### 7. Kiểu Object (đối tượng):
 
 <a name="8"></a>
 ### Tài liệu tham khảo:
