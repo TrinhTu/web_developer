@@ -112,7 +112,7 @@ $f = ''; // FALSE
 
 - Kiểu số thực là những số có phần dư, ví dụ như `$a = 1.234;`
 
-### Ép dữ liệu sang kiểu số thực:
+#### Ép dữ liệu sang kiểu số thực:
 
 - Dùng (float), (double) để chuyển kiểu dữ liệu sang số thực cho 1 biến
 
@@ -124,7 +124,7 @@ $a = (double)$a; // Biến $a lúc này kiểu số thực (double)
 ?>
 ```
 
-### Kiểm tra 1 biến kiểu số thực:
+#### Kiểm tra 1 biến kiểu số thực:
 
 - Sử dụng hàm `is_float($bien)` để kiểm tra cho kiểu float, `is_double($bien)` để kiểm tra cho kiểu double
 
