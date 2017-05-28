@@ -59,7 +59,7 @@ function detecDayOfWeek($dow){
 	detecDayOfWeek(20);
 ```
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP%20c%C6%A1%20b%E1%BA%A3n/image/10.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP_Course_01/image/10.png"/></p>
 
 <a name="2"></a>
 ### Tài liệu tham khảo:

@@ -31,7 +31,7 @@
 ?>
 ```
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP%20c%C6%A1%20b%E1%BA%A3n/image/5.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP_Course_01/image/5.png"/></p>
 
 - Vòng lặp do while sẽ thực hiện `do` trước rồi mới xét tới điều kiện `while`
 
@@ -44,7 +44,8 @@ $so_qua_tao = 0;
 		$so_qua_tao++;
 	} while ($so_qua_tao < 10);
 ```
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP%20c%C6%A1%20b%E1%BA%A3n/image/6.png"/></p>
+
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP_Course_01/image/6.png"/></p>
 
 <a name="2"></a>
 ### Tài liệu tham khảo:

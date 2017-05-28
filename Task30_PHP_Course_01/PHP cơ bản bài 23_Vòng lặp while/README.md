@@ -38,7 +38,7 @@ $so_qua_tao = 0;
 	}
 ```
 
-<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP%20c%C6%A1%20b%E1%BA%A3n/image/7.png"/></p>
+<p align="center"><img src="https://github.com/TrinhTu/web_developer/blob/master/Task30_PHP_Course_01/image/7.png"/></p>
 
 - Cần phải có biểu thức điều kiện để dừng vòng lặp nếu không nó sẽ lặp vô hạn.
 
